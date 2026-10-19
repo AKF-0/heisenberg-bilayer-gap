@@ -1,0 +1,51 @@
+\section{Verification, limitations, and reproducibility}\label{sec:verification}
+The formal proof follows the mathematical dependencies above: explicit Pauli
+operators, finite rung and occupation maps, local residual algebra, exact
+finite coefficient certificates, physical seed ratios, and the all-size purity
+criterion. Formalization is not a substitute for checking that these definitions
+represent the intended model; the explicit basis maps and edge lists provide
+that semantic connection. The companion \nolinkurl{docs/proof-map.md} records
+specific theorem names and source locations. Machine-readable polynomial
+arrays are appendices to the finite certificate, rather than a replacement
+for the inequalities that justify their use.
+
+\paragraph{Accepted source and trust boundary.}
+The corrected source manifest has SHA-256
+\begin{center}\small\ttfamily
+cbe4e29cf66b6a3a161e5ecac13b25c0c5465d32454966c1b2760c617844ae2b.
+\end{center}
+A clean project rebuild completed on 19 October 2026 at 06:14:59 UTC. It
+recompiled all 556 selected local modules without reusing old project
+\texttt{.olean} objects. The all-declaration audit covered 77,040 constants,
+including 50,494 theorem constants, with axiom union
+\lean{propext}, \lean{Classical.choice}, \lean{Quot.sound}.
+The final theorem source hash is
+\begin{center}\small\ttfamily
+6dbac3e70a6429287618d19c9fb180d403c9c7216d3d62b25b5d712fb0f85a79.
+\end{center}
+The pinned Lean version is 4.24.0, commit
+\texttt{797c613eb9b6d4ec95db23e3e00af9ac6657f24b}; mathlib is pinned at
+\texttt{f897ebcf72cd16f89ab4577d0c826cd14afaafc7}.
+Pinned external dependency caches were reused and were not rebuilt from source
+in that run. The receipt therefore establishes a clean \emph{project} rebuild,
+not a bootstrap of the compiler and all external dependencies. Standard
+library axioms and the trusted kernel/toolchain remain part of the trust base.
+
+\paragraph{Source-provenance correction.}
+An earlier incremental snapshot did not establish source/object correspondence:
+a later source edit was not represented by its previously built object, and the
+first isolated rebuild exposed the discrepancy. That snapshot is not the
+reproduction evidence for this manuscript. The source was corrected, a new
+immutable input manifest was selected, and the entire project build and audit
+were restarted successfully. The reproducibility documentation retains the
+superseded receipt and the corrected terminal receipt as distinct records.
+
+\paragraph{What remains outside the claim.}
+The finite polynomial trial is non-asymptotic because every residual term is
+retained and bounded on the entire interval. It is nevertheless organized
+around the decoupled dimer limit. This does not establish a new general
+nonperturbative phase theorem or a best-known coupling threshold. A broader
+literature comparison and external mathematical review remain appropriate.
+Further improvements could sharpen the finite certificate or the bootstrap,
+but are not needed for the theorem stated here. Reproducing the present result
+requires the pinned finite source checks, not an HPC spectrum calculation.

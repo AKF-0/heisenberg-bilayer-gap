@@ -1,0 +1,103 @@
+\section{Exact finite graph certificates}\label{sec:certificates}
+The preceding lemmas reduce the required physical bounds to finite rational
+polynomial arithmetic, but this reduction alone is not a seed. We describe
+how the stored certificates are tied to the actual graphs.
+
+On a torus, enumerate sites row-major, with $0$ fixed. The cubic entries in
+\eqref{eq:K} have integer coefficient arrays after scaling by $64$.
+Expanding \eqref{eq:q2}--\eqref{eq:q6} produces exact rational polynomials.
+For the quartic term, every support containing $0$ is present, including those
+whose coefficient vanishes. There are respectively
+$\binom{15}{3}=455$, $\binom{31}{3}=4495$, and $\binom{63}{3}=39711$ supports.
+Each has three matching labels. Signed fiber sums are collected \emph{before}
+absolute values or Gram weights are applied. Their degree-at-most-ten
+polynomials are represented by eleven integer coefficients with common
+normalization $524288$. The three displayed envelope dictionaries have
+43, 508, and 462 entries; these are coefficient classes, not counts of physical
+supports or numerical samples.
+
+\begin{proposition}[Whole-interval certification]\label{prop:interval}
+Every stored coefficient bound and residual norm bound used below holds for
+all real $0\le g\le1/10$. The certificate hypotheses are discharged by exact
+finite graph identities and rational inequalities.
+\end{proposition}
+\begin{proof}[Certificate argument]
+For each coefficient dictionary entry $c(g)$, the proof supplies a rational
+$u$ and checks positivity of $u-c(g)$ and $u+c(g)$ on the entire interval.
+After the change $x=10g$, represent a polynomial as
+\[
+ p(x)=\sum_{k=0}^{d} b_k\binom dk x^k(1-x)^{d-k}.
+\]
+Nonnegative rational Bernstein coefficients imply $p(x)\ge0$ for $0\le x\le1$.
+The basis-conversion identity and coefficient inequalities are proved exactly.
+The pair squared-norm polynomials and the collected signed quartic Gram
+polynomials are treated in the same way; the latter are not replaced by the
+sum of absolute local terms.
+
+Separately, exact table theorems identify each actual graph coefficient with
+its dictionary polynomial, up to its stored sign. Row validity, increasing
+codes, and exact binomial cardinality prove that the rooted support enumeration
+is a bijection. Bounded chunks and balanced concatenation retain every row and
+every boundary comparison. They change evaluation cost, not the mathematical
+condition. The covariance cache is proved equal to $|K_{rs}(1/10)|+\tau_A$
+for every pair by actual displacement translation. The entrywise monotonicity
+proved above bounds $L(g)$ by this endpoint covariance on the whole interval. When a translated support
+is reordered, the same explicit permutation transports its matching label,
+coefficient, and covariance weight. Therefore \eqref{eq:rootcount} applies to
+both the Gram and weighted-mean sums without assuming enumeration invariance.
+Exact integer aggregates then prove the rational ceilings.
+
+The generated arrays are machine-readable appendices in the formal source.
+Ordinary Python generation and diagnostic checks help produce these witnesses;
+neither their exit status nor an imported JSON number is an axiom. The accepted
+Lean terms prove graph membership, interval inequalities, and aggregate values.
+\end{proof}
+
+For clarity, the quantities $F_{A,d}$ in Table~\ref{tab:vacuum} bound
+\emph{squared faithful vacuum norms}. They are multiplied by $M_{A,d}$ before
+square roots are taken. The actual physical component bounds follow from
+\eqref{eq:projection} and \eqref{eq:amplify}. Only areas 16 and 32 need residual
+norms; area 64 needs its mean but no Temple variance estimate.
+\begin{table}[ht]
+\centering\small
+\begin{tabular}{c cc}\toprule
+ & $A=16$ & $A=32$\\\midrule
+$F_{A,2}$ & $\dfrac{2871661602999}{819200000000000000}$ & $\dfrac{10257117031323}{2621440000000000000}$\\[9pt]
+$F_{A,4}$ & $\dfrac{10086255523899002668131}{419430400000000000000000000}$ & $\dfrac{61781177216998702643223}{1342177280000000000000000000}$\\[9pt]
+$\ell_{A,6}$ & $\dfrac{92232993647601}{655360000000000000}$ & $\dfrac{2956223510791297}{10485760000000000000}$\\[9pt]
+$F_{A,6}$ & $27\ell_{16,6}^2$ & $27\ell_{32,6}^2$\\\bottomrule
+\end{tabular}
+\caption{Exact finite vacuum certificates.}\label{tab:vacuum}
+\end{table}
+
+\begin{proposition}[Actual cubic trial bounds]\label{prop:trialbounds}
+Let $\mu_A=\ip{\psi_K}{H^{\rm C}\psi_K}/\norm{\psi_K}^2$.
+Uniformly on $[0,1/10]$, the actual unnormalized bounds
+\[
+ |\ip{\psi_K}{(H^{\rm C}-e_A)\psi_K}|\le m_A,\qquad
+ \norm{(H^{\rm C}-e_A)\psi_K}\le\varepsilon_A
+\]
+hold with the rational ceilings in Table~\ref{tab:trial}. Hence
+$|\mu_A-e_A|\le m_A$, and the normalized variance is at most
+$\varepsilon_A^2$ where a norm bound is supplied.
+\end{proposition}
+\begin{proof}
+Use the exact residual identity, the faithful norm and positive mean estimates,
+and the whole-interval graph certificates. For $d=2,4,6$ choose rational
+$\eta_{A,d}>0$ with $F_{A,d}M_{A,d}\le\eta_{A,d}^2$; exact squaring checks give
+$\sum_d\eta_{16,d}<10982/10^6$ and
+$\sum_d\eta_{32,d}<20172/10^6$.
+The finite Wick coefficient aggregates multiplied by the separately bounded
+positive norm $M_{A,0}$ give $m_A$. Finally $\norm{\psi_K}\ge1$ and centering
+at the actual Rayleigh quotient cannot increase the normalized residual
+variance. This last step does not identify $e_A$ with $\mu_A$.
+\end{proof}
+\begin{table}[ht]\centering
+\begin{tabular}{c c c c}\toprule
+Box & $M_{A,0}$ upper bound & $m_A$ & $\varepsilon_A$\\\midrule
+$4\times4$ & $1070873423/10^9$ & $167/10^6$ & $10982/10^6$\\
+$8\times4$ & $286527607/250000000$ & $346/10^6$ & $20172/10^6$\\
+$8\times8$ & $328014697/250000000$ & $800/10^6$ & not required\\\bottomrule
+\end{tabular}
+\caption{Uniform actual trial ceilings. Norms are Euclidean Hilbert norms.}\label{tab:trial}
+\end{table}

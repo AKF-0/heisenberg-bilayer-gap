@@ -1,0 +1,54 @@
+\section{All-even-size interpolation and the gap}\label{sec:allsize}
+\begin{lemma}[Rectangular interpolation]\label{lem:interpolation}
+Let $n\le L\le2n$ and $m\le M\le2m$, all four sizes even and at least four.
+Then
+\begin{equation}\label{eq:interpolation}
+ P_t(L,M,\beta)\ge
+ [A(n,m,\beta)^4B(n,m,\beta)^2C(n,m,\beta)]^{LM/(4nm)}.
+\end{equation}
+\end{lemma}
+\begin{proof}
+For a finite real symmetric transfer matrix, monotonicity of finite
+$\ell^p$ norms gives, for $n\le L$, the upper moment bound
+$\tr X^L\le(\tr X^n)^{L/n}$ at even exponents; reversing the endpoint choice
+gives the corresponding lower bound. Pass to the positive moment limits
+and apply the estimates in each spatial direction. At temperature $\beta$,
+\[
+ Z_{L,M}(\beta)\le Z_{n,m}(\beta)^{LM/(nm)}.
+\]
+At temperature $2\beta$, use the upper endpoint to obtain
+$Z_{L,M}(2\beta)\ge Z_{2n,2m}(2\beta)^{LM/(4nm)}$.
+Finally
+$A^4B^2C=Z_{2n,2m}(2\beta)/Z_{n,m}(\beta)^8$ by exact cancellation.
+Dividing proves \eqref{eq:interpolation}.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+For an arbitrary even $L\ge256$, choose the unique dyadic size box containing
+it: $n_j=256\cdot2^j\le L<2n_j$. The exponent in
+\eqref{eq:interpolation} is at most one, and $0<A,B,C\le1$. Therefore
+\eqref{eq:dyadic}, Bernoulli's inequality, and Lemma~\ref{lem:interpolation}
+show that the actual finite Gibbs purity at $\beta_j=1024\cdot2^j$ satisfies
+\begin{equation}\label{eq:thermalpurityfinal}
+ P_t(L,L,\beta_j)\ge(1-u_j)^7\ge1-7u_j.
+\end{equation}
+Let $w_0$ be a Gibbs weight at a lowest energy. Since $\sum w_i^2\le\max_iw_i$,
+$w_0\ge1-7u_j$. For any other index $k$, including a hypothetically degenerate
+lowest level,
+\[
+ e^{-\beta_j(E_k-E_0)}=\frac{w_k}{w_0}
+ \le\frac{7u_j}{1-7u_j}<r_*^{2^j}.
+\]
+The last strict inequality follows from the exact margin
+$7<K_*(1-7r_*/K_*)$. Taking logarithms and dividing by $1024\cdot2^j$ gives
+\eqref{eq:main}. A second lowest eigenvector would contradict its strictly
+positive right-hand side, proving simplicity. The exact rung similarity then
+transports the complete spectrum and multiplicities to the Pauli Hamiltonian.
+\end{proof}
+
+There is no exchange of the thermodynamic and zero-temperature limits in this
+argument. For each finite $L$, a finite synchronized temperature is selected
+from its spatial size box. This proves the uniform finite-volume statement
+without asserting a unique infinite-volume GNS ground state. Odd lengths,
+open boundaries, the near-critical regime, and a formula for the full spectrum
+are outside the theorem.

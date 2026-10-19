@@ -1,0 +1,31 @@
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch000
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch001Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch002Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch003Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch004Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch005Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch006Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch007Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch008Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch009Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch010Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch011Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch012Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch013Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch014Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch015Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch016Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives32.Batch017Reordered
+namespace BilayerDressed.QuarticIntegerSpatialRepresentatives32
+open BilayerGap QuarticIntegerArrays QuarticIntegerDirect QuarticIntegerData
+open QuarticIntegerLocalCases QuarticIntegerZeroCases QuarticIntegerBalancedKernel QuarticIntegerMembership32
+open QuarticIntegerSpatialListCertificate QuarticIntegerRepresentativeTree
+set_option maxHeartbeats 0
+set_option maxRecDepth 200000
+def representativeTree : QuarticIntegerRepresentativeTree.Tree Rep := (QuarticIntegerRepresentativeTree.Tree.branch 576 (QuarticIntegerRepresentativeTree.Tree.branch 256 (QuarticIntegerRepresentativeTree.Tree.branch 128 (QuarticIntegerRepresentativeTree.Tree.branch 64 tree_000 tree_001) (QuarticIntegerRepresentativeTree.Tree.branch 192 tree_002 tree_003)) (QuarticIntegerRepresentativeTree.Tree.branch 384 (QuarticIntegerRepresentativeTree.Tree.branch 320 tree_004 tree_005) (QuarticIntegerRepresentativeTree.Tree.branch 448 tree_006 (QuarticIntegerRepresentativeTree.Tree.branch 512 tree_007 tree_008)))) (QuarticIntegerRepresentativeTree.Tree.branch 832 (QuarticIntegerRepresentativeTree.Tree.branch 704 (QuarticIntegerRepresentativeTree.Tree.branch 640 tree_009 tree_010) (QuarticIntegerRepresentativeTree.Tree.branch 768 tree_011 tree_012)) (QuarticIntegerRepresentativeTree.Tree.branch 960 (QuarticIntegerRepresentativeTree.Tree.branch 896 tree_013 tree_014) (QuarticIntegerRepresentativeTree.Tree.branch 1024 tree_015 (QuarticIntegerRepresentativeTree.Tree.branch 1088 tree_016 tree_017)))))
+theorem all_accepted : All validRep representativeTree := ⟨⟨⟨⟨accepted_000,accepted_001⟩,⟨accepted_002,accepted_003⟩⟩,⟨⟨accepted_004,accepted_005⟩,⟨accepted_006,⟨accepted_007,accepted_008⟩⟩⟩⟩,⟨⟨⟨accepted_009,accepted_010⟩,⟨accepted_011,accepted_012⟩⟩,⟨⟨accepted_013,accepted_014⟩,⟨accepted_015,⟨accepted_016,accepted_017⟩⟩⟩⟩⟩
+def representativeLookup : ℕ→Option Rep := lookup representativeTree
+theorem accepted : Accepted 4 2 kernelData32 dictionary32 1119 representativeLookup := by
+  intro i hi rep h
+  exact property_of_lookup representativeTree all_accepted i rep h
+end BilayerDressed.QuarticIntegerSpatialRepresentatives32

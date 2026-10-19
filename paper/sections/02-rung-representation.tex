@@ -1,0 +1,44 @@
+\section{Exact rung representations}\label{sec:rung}
+A rung is $\C^2\otimes\C^2$. Its shifted exchange has eigenvalues $0,1,1,1$.
+A convenient unnormalized basis matrix in the standard spin basis is
+\[
+ W=\begin{pmatrix}
+ 0&0&1&i\\1&i&0&0\\-1&i&0&0\\0&0&1&-i
+ \end{pmatrix},\qquad W^*W=2\id,\qquad W^{-1}=\tfrac12W^*.
+\]
+Thus the first coordinate is the singlet and the other three coordinates are
+triplets. For the six single-spin components there are explicit rational real
+antisymmetric matrices $G_a$ such that
+\begin{equation}\label{eq:magic}
+ S_a W=W(iG_a),\qquad
+ W^{-1}(\boldsymbol S_1\cdot\boldsymbol S_2+3/4)W
+   =h:=\diag(0,1,1,1).
+\end{equation}
+In particular the real lattice representative is
+\begin{equation}\label{eq:realH}
+ H^{\rm R}=\sum_rh_r-g\sum_{\{r,s\}\in\mathcal E}\sum_{a=1}^6G_{a,r}G_{a,s}.
+\end{equation}
+Products at different sites are symmetric because $G_a^T=-G_a$.
+The six matrices and all sixteen local entries are fixed in
+\lean{Gap.LocalRungBasis}; tensoring the exact inverse proves similarity to
+\eqref{eq:H}. Equivalently one may normalize $W$ by $1/\sqrt2$ and obtain a unitary.
+
+For the trial calculation use real hard-core creators
+$x_{r\alpha}=|\alpha\rangle_r\langle0|$, $\alpha=1,2,3$, and the triplet number
+$N=\sum_r n_r$, $n_r=\sum_\alpha|\alpha\rangle\langle\alpha|$.
+Creators at distinct sites commute; at the same site every product
+$x_{r\alpha}x_{r\gamma}$ is zero. They are not fermions.
+The Cartesian bond $V_{rs}$ has the following complete action:
+\begin{align}\label{eq:bondaction}
+ 2V|00\rangle&=\sum_\alpha|\alpha\alpha\rangle,&
+ 2V|\alpha0\rangle&=|0\alpha\rangle,\\
+ 2V|0\alpha\rangle&=|\alpha0\rangle,&
+ 2V|\alpha\gamma\rangle&=\delta_{\alpha\gamma}|00\rangle
+   +|\gamma\alpha\rangle-\delta_{\alpha\gamma}\sum_\eta|\eta\eta\rangle.
+\end{align}
+Here and below $H^{\rm C}=N+g\sum V_{rs}$.
+The single globally defined diagonal involution
+$U(s)=(-1)^{\lfloor N(s)/2\rfloor}$ conjugates $H^{\rm C}$ to $H^{\rm R}$:
+it changes the sign of pair creation and annihilation, while preserving all
+number-conserving entries. This is a global basis change, not a product of
+inconsistent edgewise adapters. The vacuum $\vac=|0\cdots0\rangle$ is fixed.

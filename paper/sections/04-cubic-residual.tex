@@ -1,0 +1,80 @@
+\section{The cubic trial and its exact residual}\label{sec:trial}
+On each seed torus let $D$ denote its actual adjacency, including wraparound
+edges. Put $D_2=\off(D^2)=D^2-4I$ and define
+\begin{equation}\label{eq:K}
+ K=-\frac g4D+\frac{g^2}{8}(D_2-D)
+       -\frac{g^3}{64}(5D^3-4D_2-40D).
+\end{equation}
+This symmetric matrix has zero diagonal. Define
+\begin{equation}\label{eq:trial}
+ S_K=\frac12\sum_{r,s,\alpha}K_{rs}x_{r\alpha}x_{s\alpha},
+ \qquad \psi_K=e^{S_K}\vac
+   =\sum_{j=0}^{\lfloor A/2\rfloor}\frac{S_K^j}{j!}\vac.
+\end{equation}
+The last equality is exact hard-core nilpotence. The vacuum coefficient is one,
+so $\norm{\psi_K}\ge1$. This is a specified polynomial trial state at every
+$g$, not a discarded-tail perturbation expansion.
+
+For one edge $\{r,s\}$ put $x_\alpha=x_{r\alpha}$, $y_\alpha=x_{s\alpha}$,
+$k=K_{rs}$ and
+$u_\alpha=\sum_{t\ne r,s}K_{rt}x_{t\alpha}$,
+$v_\alpha=\sum_{t\ne r,s}K_{st}x_{t\alpha}$. All these variables commute;
+write $u\cdot v=\sum_\alpha u_\alpha v_\alpha$. Define the following
+\emph{literal creation polynomials}:
+\begin{align}\label{eq:q2}
+ q_2={}&u\cdot v+\sum_\alpha x_\alpha(v_\alpha-3ku_\alpha)
+       +\sum_\alpha y_\alpha(u_\alpha-3kv_\alpha)
+       +(1-2k-3k^2)\sum_\alpha x_\alpha y_\alpha,\\
+ q_4={}&-\sum_\alpha x_\alpha u_\alpha(u\cdot v)
+         -\sum_\alpha y_\alpha v_\alpha(u\cdot v)\notag\\
+ &+\sum_{\alpha,\gamma}x_\alpha y_\gamma
+ \left[v_\alpha u_\gamma-\delta_{\alpha\gamma}u\cdot v
+       -u_\alpha u_\gamma-v_\alpha v_\gamma
+       +3ku_\alpha v_\gamma-k\delta_{\alpha\gamma}u\cdot v\right],\label{eq:q4}\\
+ q_6={}&\sum_{\alpha,\gamma}x_\alpha y_\gamma
+                u_\alpha v_\gamma(u\cdot v).\label{eq:q6}
+\end{align}
+Each has its indicated creation degree; powers of $g$ in its coefficients are
+not being truncated.
+
+\begin{proposition}[Exact transformed Hamiltonian]\label{prop:residual}
+For any symmetric zero-diagonal $K$, define
+\[
+ e_A=\frac{3g}{2}\sum_{\{r,s\}\in\mathcal E}K_{rs},\quad
+ R_2=2S_K+\frac g2\sum_{\mathcal E}q_2,\quad
+ R_4=\frac g2\sum_{\mathcal E}q_4,\quad
+ R_6=\frac g2\sum_{\mathcal E}q_6.
+\]
+Then
+\begin{equation}\label{eq:residual}
+ (H^{\rm C}-e_A)\psi_K
+       =e^{S_K}(R_2+R_4+R_6)\vac
+       =(R_2+R_4+R_6)\psi_K.
+\end{equation}
+For \eqref{eq:K}, the three reference shifts are
+\begin{align}\label{eq:shifts}
+ e_{16}&=-12g^2-6g^3-\tfrac{15}{2}g^4,\notag\\
+ e_{32}&=-24g^2-12g^3-\tfrac{45}{4}g^4,\\
+ e_{64}&=-48g^2-24g^3-15g^4.\notag
+\end{align}
+\end{proposition}
+\begin{proof}
+Split $S_K$ into its outside-site part and the two-endpoint polynomial
+$\sum_\alpha(x_\alpha u_\alpha+y_\alpha v_\alpha+kx_\alpha y_\alpha)$.
+The outside part commutes with the bond. The exact local dressed vacuum has
+components $1$, $u_\alpha$, $v_\gamma$, and
+$u_\alpha v_\gamma+k\delta_{\alpha\gamma}$.
+Apply \eqref{eq:bondaction}, then the inverse dressing obtained by negating
+$u,v,k$. Collecting the sixteen resulting entries gives
+$3k+q_2+q_4+q_6$ for twice the transformed bond. Also
+$e^{-S_K}Ne^{S_K}\vac=2S_K\vac$.
+Summation proves the first identity. Every $R_d$ is in the same commutative
+creation algebra as $S_K$, proving the second. Evaluating the edge entries of
+the explicitly given polynomial in $D$ yields \eqref{eq:shifts}; the different
+fourth-order coefficients retain the actual short wrapping walks.
+\end{proof}
+
+The reference $e_A$ is \emph{not} the Rayleigh quotient. In particular, the
+nonzero degree-six term in \eqref{eq:q6} is necessary. For the cubic kernel the
+coefficient degrees reach $g^7$, $g^{10}$, and $g^{13}$ in $R_2,R_4,R_6$,
+respectively, but the maximum creation degree remains six.

@@ -1,0 +1,58 @@
+\section{Model, statement, and proof architecture}\label{sec:model}
+Let $\Lambda_{n,m}=(\mathbb Z/n\mathbb Z)\times(\mathbb Z/m\mathbb Z)$.
+Throughout the physical argument, $n,m$ are even and at least four. Let
+$\mathcal E_{n,m}$ contain the two positive-direction edges from each vertex;
+these are precisely the undirected nearest-neighbor edges counted once.
+There are $A=nm$ rungs, $2A$ spins, $2A$ edges, and Hilbert-space dimension
+$4^A$. Put $S^\alpha=\sigma^\alpha/2$ for the usual Pauli matrices. We study
+\begin{equation}\label{eq:H}
+ H_{n,m}(g)=\sum_{r\in\Lambda_{n,m}}
+ \left(\boldsymbol S_{r,1}\cdot\boldsymbol S_{r,2}+\frac34\id\right)
+ +g\sum_{\{r,s\}\in\mathcal E_{n,m}}\sum_{a=1}^2
+       \boldsymbol S_{r,a}\cdot\boldsymbol S_{s,a}.
+\end{equation}
+The rung coupling is one. The additive constant changes no spectral difference.
+Write the eigenvalues, \emph{including multiplicities}, as
+$E_0\le E_1\le\cdots\le E_{4^A-1}$. Write $Z_{n,m}(\beta)=\tr e^{-\beta H_{n,m}}$
+and $Q_{n,m}(\beta)=e^{\beta E_0}Z_{n,m}(\beta)$.
+
+\begin{theorem}[Uniform finite-volume gap]\label{thm:main}
+For every real $g\in[0,1/10]$ and every even integer $L\ge256$, the Hamiltonian
+\eqref{eq:H} on $\Lambda_{L,L}$ has a simple lowest eigenvalue, and
+\begin{equation}\label{eq:main}
+ E_j-E_0>\delta_*:=\frac{\log(200/13)}{1024}
+ \quad(1\le j<4^{L^2}).
+\end{equation}
+Numerically, $\delta_*\approx0.002669304696$; the logarithmic expression, not
+this decimal, is the proved constant.
+\end{theorem}
+
+The formal endpoint is
+\lean{BilayerDressed.CubicPhysicalGap.standard_spin_uniform_gap}.
+It constructs a complete invertible complex eigenbasis for the explicit Pauli
+matrix and proves uniqueness and separation with multiplicities. There are no
+seed, table, residual, transfer-convergence, or ground-simplicity hypotheses
+remaining in this endpoint.
+
+The proof has two independently intelligible parts. Sections~\ref{sec:rung}--\ref{sec:seed}
+construct and certify three finite physical partition-function ratios. Sections~\ref{sec:transfer}--\ref{sec:allsize}
+prove the dimension-independent propagation principle and apply it to those
+ratios. No large reference space is diagonalized numerically. Its role is an
+explicit finite-dimensional comparison in a proof.
+
+\paragraph{Context and scope.}
+Weak-coupling stability for product-state lattice systems is classical; see
+Yarotsky's Theorem~1~\cite{yarotsky} and the higher-dimensional block-diagonalization
+result, Theorem~5.3, of Del Vecchio--Fr\"ohlich--Pizzo--Rossi~\cite{delvecchio}.
+These results give important structural context, not the particular rational
+threshold certified here. The spatial-moment and coupled-purity strategy is
+motivated mathematically by the spin-one Haldane-gap manuscript~\cite{haldane},
+notably Proposition~3.1, Lemmas~4.1--4.2, Proposition~4.3, and its finite
+initializations in Section~5. The present proof constructs its own two-dimensional
+transfer approximants and all its model-specific finite inputs. It does not
+import the Haldane theorem as an axiom or reuse its numerical seed.
+The contribution established here is the displayed explicit interval and
+end-to-end finite certificate. We do not infer from this that no stronger
+published quantitative bound exists, nor that the physically expected entire
+dimer phase has been covered. Earlier narrower certificates for this same
+bilayer are proof-development comparisons, not a second physical model.

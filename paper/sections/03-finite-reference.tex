@@ -1,0 +1,129 @@
+\section{A finite spectral reference}\label{sec:reference}
+\subsection{Local comparison and occupation embedding}
+Put $P_{rs}=\sum_\alpha(x_{r\alpha}x_{s\alpha}+
+ x_{r\alpha}^*x_{s\alpha}^*)$ and $V^{\rm n}_{rs}=V_{rs}-P_{rs}/2$.
+\begin{lemma}[Normal-bond lower bound]\label{lem:normal}
+$V^{\rm n}_{rs}\ge-(n_r+n_s)/2$. Consequently, for $g\ge0$,
+\begin{equation}\label{eq:HCref}
+ H^{\rm C}\ge(1-2g)N+\frac g2\sum_{\{r,s\}\in\mathcal E}P_{rs}.
+\end{equation}
+\end{lemma}
+\begin{proof}
+For a real local vector with coefficients $z_{ab}$, twice the quadratic form of
+$V^{\rm n}+(n_r+n_s)/2$ is
+\[
+ \sum_\alpha(z_{\alpha0}+z_{0\alpha})^2
+ +\sum_{\alpha<\gamma}(z_{\alpha\alpha}-z_{\gamma\gamma})^2
+ +\sum_{\alpha<\gamma}(z_{\alpha\gamma}+z_{\gamma\alpha})^2
+ +\sum_{\alpha\ne\gamma}z_{\alpha\gamma}^2.
+\]
+This is nonnegative, and complex vectors follow by real and imaginary parts.
+Every rung belongs to four edges. Summing the local inequality therefore
+subtracts exactly $2gN$, proving \eqref{eq:HCref}.
+\end{proof}
+
+Let $I=\Lambda\times\{1,2,3\}$ be the $3A$ modes. Take the finite occupation
+space with basis $\nu\in\N^I$, $|\nu|\le A$. Its dimension is
+$\binom{4A}{A}$. Define the truncated creation matrix by
+$C_i|\nu\rangle=\sqrt{\nu_i+1}|\nu+e_i\rangle$ if $|\nu|<A$, and zero otherwise.
+The isometry $J_{\rm hc}$ sends a physical configuration to the occupation
+vector with at most one particle, of its indicated color, at each rung.
+Compression reproduces the number and each distinct-site pair term exactly.
+Let $D$ be the rung adjacency and $Z=(g/2)D\otimes I_3$. Then the right-hand
+side of \eqref{eq:HCref} is the compression of
+\begin{equation}\label{eq:quadratic}
+ \mathcal B=(1-2g)N+\frac12\sum_{ij}Z_{ij}(C_iC_j+C_j^*C_i^*).
+\end{equation}
+
+An orthogonal mode change is legitimate at this finite cutoff. If $O^TO=I$,
+put $B_i=\sum_jO_{ji}C_j$ and define its columns by
+\[
+ U_O|\nu\rangle=(\nu!)^{-1/2}\prod_iB_i^{\nu_i}|0\rangle.
+\]
+Finite normal ordering gives the inner product $\nu!\delta_{\nu\mu}$ before
+normalization. In that calculation annihilation crosses only shorter suffixes,
+so the top-degree boundary is never treated as a valid untruncated CCR.
+The columns are an orthonormal basis; $U_O$ preserves degree and intertwines the
+creators, including their zero action on top-degree vectors. Choosing $O$ as
+an actual orthogonal eigenbasis of $Z$ diagonalizes \eqref{eq:quadratic} in its
+mode indices.
+
+Include this total-degree space in the finite product space
+$\{0,\ldots,A\}^{3A}$, of dimension $(A+1)^{3A}$. After the mode rotation,
+\eqref{eq:quadratic} is exactly the compression of a sum of one-mode matrices
+\begin{equation}\label{eq:oscillator}
+ h_M(\omega,z)=\omega N+\frac z2(a^{\dagger2}+a^2),
+ \quad M=A,\quad\omega=1-2g.
+\end{equation}
+This inclusion and compression are used only as finite linear maps; no infinite
+Fock representation is required.
+
+\subsection{Jacobi factorization and ordered eigenvalues}
+\begin{lemma}[Finite Jacobi bound]\label{lem:jacobi}
+For $b\ge0$, $0\le s\le t$, let $J_n(b,s,t)$ have diagonal
+$(s+t)k+sb$ and off-diagonal $-\sqrt{st(k+1)(k+b)}$,
+$0\le k<n$. Its increasing eigenvalues satisfy
+$\lambda_j\ge(t-s)j$ for $0\le j<n$.
+\end{lemma}
+\begin{proof}
+Let $A_n$ be upper bidiagonal with diagonal $\sqrt{s(k+b)}$ and upper diagonal
+$-\sqrt{t(k+1)}$. Direct multiplication gives $A_n^*A_n=J_n$.
+The leading $(n-1)$-dimensional principal block of $A_nA_n^*$ is
+$(t-s)I+J_{n-1}(b+1,s,t)$. Only this block has the displayed form; the last
+row lacks an upper-diagonal contribution and must be removed. The square
+matrices $A_nA_n^*$ and $A_n^*A_n$ have the same characteristic polynomial,
+including zero multiplicities. Interlacing therefore gives
+$\lambda_{j+1}(J_n)\ge(t-s)+\lambda_j(J_{n-1}(b+1,s,t))$.
+The lowest eigenvalue is nonnegative by the Gram factorization. Induction
+proves the claim, also when $s=0$ or $b=0$.
+\end{proof}
+
+\begin{corollary}[Finite oscillator bound]\label{cor:oscillator}
+If $|z|<\omega$, $\Omega=\sqrt{\omega^2-z^2}$, and $e=(\Omega-\omega)/2$, then
+$\lambda_j(h_M(\omega,z))\ge e+j\Omega$ for $0\le j\le M$.
+\end{corollary}
+\begin{proof}
+In parity $p\in\{0,1\}$, write the occupation as $2k+p$.
+An appropriate diagonal sign change makes the off-diagonal entries negative.
+The block equals $J(b,s,t)+(e+p\Omega)I$, with
+$b=p+1/2$, $s=\omega-\Omega$, $t=\omega+\Omega$.
+Lemma~\ref{lem:jacobi} bounds its $j$th level by $e+(2j+p)\Omega$.
+Merging the two finite lists, with multiplicities, proves the assertion.
+\end{proof}
+
+\begin{proposition}[Physical reference constants]\label{prop:reference}
+On each ordinary seed torus, for $0\le g\le1/10$, set
+\begin{equation}\label{eq:ac}
+ a=\frac{387}{500},\qquad c_A(g)=-\frac{750A}{787}g^2.
+\end{equation}
+There is an explicitly constructed finite isometry $J$ such that
+$H^{\rm R}\ge J^*(c_A I+aN_{\rm prod})J$, where $N_{\rm prod}$ is the
+product occupation-label number. In particular $E_j\ge c_A+a$ for every $j\ge1$.
+If $E_0\le U$, then for $\beta>0$,
+\begin{equation}\label{eq:tail}
+ Q_A(\beta)-1\le e^{\beta(U-c_A)}
+ \big[(1-e^{-\beta a})^{-3A}-1\big]
+ \le3A e^{-\beta(a+c_A-U)}(1-e^{-\beta a})^{-3A-1}.
+\end{equation}
+\end{proposition}
+\begin{proof}
+The eigenvalues $z_i$ of $Z$ satisfy $|z_i|\le2g$ by its absolute row sum,
+and $\sum_i z_i^2=\tr Z^2=3Ag^2$ because $(D^2)_{rr}=4$.
+Thus $\Omega_i\ge\sqrt{1-4g}\ge\sqrt{3/5}>a$ and
+\[
+ e_i=-\frac{z_i^2}{2(\omega+\Omega_i)}
+ \ge-\frac{z_i^2}{2(\omega+a)},\qquad
+ \sum_i e_i\ge-\frac{750A}{787}g^2.
+\]
+Tensoring the actual finite one-mode eigenbases gives the comparison. If $Q$
+is their product eigenbasis and $I_A$ is the total-degree inclusion, the map
+from Cartesian states is $Q^T I_A U_O^T J_{\rm hc}$; compose it with the
+global involution to obtain the map from real rung states. The labels in
+$N_{\rm prod}$ are now ordered eigenvalue labels, not original site occupations. Compression
+min--max compares \emph{ordered} physical levels with ordered reference levels.
+The number reference has a unique zero label. Removing that one label after
+excluding the physical lowest level yields the finite product tail; its
+geometric upper bound is the first inequality in \eqref{eq:tail}. The second
+follows by integrating the derivative of $(1-x)^{-3A}$ on $[0,x]$.
+Neither ground vector is assumed to attain $c_A$.
+\end{proof}

@@ -1,0 +1,3 @@
+import Dressed.CubicResidualNormTable16
+import Dressed.CubicResidualNormTable32
+import Dressed.CubicResidualResidualTable64

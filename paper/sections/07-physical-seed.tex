@@ -1,0 +1,101 @@
+\section{Energy intervals and the physical seed}\label{sec:seed}
+\subsection{Temple's inequality with an absolute threshold}
+For a normalized vector $\phi$, let $\mu=\ip\phi{H\phi}$ and
+$\sigma^2=\norm{(H-\mu)\phi}^2$. If every nonlowest ordered eigenvalue is at
+least $\theta>\mu$, the finite-dimensional Temple inequality is
+\begin{equation}\label{eq:temple}
+ E_0\ge\mu-\frac{\sigma^2}{\theta-\mu}.
+\end{equation}
+Indeed, $(E-E_0)(E-\theta)\ge0$ at every eigenvalue, including the lowest one.
+Taking its expectation gives
+$\sigma^2\ge(\mu-E_0)(\theta-\mu)$.
+The input $\theta$ is an \emph{absolute energy threshold}, not a presumed gap.
+Proposition~\ref{prop:reference} supplies $\theta=c_A+a$ independently of the
+trial. The following positive rational numbers satisfy, throughout $[0,1/10]$,
+$d_A\le c_A+a-e_A-m_A$:
+\begin{equation}\label{eq:denominators}
+ d_{16}=\frac{588758821}{787000000},\qquad
+ d_{32}=\frac{568075073}{787000000},\qquad
+ d_{64}=\frac{5263369}{7870000}.
+\end{equation}
+For example, subtracting the endpoint value of
+$c_A+a-e_A-m_A$ leaves $(1/10-g)$ times an explicitly nonnegative polynomial;
+\lean{ScalarInterval.denominator16_lower} and its two companions prove this
+whole-interval statement. There is no endpoint-sampling inference.
+Combining \eqref{eq:temple} with Proposition~\ref{prop:trialbounds} gives
+\begin{equation}\label{eq:energyinterval}
+ e_A-m_A-\varepsilon_A^2/d_A\le E_A\le e_A+m_A
+ \quad(A=16,32),\qquad E_{64}\le e_{64}+m_{64}.
+\end{equation}
+Here $E_A$ denotes the ground energy of its specified box, not an energy
+assumed to depend only on area.
+
+\subsection{Separate spatial defects and thermal tails}
+Define the two finite ground-energy defects
+\[
+ d_x^{\rm phys}=E_{8,4}-2E_{4,4},\qquad
+ d_y^{\rm phys}=E_{8,8}-2E_{8,4}.
+\]
+The extensive quadratic and cubic terms cancel exactly in \eqref{eq:shifts}:
+$e_{32}-2e_{16}=15g^4/4$ and $e_{64}-2e_{32}=15g^4/2$.
+Using \eqref{eq:energyinterval} yields the fixed bounds
+\begin{align}\label{eq:dxdy}
+ d_x^{\rm phys}&\le\overline d_x
+ =\frac{810971762131}{588758821000000}
+ =\frac3{8000}+m_{32}+2m_{16}+2\varepsilon_{16}^2/d_{16},\\
+ d_y^{\rm phys}&\le\overline d_y
+ =\frac{957049999441}{284037536500000}
+ =\frac3{4000}+m_{64}+2m_{32}+2\varepsilon_{32}^2/d_{32}.\notag
+\end{align}
+This correlated cancellation is why separate extensive estimates are not
+sufficient: their errors would survive the subtraction. Keeping two different
+defects also avoids an unnecessarily severe common-error seed.
+
+At $\beta=16$, apply \eqref{eq:tail} with the actual variational upper
+$U_A=e_A+m_A$. Exact positive Taylor sums through degree 50 prove
+\[
+ e^{16a}>238947,\quad e^{16d_{16}}>157894,\quad
+ e^{16d_{32}}>103691,\quad e^{16d_{64}}>44383.
+\]
+Substitution in the last expression of \eqref{eq:tail} gives
+\begin{equation}\label{eq:Qbounds}
+ Q_{4,4}<\overline Q_0=\frac{200061}{200000},\quad
+ Q_{8,4}<\overline Q_1=\frac{1000927}{1000000},\quad
+ Q_{8,8}<\overline Q_2=\frac{1004331}{1000000}.
+\end{equation}
+The inequalities for the Taylor sums, their application to the real exponential,
+and the subsequent rational powers are separate proved steps. Floating-point
+exponential evaluation is not used for acceptance.
+
+For a volume $v=(n,m,\beta)$ define the staircase ratios
+\begin{equation}\label{eq:staircase}
+ A(v)=\frac{Z_{2n,m}(\beta)}{Z_{n,m}(\beta)^2},\quad
+ B(v)=\frac{Z_{2n,2m}(\beta)}{Z_{2n,m}(\beta)^2},\quad
+ C(v)=\frac{Z_{2n,2m}(2\beta)}{Z_{2n,2m}(\beta)^2}.
+\end{equation}
+These ratios are not yet assumed to be purities; that is established in
+Section~\ref{sec:transfer}. Direct cancellation of the ground-energy factors
+and $Q\ge1$ give at $v_0=(4,4,16)$
+\[
+ A(v_0)\ge\frac{e^{-16\overline d_x}}{\overline Q_0^2},\qquad
+ B(v_0)\ge\frac{e^{-16\overline d_y}}{\overline Q_1^2},\qquad
+ C(v_0)\ge\frac1{\overline Q_2^2}.
+\]
+The lower Taylor polynomial $e^{-z}\ge1-z+z^2/2-z^3/6$ for $z\ge0$ now
+provides an entirely rational initialization.
+\begin{proposition}[Actual initial seed]\label{prop:seed}
+For every $g\in[0,1/10]$,
+\begin{equation}\label{eq:initial}
+ 1-A(v_0)\le\frac{11197089}{500000000},\quad
+ 1-B(v_0)\le\frac{27119173}{500000000},\quad
+ 1-C(v_0)\le\frac{8606051}{1000000000}.
+\end{equation}
+\end{proposition}
+All five finite inputs needed for \eqref{eq:energyinterval}, and therefore all
+three inputs in \eqref{eq:initial}, are proved for the actual Hamiltonian.
+The statement is not conditional on a numerical oracle.
+At $g=0$ the checks have a useful exact consistency limit:
+$Z_{n,m}(\beta)=(1+3e^{-\beta})^{nm}$, $A=B=1$, and
+$C=[(1+3e^{-2\beta})/(1+3e^{-\beta})^2]^{4nm}$.
+The true gap is then one; the present uniform constant is intentionally much
+less sharp.

@@ -1,0 +1,31 @@
+FRESH_HEADLINE_CHECKS 2026-10-19T06:15:44Z
+CubicPhysicalGap.standard_spin_uniform_gap : ∀ (g : ℝ),
+  0 ≤ g →
+    g ≤ 1 / 10 →
+      ∀ (L : ℕ),
+        Even L →
+          256 ≤ L →
+            ∃ P Q i₀,
+              P * Q = 1 ∧
+                Q * P = 1 ∧
+                  (BilayerGap.PhysicalGap.physicalMatrix L L g * P = P * Matrix.diagonal fun i => ↑(⋯.eigenvalues i)) ∧
+                    (∀ (i : Fin ↑((BilayerGap.BilayerModel.family g).dim L L)), ⋯.eigenvalues i₀ ≤ ⋯.eigenvalues i) ∧
+                      (∀ (i : Fin ↑((BilayerGap.BilayerModel.family g).dim L L)),
+                          (∀ (j : Fin ↑((BilayerGap.BilayerModel.family g).dim L L)),
+                              ⋯.eigenvalues i ≤ ⋯.eigenvalues j) →
+                            i = i₀) ∧
+                        ∀ (i : Fin ↑((BilayerGap.BilayerModel.family g).dim L L)),
+                          i ≠ i₀ → Real.log (200 / 13) / 1024 < ⋯.eigenvalues i - ⋯.eigenvalues i₀
+CubicPhysicalGap.quartic_inputs : ∀ (g : ℝ), 0 ≤ g → g ≤ 1 / 10 → CubicQuarticSeed.Inputs g
+CubicPhysicalGap.coordinate_bounds : ∀ (g : ℝ),
+  0 ≤ g →
+    g ≤ 1 / 10 →
+      CoordinateWarmup.Bounds (BilayerGap.BilayerModel.family g).spectral.partition { x := 4, y := 4, beta := 16 }
+        ScalarWarmup.a0 ScalarWarmup.b0 ScalarWarmup.c0
+HEADLINE_TYPE_ENDPOINT_CHECKS_PASS
+'BilayerDressed.CubicPhysicalGap.quartic_inputs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BilayerDressed.CubicPhysicalGap.trial_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BilayerDressed.CubicPhysicalGap.coordinate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BilayerDressed.CubicPhysicalGap.gap_constant_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BilayerDressed.CubicPhysicalGap.standard_spin_uniform_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+FRESH_HEADLINE_AXIOMS_PASS

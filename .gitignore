@@ -1,0 +1,14 @@
+# Local compiler and document-build products
+.lake/
+*.olean
+*.ilean
+__pycache__/
+*.pyc
+build/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz

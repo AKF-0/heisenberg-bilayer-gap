@@ -1,0 +1,79 @@
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch000Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch001Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch002Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch003Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch004Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch005Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch006Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch007Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch008Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch009Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch010Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch011Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch012Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch013Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch014Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch015Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch016Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch017Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch018Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch019Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch020Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch021Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch022Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch023Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch024Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch025Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch026Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch027Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch028Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch029Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch030Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch031Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch032Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch033Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch034Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch035Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch036Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch037Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch038Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch039Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch040Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch041Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch042Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch043Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch044Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch045Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch046Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch047Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch048Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch049Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch050Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch051Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch052Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch053Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch054Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch055Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch056Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch057Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch058Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch059Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch060Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch061Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch062Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch063Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch064Reordered
+import Dressed.QuarticIntegerSpatialRepresentatives64.Batch065Reordered
+namespace BilayerDressed.QuarticIntegerSpatialRepresentatives64
+open BilayerGap QuarticIntegerArrays QuarticIntegerDirect QuarticIntegerData
+open QuarticIntegerLocalCases QuarticIntegerZeroCases QuarticIntegerBalancedKernel QuarticIntegerMembership64
+open QuarticIntegerSpatialListCertificate QuarticIntegerRepresentativeTree
+set_option maxHeartbeats 0
+set_option maxRecDepth 200000
+def representativeTree : QuarticIntegerRepresentativeTree.Tree Rep := (QuarticIntegerRepresentativeTree.Tree.branch 2112 (QuarticIntegerRepresentativeTree.Tree.branch 1024 (QuarticIntegerRepresentativeTree.Tree.branch 512 (QuarticIntegerRepresentativeTree.Tree.branch 256 (QuarticIntegerRepresentativeTree.Tree.branch 128 (QuarticIntegerRepresentativeTree.Tree.branch 64 tree_000 tree_001) (QuarticIntegerRepresentativeTree.Tree.branch 192 tree_002 tree_003)) (QuarticIntegerRepresentativeTree.Tree.branch 384 (QuarticIntegerRepresentativeTree.Tree.branch 320 tree_004 tree_005) (QuarticIntegerRepresentativeTree.Tree.branch 448 tree_006 tree_007))) (QuarticIntegerRepresentativeTree.Tree.branch 768 (QuarticIntegerRepresentativeTree.Tree.branch 640 (QuarticIntegerRepresentativeTree.Tree.branch 576 tree_008 tree_009) (QuarticIntegerRepresentativeTree.Tree.branch 704 tree_010 tree_011)) (QuarticIntegerRepresentativeTree.Tree.branch 896 (QuarticIntegerRepresentativeTree.Tree.branch 832 tree_012 tree_013) (QuarticIntegerRepresentativeTree.Tree.branch 960 tree_014 tree_015)))) (QuarticIntegerRepresentativeTree.Tree.branch 1536 (QuarticIntegerRepresentativeTree.Tree.branch 1280 (QuarticIntegerRepresentativeTree.Tree.branch 1152 (QuarticIntegerRepresentativeTree.Tree.branch 1088 tree_016 tree_017) (QuarticIntegerRepresentativeTree.Tree.branch 1216 tree_018 tree_019)) (QuarticIntegerRepresentativeTree.Tree.branch 1408 (QuarticIntegerRepresentativeTree.Tree.branch 1344 tree_020 tree_021) (QuarticIntegerRepresentativeTree.Tree.branch 1472 tree_022 tree_023))) (QuarticIntegerRepresentativeTree.Tree.branch 1792 (QuarticIntegerRepresentativeTree.Tree.branch 1664 (QuarticIntegerRepresentativeTree.Tree.branch 1600 tree_024 tree_025) (QuarticIntegerRepresentativeTree.Tree.branch 1728 tree_026 tree_027)) (QuarticIntegerRepresentativeTree.Tree.branch 1920 (QuarticIntegerRepresentativeTree.Tree.branch 1856 tree_028 tree_029) (QuarticIntegerRepresentativeTree.Tree.branch 1984 tree_030 (QuarticIntegerRepresentativeTree.Tree.branch 2048 tree_031 tree_032)))))) (QuarticIntegerRepresentativeTree.Tree.branch 3136 (QuarticIntegerRepresentativeTree.Tree.branch 2624 (QuarticIntegerRepresentativeTree.Tree.branch 2368 (QuarticIntegerRepresentativeTree.Tree.branch 2240 (QuarticIntegerRepresentativeTree.Tree.branch 2176 tree_033 tree_034) (QuarticIntegerRepresentativeTree.Tree.branch 2304 tree_035 tree_036)) (QuarticIntegerRepresentativeTree.Tree.branch 2496 (QuarticIntegerRepresentativeTree.Tree.branch 2432 tree_037 tree_038) (QuarticIntegerRepresentativeTree.Tree.branch 2560 tree_039 tree_040))) (QuarticIntegerRepresentativeTree.Tree.branch 2880 (QuarticIntegerRepresentativeTree.Tree.branch 2752 (QuarticIntegerRepresentativeTree.Tree.branch 2688 tree_041 tree_042) (QuarticIntegerRepresentativeTree.Tree.branch 2816 tree_043 tree_044)) (QuarticIntegerRepresentativeTree.Tree.branch 3008 (QuarticIntegerRepresentativeTree.Tree.branch 2944 tree_045 tree_046) (QuarticIntegerRepresentativeTree.Tree.branch 3072 tree_047 tree_048)))) (QuarticIntegerRepresentativeTree.Tree.branch 3648 (QuarticIntegerRepresentativeTree.Tree.branch 3392 (QuarticIntegerRepresentativeTree.Tree.branch 3264 (QuarticIntegerRepresentativeTree.Tree.branch 3200 tree_049 tree_050) (QuarticIntegerRepresentativeTree.Tree.branch 3328 tree_051 tree_052)) (QuarticIntegerRepresentativeTree.Tree.branch 3520 (QuarticIntegerRepresentativeTree.Tree.branch 3456 tree_053 tree_054) (QuarticIntegerRepresentativeTree.Tree.branch 3584 tree_055 tree_056))) (QuarticIntegerRepresentativeTree.Tree.branch 3904 (QuarticIntegerRepresentativeTree.Tree.branch 3776 (QuarticIntegerRepresentativeTree.Tree.branch 3712 tree_057 tree_058) (QuarticIntegerRepresentativeTree.Tree.branch 3840 tree_059 tree_060)) (QuarticIntegerRepresentativeTree.Tree.branch 4032 (QuarticIntegerRepresentativeTree.Tree.branch 3968 tree_061 tree_062) (QuarticIntegerRepresentativeTree.Tree.branch 4096 tree_063 (QuarticIntegerRepresentativeTree.Tree.branch 4160 tree_064 tree_065)))))))
+theorem all_accepted : All validRep representativeTree := ⟨⟨⟨⟨⟨⟨accepted_000,accepted_001⟩,⟨accepted_002,accepted_003⟩⟩,⟨⟨accepted_004,accepted_005⟩,⟨accepted_006,accepted_007⟩⟩⟩,⟨⟨⟨accepted_008,accepted_009⟩,⟨accepted_010,accepted_011⟩⟩,⟨⟨accepted_012,accepted_013⟩,⟨accepted_014,accepted_015⟩⟩⟩⟩,⟨⟨⟨⟨accepted_016,accepted_017⟩,⟨accepted_018,accepted_019⟩⟩,⟨⟨accepted_020,accepted_021⟩,⟨accepted_022,accepted_023⟩⟩⟩,⟨⟨⟨accepted_024,accepted_025⟩,⟨accepted_026,accepted_027⟩⟩,⟨⟨accepted_028,accepted_029⟩,⟨accepted_030,⟨accepted_031,accepted_032⟩⟩⟩⟩⟩⟩,⟨⟨⟨⟨⟨accepted_033,accepted_034⟩,⟨accepted_035,accepted_036⟩⟩,⟨⟨accepted_037,accepted_038⟩,⟨accepted_039,accepted_040⟩⟩⟩,⟨⟨⟨accepted_041,accepted_042⟩,⟨accepted_043,accepted_044⟩⟩,⟨⟨accepted_045,accepted_046⟩,⟨accepted_047,accepted_048⟩⟩⟩⟩,⟨⟨⟨⟨accepted_049,accepted_050⟩,⟨accepted_051,accepted_052⟩⟩,⟨⟨accepted_053,accepted_054⟩,⟨accepted_055,accepted_056⟩⟩⟩,⟨⟨⟨accepted_057,accepted_058⟩,⟨accepted_059,accepted_060⟩⟩,⟨⟨accepted_061,accepted_062⟩,⟨accepted_063,⟨accepted_064,accepted_065⟩⟩⟩⟩⟩⟩⟩
+def representativeLookup : ℕ→Option Rep := lookup representativeTree
+theorem accepted : Accepted 4 4 kernelData64 dictionary64 4203 representativeLookup := by
+  intro i hi rep h
+  exact property_of_lookup representativeTree all_accepted i rep h
+end BilayerDressed.QuarticIntegerSpatialRepresentatives64

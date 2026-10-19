@@ -1,0 +1,70 @@
+\section{Spatial moments without a positive transfer spectrum}\label{sec:transfer}
+Fix $\beta>0$, $g\ge0$, and an even transverse width $m\ge4$. Group the real representative \eqref{eq:realH}
+into columns. The column Hilbert space is finite; let $h_m$ contain its rung
+and vertical interactions, and let $G_b$ be the real insertions on its sites.
+Then the strip Hamiltonian has the form
+$\sum_j h_{m,j}-g\sum_{j,b}G_{b,j}G_{b,j+1}$.
+The width dependence of $h_m$, the insertions, and the transfer dimension is
+allowed. No bounded-width approximation is taken.
+
+For $q\ge1$ time slices put $\epsilon=\beta/q$, and let an event label be either
+$\varnothing$ or one insertion label $b$. Define the symmetric two-history
+vertex matrix
+\begin{equation}\label{eq:vertex}
+ W_{\epsilon}(x,y)=
+ \begin{cases}
+ I-\epsilon h_m,&x=y=\varnothing,\\
+ \sqrt{\epsilon g}\,G_b,&\{x,y\}=\{\varnothing,b\},\\
+ 0,&x\ne\varnothing,\ y\ne\varnothing.
+ \end{cases}
+\end{equation}
+For histories $\xi,\eta\in(\{\varnothing\}\cup\mathcal B)^q$, define
+\begin{equation}\label{eq:transfer}
+ (X_q)_{\xi\eta}=
+ \sum_{a_0,\ldots,a_{q-1}}\prod_{t=0}^{q-1}
+   W_{\epsilon}(\xi_t,\eta_t)_{a_t,a_{t+1}},\qquad a_q=a_0.
+\end{equation}
+
+\begin{proposition}[Constructed finite spatial moment limits]\label{prop:transfer}
+Each $X_q$ is real symmetric. For each fixed even physical circumference $n\ge4$,
+\begin{equation}\label{eq:momentlimit}
+ \lim_{q\to\infty}\tr X_q^n=Z_{n,m}(\beta).
+\end{equation}
+The same statement holds with the two spatial directions interchanged.
+\end{proposition}
+\begin{proof}
+The symmetry of \eqref{eq:vertex} in its two event labels proves
+$(X_q)_{\xi\eta}=(X_q)_{\eta\xi}$ directly. Neither entrywise positivity nor
+transposition of $G_b$ is used. Contracting the same finite rectangular tensor
+network first in time or first in space gives
+$\tr X_q^n=\tr P_n(\epsilon)^q$. Here $P_n$ is a finite matching polynomial:
+occupied bonds at a time slice cannot share a vertex, and unoccupied vertices
+supply $I-\epsilon h_m$. Its constant term is $I$ and its first derivative is
+$-H_{n,m}$. Every selected edge has two square-root factors whose product is
+$\epsilon g$. Thus $P_n(t)=I-tH_{n,m}+O(t^2)$ in a finite matrix algebra.
+A noncommutative telescoping estimate for powers implies
+$P_n(\beta/q)^q\to e^{-\beta H_{n,m}}$ in norm. Trace continuity proves
+\eqref{eq:momentlimit}. The column-to-torus reindexing is an exact equality of
+onsite and edge lifts. Swapping the two spatial axes gives the second direction.
+\end{proof}
+
+The formal route uses these finite symmetric approximants and their trace
+limits. It does not need to construct a single infinite-dimensional limiting
+transfer operator or prove its spectral completeness.
+For even $n$, if $\lambda_{q,i}$ are the real eigenvalues of $X_q$ and the
+denominator is nonzero, the weights
+\begin{equation}\label{eq:spatialweights}
+ p_{q,i}=\frac{\lambda_{q,i}^{n}}{\sum_j\lambda_{q,j}^{n}}
+\end{equation}
+are nonnegative and sum to one, even if some $\lambda_{q,i}<0$.
+The denominators are positive eventually, since their limits are the strictly
+positive physical partition functions. Consequently
+$\tr X_q^{2n}/(\tr X_q^n)^2$ is a genuine probability purity.
+Passing the finite inequalities to the limit legitimizes the spatial ratios
+in \eqref{eq:staircase}. Thermal purity is already the purity of the finite
+Gibbs weights $e^{-\beta E_j}/Z(\beta)$.
+
+This argument isolates the two-dimensional issue: each fixed transverse width
+has its own transfer spectrum, but the probability inequalities used below
+have constants independent of its dimension or width. No common eigenbasis,
+joint $x/y$ spectrum, or algebraic relation between different widths is assumed.

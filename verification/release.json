@@ -1,0 +1,25 @@
+{
+  "format": "source-release-v2",
+  "status": "verified_source_release",
+  "source_manifest_sha256": "b836a0197315cd83f4c3f40828b0a7025a0a9f8e5bfa2fccfdd2bfb177dcb3a1",
+  "origin_manifest_sha256": "cbe4e29cf66b6a3a161e5ecac13b25c0c5465d32454966c1b2760c617844ae2b",
+  "build_receipt_sha256": "a263b39d7de182a238a68afb6d81763cfe21c5d978b539f1369e5ed4eacb0eb1",
+  "independent_review_sha256": "8df0c0b5d26e29175ceb47c0c35890b48013047d915ea5bc29d7f38f929cb5c1",
+  "module_count": 556,
+  "theorem_closure_module_count": 550,
+  "constants": 77040,
+  "theorem_constants": 50494,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "final_theorem": "BilayerDressed.CubicPhysicalGap.standard_spin_uniform_gap",
+  "formal_prefix": "lean/",
+  "source_path_mapping": "Every original build_order path p is distributed at lean/p. Internal Lean module names and build_order are unchanged.",
+  "clean_build_finished_utc": "2026-10-19T06:14:59.087977+00:00",
+  "dependencies_rebuilt": false,
+  "project_old_oleans_reused": false,
+  "original_full_archive_sha256": "ad195354bbe31819941e854d23ce54c4d099a87bbaa8ef1e8b03a1fe70abe463",
+  "audit_summary_sha256": "1bbb03112a6c4490b3987c11b926cb74cc6083b99e55e628aa5a319aaa89dc64"
+}

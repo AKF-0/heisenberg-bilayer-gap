@@ -1,0 +1,5596 @@
+{
+  "format": "source-distribution-v2",
+  "status": "source_bytes_bound_to_verified_clean_build",
+  "lean": "4.24.0",
+  "mathlib_commit": "f897ebcf72cd16f89ab4577d0c826cd14afaafc7",
+  "module_count": 556,
+  "first_v2_source_count": 46,
+  "dressed_module_count": 510,
+  "origin_manifest_sha256": "cbe4e29cf66b6a3a161e5ecac13b25c0c5465d32454966c1b2760c617844ae2b",
+  "origin_manifest_relative_path": "../verification/provenance/original-manifest.json",
+  "source_policy": "All 556 selected Lean sources and the pinned build driver are byte-identical to the original successful build inputs. Historical non-build artifacts are omitted; the original manifest is retained as provenance, not as a manifest of this distribution.",
+  "build_order": [
+    {
+      "module": "Dressed.HardCoreRung",
+      "path": "Dressed/HardCoreRung.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Gap.ClusterProducts",
+      "path": "vendor/first_project_v2/Gap/ClusterProducts.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.TorusGeometry",
+      "path": "vendor/first_project_v2/Gap/TorusGeometry.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.TorusBasis",
+      "path": "vendor/first_project_v2/Gap/TorusBasis.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.TorusLifts",
+      "path": "vendor/first_project_v2/Gap/TorusLifts.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Dressed.GlobalCreation",
+      "path": "Dressed/GlobalCreation.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.LocalBondAction",
+      "path": "Dressed/LocalBondAction.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.LocalDressedResidual",
+      "path": "Dressed/LocalDressedResidual.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.GlobalResidualAlgebra",
+      "path": "Dressed/GlobalResidualAlgebra.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.LocalBondLowerBound",
+      "path": "Dressed/LocalBondLowerBound.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Gap.LocalRungBasis",
+      "path": "vendor/first_project_v2/Gap/LocalRungBasis.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Dressed.PhysicalBasisAdapter",
+      "path": "Dressed/PhysicalBasisAdapter.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.TensorQuadratic",
+      "path": "Dressed/TensorQuadratic.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteTemple",
+      "path": "Dressed/FiniteTemple.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.OperatorTemple",
+      "path": "Dressed/OperatorTemple.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.HermitianMinMax",
+      "path": "Dressed/HermitianMinMax.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.NumberThermalTail",
+      "path": "Dressed/NumberThermalTail.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Gap.LocalRung",
+      "path": "vendor/first_project_v2/Gap/LocalRung.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.TwoRung",
+      "path": "vendor/first_project_v2/Gap/TwoRung.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.TwoRungSpectrum",
+      "path": "vendor/first_project_v2/Gap/TwoRungSpectrum.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.Seeds",
+      "path": "vendor/first_project_v2/Gap/Seeds.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.ExponentialSeeds",
+      "path": "vendor/first_project_v2/Gap/ExponentialSeeds.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.ClusterSeed",
+      "path": "vendor/first_project_v2/Gap/ClusterSeed.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.TwoRungTrace",
+      "path": "vendor/first_project_v2/Gap/TwoRungTrace.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.RealRungPair",
+      "path": "vendor/first_project_v2/Gap/RealRungPair.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.RealRungOperators",
+      "path": "vendor/first_project_v2/Gap/RealRungOperators.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Dressed.NumberSpectrum",
+      "path": "Dressed/NumberSpectrum.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Gap.TorusHamiltonian",
+      "path": "vendor/first_project_v2/Gap/TorusHamiltonian.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.PhysicalSpinHamiltonian",
+      "path": "vendor/first_project_v2/Gap/PhysicalSpinHamiltonian.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Dressed.PhysicalGramLowerBound",
+      "path": "Dressed/PhysicalGramLowerBound.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.GlobalResidualSplit",
+      "path": "Dressed/GlobalResidualSplit.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.GlobalResidualDegrees",
+      "path": "Dressed/GlobalResidualDegrees.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.GlobalResidualLocalExp",
+      "path": "Dressed/GlobalResidualLocalExp.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.GlobalResidualLocalMatrix",
+      "path": "Dressed/GlobalResidualLocalMatrix.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.PairBlockAlgebra",
+      "path": "Dressed/PairBlockAlgebra.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CreationNorms",
+      "path": "Dressed/CreationNorms.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.PairVacuumNorm",
+      "path": "Dressed/PairVacuumNorm.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.MatrixRowBounds",
+      "path": "Dressed/MatrixRowBounds.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.PairKernelBounds",
+      "path": "Dressed/PairKernelBounds.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteExponential",
+      "path": "Dressed/FiniteExponential.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.DressedVacuum",
+      "path": "Dressed/DressedVacuum.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.GlobalCartesianBasis",
+      "path": "Dressed/GlobalCartesianBasis.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.GlobalResidualAssembly",
+      "path": "Dressed/GlobalResidualAssembly.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.GlobalResidualNaturality",
+      "path": "Dressed/GlobalResidualNaturality.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.NumberDressing",
+      "path": "Dressed/NumberDressing.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.GlobalDressedResidual",
+      "path": "Dressed/GlobalDressedResidual.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.MatrixRowAlgebra",
+      "path": "Dressed/MatrixRowAlgebra.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FourRegularKernel",
+      "path": "Dressed/FourRegularKernel.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuadraticResidualKernel",
+      "path": "Dressed/QuadraticResidualKernel.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuadraticRegrouping",
+      "path": "Dressed/QuadraticRegrouping.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.ConcreteSeedGraphs",
+      "path": "Dressed/ConcreteSeedGraphs.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.SeedGraphIncidence",
+      "path": "Dressed/SeedGraphIncidence.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuadraticRegroupingAssembly",
+      "path": "Dressed/QuadraticRegroupingAssembly.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.ExternalCreationField",
+      "path": "Dressed/ExternalCreationField.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.ColorSectorBounds",
+      "path": "Dressed/ColorSectorBounds.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticSexticBounds",
+      "path": "Dressed/QuarticSexticBounds.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.GraphHigherResidualBounds",
+      "path": "Dressed/GraphHigherResidualBounds.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.ConcreteResidualCoefficients",
+      "path": "Dressed/ConcreteResidualCoefficients.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.DressedTrialBounds",
+      "path": "Dressed/DressedTrialBounds.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.ResidualVacuumOrthogonality",
+      "path": "Dressed/ResidualVacuumOrthogonality.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.ResidualGeometry",
+      "path": "Dressed/ResidualGeometry.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.MatrixTemple",
+      "path": "Dressed/MatrixTemple.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.TrialResidual",
+      "path": "Dressed/TrialResidual.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.MatrixTrialCertificate",
+      "path": "Dressed/MatrixTrialCertificate.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.PhysicalFiniteCheckpoint",
+      "path": "Dressed/PhysicalFiniteCheckpoint.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.HermitianInterlacing",
+      "path": "Dressed/HermitianInterlacing.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CartesianTrialCertificate",
+      "path": "Dressed/CartesianTrialCertificate.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Gap.Moments",
+      "path": "vendor/first_project_v2/Gap/Moments.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.SpatialInterpolation",
+      "path": "vendor/first_project_v2/Gap/SpatialInterpolation.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.Squaring",
+      "path": "vendor/first_project_v2/Gap/Squaring.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.CountableSquaring",
+      "path": "vendor/first_project_v2/Gap/CountableSquaring.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.MomentPurity",
+      "path": "vendor/first_project_v2/Gap/MomentPurity.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.Thermal",
+      "path": "vendor/first_project_v2/Gap/Thermal.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.Bootstrap",
+      "path": "vendor/first_project_v2/Gap/Bootstrap.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.Coordinates",
+      "path": "vendor/first_project_v2/Gap/Coordinates.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.Staircase",
+      "path": "vendor/first_project_v2/Gap/Staircase.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.SpectralFamily",
+      "path": "vendor/first_project_v2/Gap/SpectralFamily.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.FiniteMomentLimits",
+      "path": "vendor/first_project_v2/Gap/FiniteMomentLimits.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.Assembly",
+      "path": "vendor/first_project_v2/Gap/Assembly.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.FiniteSeedCriterion",
+      "path": "vendor/first_project_v2/Gap/FiniteSeedCriterion.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.LimitCriterion",
+      "path": "vendor/first_project_v2/Gap/LimitCriterion.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Dressed.ScalarWarmupCertificate",
+      "path": "Dressed/ScalarWarmupCertificate.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CoordinateWarmup",
+      "path": "Dressed/CoordinateWarmup.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.ProjectionAlgebra",
+      "path": "Dressed/ProjectionAlgebra.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteOccupationEmbedding",
+      "path": "Dressed/FiniteOccupationEmbedding.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteJacobi",
+      "path": "Dressed/FiniteJacobi.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteOccupationCCR",
+      "path": "Dressed/FiniteOccupationCCR.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteOccupationTotalCutoff",
+      "path": "Dressed/FiniteOccupationTotalCutoff.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CoupledQuadraticComparison",
+      "path": "Dressed/CoupledQuadraticComparison.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteOccupationRotatedWords",
+      "path": "Dressed/FiniteOccupationRotatedWords.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteOccupationModeRotation",
+      "path": "Dressed/FiniteOccupationModeRotation.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteOscillator",
+      "path": "Dressed/FiniteOscillator.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteOscillatorSpectrum",
+      "path": "Dressed/FiniteOscillatorSpectrum.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteProductSpectrum",
+      "path": "Dressed/FiniteProductSpectrum.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.HermitianCompressionLower",
+      "path": "Dressed/HermitianCompressionLower.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.ProductOscillatorReference",
+      "path": "Dressed/ProductOscillatorReference.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CoupledQuadraticCovariance",
+      "path": "Dressed/CoupledQuadraticCovariance.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FinitePairCommutator",
+      "path": "Dressed/FinitePairCommutator.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FinitePairNormRecursion",
+      "path": "Dressed/FinitePairNormRecursion.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteWickSupersolution",
+      "path": "Dressed/FiniteWickSupersolution.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteDressedProjection",
+      "path": "Dressed/FiniteDressedProjection.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CreationResidualAction",
+      "path": "Dressed/CreationResidualAction.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteHomogeneousCreationNorm",
+      "path": "Dressed/FiniteHomogeneousCreationNorm.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteWordHomogeneous",
+      "path": "Dressed/FiniteWordHomogeneous.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.SexticFaithfulLift",
+      "path": "Dressed/SexticFaithfulLift.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicKernelSupersolution",
+      "path": "Dressed/CubicKernelSupersolution.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicSeedGraphChecks",
+      "path": "Dressed/CubicSeedGraphChecks.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicSeedSupersolution",
+      "path": "Dressed/CubicSeedSupersolution.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.ScalarTrialMajorants",
+      "path": "Dressed/ScalarTrialMajorants.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicSexticMass",
+      "path": "Dressed/CubicSexticMass.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FinitePositiveMoments",
+      "path": "Dressed/FinitePositiveMoments.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteWickPairings",
+      "path": "Dressed/FiniteWickPairings.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FinitePositiveComparison",
+      "path": "Dressed/FinitePositiveComparison.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FinitePairHomogeneousBound",
+      "path": "Dressed/FinitePairHomogeneousBound.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.PhysicalProductEmbedding",
+      "path": "Dressed/PhysicalProductEmbedding.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.ReferenceAdjacencyBounds",
+      "path": "Dressed/ReferenceAdjacencyBounds.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicPairNormMajorant",
+      "path": "Dressed/CubicPairNormMajorant.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicTrialNormCertificates",
+      "path": "Dressed/CubicTrialNormCertificates.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicFiniteMoments",
+      "path": "Dressed/CubicFiniteMoments.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FinitePairStateNormBridge",
+      "path": "Dressed/FinitePairStateNormBridge.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FinitePhysicalWick",
+      "path": "Dressed/FinitePhysicalWick.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicPhysicalMeans",
+      "path": "Dressed/CubicPhysicalMeans.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicEndpointMax",
+      "path": "Dressed/CubicEndpointMax.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.PhysicalProductComparison",
+      "path": "Dressed/PhysicalProductComparison.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.PhysicalReferencePointOne",
+      "path": "Dressed/PhysicalReferencePointOne.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.GeometricThermalBound",
+      "path": "Dressed/GeometricThermalBound.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.ScalarThermalCertificate",
+      "path": "Dressed/ScalarThermalCertificate.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.ScalarIntervalBounds",
+      "path": "Dressed/ScalarIntervalBounds.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.ScalarExponentialBridge",
+      "path": "Dressed/ScalarExponentialBridge.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicExponentialLower",
+      "path": "Dressed/CubicExponentialLower.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.ScalarSeedExponentialBounds",
+      "path": "Dressed/ScalarSeedExponentialBounds.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicSeedThermal",
+      "path": "Dressed/CubicSeedThermal.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicSeedEnergyDefects",
+      "path": "Dressed/CubicSeedEnergyDefects.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Gap.TraceConvexity",
+      "path": "vendor/first_project_v2/Gap/TraceConvexity.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Dressed.GroundShiftPartition",
+      "path": "Dressed/GroundShiftPartition.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Gap.MatchingSeed",
+      "path": "vendor/first_project_v2/Gap/MatchingSeed.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.RungMatchingSeed",
+      "path": "vendor/first_project_v2/Gap/RungMatchingSeed.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.MatrixFamily",
+      "path": "vendor/first_project_v2/Gap/MatrixFamily.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.PartitionSeed",
+      "path": "vendor/first_project_v2/Gap/PartitionSeed.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.BilayerModel",
+      "path": "vendor/first_project_v2/Gap/BilayerModel.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.HistoryCycles",
+      "path": "vendor/first_project_v2/Gap/HistoryCycles.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.HistoryTransfer",
+      "path": "vendor/first_project_v2/Gap/HistoryTransfer.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.HistoryEuler",
+      "path": "vendor/first_project_v2/Gap/HistoryEuler.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.HistoryPolynomial",
+      "path": "vendor/first_project_v2/Gap/HistoryPolynomial.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.HistoryMatrixPolynomial",
+      "path": "vendor/first_project_v2/Gap/HistoryMatrixPolynomial.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.HistoryApproximation",
+      "path": "vendor/first_project_v2/Gap/HistoryApproximation.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.HistorySingletons",
+      "path": "vendor/first_project_v2/Gap/HistorySingletons.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.HistoryStripTorus",
+      "path": "vendor/first_project_v2/Gap/HistoryStripTorus.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Gap.UniformBilayerGap",
+      "path": "vendor/first_project_v2/Gap/UniformBilayerGap.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Dressed.PhysicalWarmupCriterion",
+      "path": "Dressed/PhysicalWarmupCriterion.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.PhysicalSeedRatios",
+      "path": "Dressed/PhysicalSeedRatios.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Gap.PhysicalGapTheorem",
+      "path": "vendor/first_project_v2/Gap/PhysicalGapTheorem.lean",
+      "kind": "vendor"
+    },
+    {
+      "module": "Dressed.PhysicalStandardCriterion",
+      "path": "Dressed/PhysicalStandardCriterion.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicEnergyIntervalCriterion",
+      "path": "Dressed/CubicEnergyIntervalCriterion.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicPhysicalMeanEndpoints",
+      "path": "Dressed/CubicPhysicalMeanEndpoints.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticBondRegrouping",
+      "path": "Dressed/QuarticBondRegrouping.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualPair",
+      "path": "Dressed/CubicResidualPair.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticTerms",
+      "path": "Dressed/CubicQuarticTerms.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.MeanTrialCertificate",
+      "path": "Dressed/MeanTrialCertificate.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicTrialEnergy",
+      "path": "Dressed/CubicTrialEnergy.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicTrialSeedCriterion",
+      "path": "Dressed/CubicTrialSeedCriterion.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FaithfulResidualAssembly",
+      "path": "Dressed/FaithfulResidualAssembly.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicSexticAction",
+      "path": "Dressed/CubicSexticAction.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualNormAssembly",
+      "path": "Dressed/CubicResidualNormAssembly.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualPolynomial",
+      "path": "Dressed/CubicResidualPolynomial.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.SexticPhysicalMean",
+      "path": "Dressed/SexticPhysicalMean.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicSexticPhysicalMeans",
+      "path": "Dressed/CubicSexticPhysicalMeans.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.FiniteSeedEnergyDefect",
+      "path": "Dressed/FiniteSeedEnergyDefect.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.PhysicalCreationCoefficients",
+      "path": "Dressed/PhysicalCreationCoefficients.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticMatchingNorm",
+      "path": "Dressed/QuarticMatchingNorm.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticPairingCombinatorics",
+      "path": "Dressed/QuarticPairingCombinatorics.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticCanonicalRegrouping",
+      "path": "Dressed/QuarticCanonicalRegrouping.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticPairingAction",
+      "path": "Dressed/QuarticPairingAction.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticRootCounting",
+      "path": "Dressed/QuarticRootCounting.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticCanonicalTransport",
+      "path": "Dressed/QuarticCanonicalTransport.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticCoefficientFibers",
+      "path": "Dressed/QuarticCoefficientFibers.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticFaithfulLift",
+      "path": "Dressed/QuarticFaithfulLift.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticTotalCutoffLift",
+      "path": "Dressed/QuarticTotalCutoffLift.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticHomogeneousLift",
+      "path": "Dressed/QuarticHomogeneousLift.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticRowMajorEnumeration",
+      "path": "Dressed/QuarticRowMajorEnumeration.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticSupportNorm",
+      "path": "Dressed/QuarticSupportNorm.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualCoefficients",
+      "path": "Dressed/CubicResidualCoefficients.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualBernstein",
+      "path": "Dressed/CubicResidualBernstein.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualIntervalCertificates",
+      "path": "Dressed/CubicResidualIntervalCertificates.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualKernelTable16",
+      "path": "Dressed/CubicResidualKernelTable16.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualNeighborTable16",
+      "path": "Dressed/CubicResidualNeighborTable16.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualConvolutionTable16",
+      "path": "Dressed/CubicResidualConvolutionTable16.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualResidualTable16",
+      "path": "Dressed/CubicResidualResidualTable16.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualNormTable16",
+      "path": "Dressed/CubicResidualNormTable16.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualKernelTable32",
+      "path": "Dressed/CubicResidualKernelTable32.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualNeighborTable32",
+      "path": "Dressed/CubicResidualNeighborTable32.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualConvolutionTable32",
+      "path": "Dressed/CubicResidualConvolutionTable32.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualResidualTable32",
+      "path": "Dressed/CubicResidualResidualTable32.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualNormTable32",
+      "path": "Dressed/CubicResidualNormTable32.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualKernelTable64",
+      "path": "Dressed/CubicResidualKernelTable64.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualNeighborTable64",
+      "path": "Dressed/CubicResidualNeighborTable64.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualConvolutionTable64",
+      "path": "Dressed/CubicResidualConvolutionTable64.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualResidualTable64",
+      "path": "Dressed/CubicResidualResidualTable64.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualSeedCoefficients",
+      "path": "Dressed/CubicResidualSeedCoefficients.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualIntervals",
+      "path": "Dressed/CubicResidualIntervals.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicResidualIntervalBounds",
+      "path": "Dressed/CubicResidualIntervalBounds.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticMeanBudgets",
+      "path": "Dressed/CubicQuarticMeanBudgets.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.ConcreteQuarticResidualLift",
+      "path": "Dressed/ConcreteQuarticResidualLift.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticDressedAction",
+      "path": "Dressed/QuarticDressedAction.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticNormReduction",
+      "path": "Dressed/CubicQuarticNormReduction.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicPairHomogeneous",
+      "path": "Dressed/CubicPairHomogeneous.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicPairHomogeneousBounds",
+      "path": "Dressed/CubicPairHomogeneousBounds.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicPairAction",
+      "path": "Dressed/CubicPairAction.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicPairPhysicalMeans",
+      "path": "Dressed/CubicPairPhysicalMeans.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticSeedReduction",
+      "path": "Dressed/CubicQuarticSeedReduction.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticPhysicalMean",
+      "path": "Dressed/QuarticPhysicalMean.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticMeanTransport",
+      "path": "Dressed/QuarticMeanTransport.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticActualCoefficients",
+      "path": "Dressed/QuarticActualCoefficients.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticCanonicalMean",
+      "path": "Dressed/QuarticCanonicalMean.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticPhysicalMeans",
+      "path": "Dressed/CubicQuarticPhysicalMeans.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticNumericMeanBridge",
+      "path": "Dressed/CubicQuarticNumericMeanBridge.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerArrays",
+      "path": "Dressed/QuarticIntegerArrays.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticDirectCoefficient",
+      "path": "Dressed/QuarticDirectCoefficient.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticCoefficientCount",
+      "path": "Dressed/CubicQuarticCoefficientCount.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerDirect",
+      "path": "Dressed/QuarticIntegerDirect.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerKernelCache",
+      "path": "Dressed/QuarticIntegerKernelCache.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticRootedEnumeration",
+      "path": "Dressed/QuarticRootedEnumeration.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticRootedRowTable",
+      "path": "Dressed/QuarticRootedRowTable.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormEvaluation",
+      "path": "Dressed/QuarticIntegerNormEvaluation.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticResidualSupportNorm",
+      "path": "Dressed/QuarticResidualSupportNorm.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticVacuumFormula",
+      "path": "Dressed/CubicQuarticVacuumFormula.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerTable",
+      "path": "Dressed/QuarticIntegerTable.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerEnvelopeBridge",
+      "path": "Dressed/QuarticIntegerEnvelopeBridge.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerKernelData",
+      "path": "Dressed/QuarticIntegerKernelData.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerCovarianceBase",
+      "path": "Dressed/QuarticIntegerCovarianceBase.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerMeanEvaluation",
+      "path": "Dressed/QuarticIntegerMeanEvaluation.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerData16",
+      "path": "Dressed/QuarticIntegerData16.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticCoefficientBernstein",
+      "path": "Dressed/CubicQuarticCoefficientBernstein.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch00",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch00.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch01",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch01.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Seed16",
+      "path": "Dressed/CubicQuarticEnvelopes/Seed16.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerEnvelope16",
+      "path": "Dressed/QuarticIntegerEnvelope16.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerEnvelopeListBridge",
+      "path": "Dressed/QuarticIntegerEnvelopeListBridge.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerDataConstructors",
+      "path": "Dressed/QuarticIntegerDataConstructors.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerData32",
+      "path": "Dressed/QuarticIntegerData32.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch02",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch02.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch03",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch03.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch04",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch04.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch05",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch05.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch06",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch06.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch07",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch07.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch08",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch08.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch09",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch09.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch10",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch10.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch11",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch11.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch12",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch12.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch13",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch13.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch14",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch14.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch15",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch15.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch16",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch16.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch17",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch17.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Seed32",
+      "path": "Dressed/CubicQuarticEnvelopes/Seed32.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerEnvelope32",
+      "path": "Dressed/QuarticIntegerEnvelope32.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerDictionaryData64",
+      "path": "Dressed/QuarticIntegerDictionaryData64.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch18",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch18.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch19",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch19.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch20",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch20.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch21",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch21.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch22",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch22.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch23",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch23.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch24",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch24.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch25",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch25.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch26",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch26.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Batch27",
+      "path": "Dressed/CubicQuarticEnvelopes/Batch27.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopes.Seed64",
+      "path": "Dressed/CubicQuarticEnvelopes/Seed64.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerEnvelope64",
+      "path": "Dressed/QuarticIntegerEnvelope64.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticNormCertificates",
+      "path": "Dressed/CubicQuarticNormCertificates.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormCompatibility",
+      "path": "Dressed/QuarticIntegerNormCompatibility.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerRowValidity",
+      "path": "Dressed/QuarticIntegerRowValidity.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerRowChunks",
+      "path": "Dressed/QuarticIntegerRowChunks.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block000",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block001",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block001.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block002",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block002.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block003",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block003.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block004",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block004.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block005",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block005.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block006",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block006.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block007",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block007.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block008",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block008.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block009",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block009.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block010",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block010.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block011",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block011.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block012",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block012.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block013",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block013.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block014",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block014.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block015",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block015.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block016",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block016.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32.Block017",
+      "path": "Dressed/QuarticIntegerComputationalData32/Block017.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData32",
+      "path": "Dressed/QuarticIntegerComputationalData32.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Block000",
+      "path": "Dressed/QuarticIntegerComputationalData64/Block000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Block001",
+      "path": "Dressed/QuarticIntegerComputationalData64/Block001.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch000",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch001",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch001.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch002",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch002.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch003",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch003.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch004",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch004.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch005",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch005.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch006",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch006.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch007",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch007.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch008",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch008.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch009",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch009.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch010",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch010.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch011",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch011.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch012",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch012.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch013",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch013.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch014",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch014.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch015",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch015.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch016",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch016.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch017",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch017.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch018",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch018.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64.Batch019",
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch019.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerComputationalData64",
+      "path": "Dressed/QuarticIntegerComputationalData64.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerMembership16.Dictionary",
+      "path": "Dressed/QuarticIntegerMembership16/Dictionary.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerCovarianceData",
+      "path": "Dressed/QuarticIntegerCovarianceData.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerCovarianceCache",
+      "path": "Dressed/QuarticIntegerCovarianceCache.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerListAggregates",
+      "path": "Dressed/QuarticIntegerListAggregates.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerGramCases",
+      "path": "Dressed/QuarticIntegerGramCases.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormCases16",
+      "path": "Dressed/QuarticIntegerNormCases16.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerGramFold",
+      "path": "Dressed/QuarticIntegerGramFold.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerLocalCases",
+      "path": "Dressed/QuarticIntegerLocalCases.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerTransport",
+      "path": "Dressed/QuarticIntegerTransport.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerListCertificate",
+      "path": "Dressed/QuarticIntegerListCertificate.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerThreeMatching",
+      "path": "Dressed/QuarticIntegerThreeMatching.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerTranslationCertificate",
+      "path": "Dressed/QuarticIntegerTranslationCertificate.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerZeroCases",
+      "path": "Dressed/QuarticIntegerZeroCases.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerBondReversal",
+      "path": "Dressed/QuarticIntegerBondReversal.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialTransport",
+      "path": "Dressed/QuarticIntegerSpatialTransport.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSeedSymmetries",
+      "path": "Dressed/QuarticIntegerSeedSymmetries.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerBalancedKernel",
+      "path": "Dressed/QuarticIntegerBalancedKernel.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerGramPermutation",
+      "path": "Dressed/QuarticIntegerGramPermutation.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedList",
+      "path": "Dressed/QuarticIntegerWeightedList.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerRows16",
+      "path": "Dressed/QuarticIntegerRows16.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticEnvelopeCertificates",
+      "path": "Dressed/CubicQuarticEnvelopeCertificates.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicQuarticPolynomialBridge",
+      "path": "Dressed/CubicQuarticPolynomialBridge.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerRepresentatives16.Block000",
+      "path": "Dressed/QuarticIntegerRepresentatives16/Block000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerRepresentatives16.Block001",
+      "path": "Dressed/QuarticIntegerRepresentatives16/Block001.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerRepresentatives16.Block002",
+      "path": "Dressed/QuarticIntegerRepresentatives16/Block002.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerRepresentatives16.Block003",
+      "path": "Dressed/QuarticIntegerRepresentatives16/Block003.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerRepresentatives16.Block004",
+      "path": "Dressed/QuarticIntegerRepresentatives16/Block004.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerMembership16Accepted.Block000",
+      "path": "Dressed/QuarticIntegerMembership16Accepted/Block000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerLiteralMatching",
+      "path": "Dressed/QuarticIntegerLiteralMatching.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerRepresentatives16.Block005",
+      "path": "Dressed/QuarticIntegerRepresentatives16/Block005.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerMembership16Accepted.FastBatch000",
+      "path": "Dressed/QuarticIntegerMembership16Accepted/FastBatch000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerMembership16Accepted.FastBatch001",
+      "path": "Dressed/QuarticIntegerMembership16Accepted/FastBatch001.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerMembership16Accepted.FastBatch002",
+      "path": "Dressed/QuarticIntegerMembership16Accepted/FastBatch002.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerMembership16Accepted.FastBatch003",
+      "path": "Dressed/QuarticIntegerMembership16Accepted/FastBatch003.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerMembership16Accepted",
+      "path": "Dressed/QuarticIntegerMembership16Accepted.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormBlocks16.Remaining",
+      "path": "Dressed/QuarticIntegerNormBlocks16/Remaining.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormBlocks16.Batch000",
+      "path": "Dressed/QuarticIntegerNormBlocks16/Batch000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormAggregate16",
+      "path": "Dressed/QuarticIntegerNormAggregate16.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerActualNorm16",
+      "path": "Dressed/QuarticIntegerActualNorm16.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotalsBridge",
+      "path": "Dressed/QuarticIntegerWeightedTotalsBridge.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotalsLookupBridge",
+      "path": "Dressed/QuarticIntegerWeightedTotalsLookupBridge.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotalsLookups",
+      "path": "Dressed/QuarticIntegerWeightedTotalsLookups.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotalsGuarded",
+      "path": "Dressed/QuarticIntegerWeightedTotalsGuarded.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals16.Block000",
+      "path": "Dressed/QuarticIntegerWeightedTotals16/Block000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals16.Block001",
+      "path": "Dressed/QuarticIntegerWeightedTotals16/Block001.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotalsBudgets",
+      "path": "Dressed/QuarticIntegerWeightedTotalsBudgets.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals16",
+      "path": "Dressed/QuarticIntegerWeightedTotals16.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerActualMean16",
+      "path": "Dressed/QuarticIntegerActualMean16.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicFourByFourEnergy",
+      "path": "Dressed/CubicFourByFourEnergy.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals32.Batch000",
+      "path": "Dressed/QuarticIntegerWeightedTotals32/Batch000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals32.Batch001",
+      "path": "Dressed/QuarticIntegerWeightedTotals32/Batch001.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals32.Batch002",
+      "path": "Dressed/QuarticIntegerWeightedTotals32/Batch002.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals32",
+      "path": "Dressed/QuarticIntegerWeightedTotals32.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch000",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch001",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch001.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch002",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch002.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch003",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch003.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch004",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch004.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch005",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch005.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch006",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch006.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch007",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch007.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch008",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch008.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch009",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch009.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch010",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch010.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch011",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch011.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch012",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch012.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch013",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch013.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch014",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch014.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch015",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch015.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch016",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch016.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch017",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch017.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch018",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch018.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Batch019",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch019.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64.Block000",
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Block000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerWeightedTotals64",
+      "path": "Dressed/QuarticIntegerWeightedTotals64.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerMembership32.Dictionary",
+      "path": "Dressed/QuarticIntegerMembership32/Dictionary.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormSorted32.Group000",
+      "path": "Dressed/QuarticIntegerNormSorted32/Group000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormSorted32.Group001",
+      "path": "Dressed/QuarticIntegerNormSorted32/Group001.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormSorted32.Group002",
+      "path": "Dressed/QuarticIntegerNormSorted32/Group002.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormCases32.Group000",
+      "path": "Dressed/QuarticIntegerNormCases32/Group000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormSorted32.Group003",
+      "path": "Dressed/QuarticIntegerNormSorted32/Group003.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormCases32.Group001",
+      "path": "Dressed/QuarticIntegerNormCases32/Group001.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormCases32.Group002",
+      "path": "Dressed/QuarticIntegerNormCases32/Group002.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormBlocks32.Group000",
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormBlocks32.Group001",
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group001.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormBlocks32.Group002",
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group002.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormBlocks32.Group003",
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group003.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormBlocks32.Group004",
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group004.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormBlocks32.Group005",
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group005.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormBlocks32.Group006",
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group006.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormBlocks32.Group007",
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group007.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormBlocks32.Group008",
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group008.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerNormAggregate32",
+      "path": "Dressed/QuarticIntegerNormAggregate32.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialListCertificate",
+      "path": "Dressed/QuarticIntegerSpatialListCertificate.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerRepresentativeTree",
+      "path": "Dressed/QuarticIntegerRepresentativeTree.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialCertificate",
+      "path": "Dressed/QuarticIntegerSpatialCertificate.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Base",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Base.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch000",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch001Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch001Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch002Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch002Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch003Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch003Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch004Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch004Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch005Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch005Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch006Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch006Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch007Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch007Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch008Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch008Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch009Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch009Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch010Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch010Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch011Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch011Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch012Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch012Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch013Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch013Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch014Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch014Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch015Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch015Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch016Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch016Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32.Batch017Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch017Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives32",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership32.Batch000",
+      "path": "Dressed/QuarticIntegerSpatialMembership32/Batch000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership32.Batch001",
+      "path": "Dressed/QuarticIntegerSpatialMembership32/Batch001.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership32.Batch002",
+      "path": "Dressed/QuarticIntegerSpatialMembership32/Batch002.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership32.Batch003",
+      "path": "Dressed/QuarticIntegerSpatialMembership32/Batch003.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership32.Batch004",
+      "path": "Dressed/QuarticIntegerSpatialMembership32/Batch004.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership32.Batch005",
+      "path": "Dressed/QuarticIntegerSpatialMembership32/Batch005.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerMembership32Accepted",
+      "path": "Dressed/QuarticIntegerMembership32Accepted.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerActualNorm32",
+      "path": "Dressed/QuarticIntegerActualNorm32.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerActualMean32",
+      "path": "Dressed/QuarticIntegerActualMean32.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicEightByFourEnergy",
+      "path": "Dressed/CubicEightByFourEnergy.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerMembership64.Dictionary",
+      "path": "Dressed/QuarticIntegerMembership64/Dictionary.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Base",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Base.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch000Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch000Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch001Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch001Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch002Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch002Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch003Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch003Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch004Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch004Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch005Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch005Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch006Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch006Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch007Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch007Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch008Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch008Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch009Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch009Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch010Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch010Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch011Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch011Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch012Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch012Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch013Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch013Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch014Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch014Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch015Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch015Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch016Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch016Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch017Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch017Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch018Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch018Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch019Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch019Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch020Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch020Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch021Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch021Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch022Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch022Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch023Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch023Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch024Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch024Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch025Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch025Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch026Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch026Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch027Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch027Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch028Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch028Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch029Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch029Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch030Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch030Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch031Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch031Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch032Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch032Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch033Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch033Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch034Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch034Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch035Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch035Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch036Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch036Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch037Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch037Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch038Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch038Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch039Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch039Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch040Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch040Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch041Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch041Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch042Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch042Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch043Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch043Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch044Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch044Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch045Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch045Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch046Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch046Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch047Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch047Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch048Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch048Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch049Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch049Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch050Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch050Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch051Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch051Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch052Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch052Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch053Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch053Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch054Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch054Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch055Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch055Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch056Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch056Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch057Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch057Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch058Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch058Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch059Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch059Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch060Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch060Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch061Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch061Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch062Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch062Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch063Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch063Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch064Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch064Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64.Batch065Reordered",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch065Reordered.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialRepresentatives64",
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch000",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch000.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch001",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch001.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch002",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch002.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch003",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch003.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch004",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch004.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch005",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch005.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch006",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch006.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch007",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch007.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch008",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch008.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch009",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch009.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch010",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch010.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch011",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch011.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch012",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch012.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch013",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch013.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch014",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch014.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch015",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch015.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch016",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch016.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch017",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch017.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch018",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch018.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch019",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch019.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch020",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch020.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch021",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch021.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch022",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch022.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch023",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch023.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch024",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch024.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch025",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch025.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch026",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch026.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch027",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch027.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch028",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch028.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch029",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch029.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch030",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch030.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch031",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch031.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch032",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch032.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch033",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch033.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch034",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch034.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch035",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch035.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch036",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch036.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch037",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch037.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch038",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch038.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch039",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch039.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerSpatialMembership64.Batch040",
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch040.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerMembership64Accepted",
+      "path": "Dressed/QuarticIntegerMembership64Accepted.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.QuarticIntegerActualMean64",
+      "path": "Dressed/QuarticIntegerActualMean64.lean",
+      "kind": "project"
+    },
+    {
+      "module": "Dressed.CubicPhysicalGap",
+      "path": "Dressed/CubicPhysicalGap.lean",
+      "kind": "project"
+    }
+  ],
+  "files": [
+    {
+      "path": "Dressed/HardCoreRung.lean",
+      "bytes": 3004,
+      "sha256": "2c991cbc240b2578ee9bd88407912d31d46786e9e1d0b0c5004c5004bc997b21"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/ClusterProducts.lean",
+      "bytes": 5384,
+      "sha256": "92a6ab1c51241fb6e07289e3eb0a72339736ad39c931daa94539147143c8efaf"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/TorusGeometry.lean",
+      "bytes": 7109,
+      "sha256": "e108b6362d5ec14905e1b4ac032d9bd054ed825a6b4995619d91a9ad0ed882f2"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/TorusBasis.lean",
+      "bytes": 3793,
+      "sha256": "a591da382d0c63ffbf7d7547b65b1698662a9da4013d765c8a693e9046cb9d96"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/TorusLifts.lean",
+      "bytes": 13215,
+      "sha256": "525afe09a9ebe2834be2c878ca0bebecd007cd933a4683dd27353f339f1cbe03"
+    },
+    {
+      "path": "Dressed/GlobalCreation.lean",
+      "bytes": 4061,
+      "sha256": "273ccd009715211765c766c87d0d44758251b15f76a9577def940c5f4789140b"
+    },
+    {
+      "path": "Dressed/LocalBondAction.lean",
+      "bytes": 2907,
+      "sha256": "6e504f242bfe34efb604183f718b35481a4e1d89a63115e24daa19f4c856f3d3"
+    },
+    {
+      "path": "Dressed/LocalDressedResidual.lean",
+      "bytes": 2793,
+      "sha256": "5bd401f2e868049d861785a055862e8f0ce370058e4289b58430fcc978a1b716"
+    },
+    {
+      "path": "Dressed/GlobalResidualAlgebra.lean",
+      "bytes": 2122,
+      "sha256": "75cd106ae6aaae28d5c15e4474aea7cf9c8fdd439e9c01e7bfaeb137084330ea"
+    },
+    {
+      "path": "Dressed/LocalBondLowerBound.lean",
+      "bytes": 2951,
+      "sha256": "a4ab73681ac1b5e1e534b10537e5cf2c707cc0ce578c2c7369bcb9aeb11d6149"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/LocalRungBasis.lean",
+      "bytes": 4016,
+      "sha256": "9434b2bde764c4ac95eae5282de4aa894995ab524de2851b010fc969c1a054f9"
+    },
+    {
+      "path": "Dressed/PhysicalBasisAdapter.lean",
+      "bytes": 3344,
+      "sha256": "daad6a1e0edb600063d3c8c106f141a3a73528c4164a6763bcfdb660be702e51"
+    },
+    {
+      "path": "Dressed/TensorQuadratic.lean",
+      "bytes": 1667,
+      "sha256": "f4b6ef19866d3b6cefe50eda059c16a8ae06ed3f96ee925550bc153456f8fd64"
+    },
+    {
+      "path": "Dressed/FiniteTemple.lean",
+      "bytes": 3840,
+      "sha256": "1768daaadfcc45424f6e66a0d0a1672a2728efbd2abefb0fc8598a44b43958b5"
+    },
+    {
+      "path": "Dressed/OperatorTemple.lean",
+      "bytes": 3189,
+      "sha256": "ebd49371ad1cd8452bf9687d2bd656f2bd2b4e44a49726a98d9733deb7d21a67"
+    },
+    {
+      "path": "Dressed/HermitianMinMax.lean",
+      "bytes": 14213,
+      "sha256": "fc4ee64ed1e453320cc0d8114a7fd320e151e8b7d1461fd95247f86ba0e53a2e"
+    },
+    {
+      "path": "Dressed/NumberThermalTail.lean",
+      "bytes": 13471,
+      "sha256": "b1eb7e8209a1c1a8affd6c2c7c3c2cfaa070731e657494eb6a5fbc89929e471f"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/LocalRung.lean",
+      "bytes": 1742,
+      "sha256": "9ed907b092e1c050675805a2927e6099c12859401d4997f0d455df9c38f24845"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/TwoRung.lean",
+      "bytes": 10768,
+      "sha256": "11a06b438eb83ac01c3615d0c89562445f88a29ce305b833cf2404e567652e8a"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/TwoRungSpectrum.lean",
+      "bytes": 7446,
+      "sha256": "f3fb34580fb1cd974451a6c96c7dbaee911bef250e2fbd37244270ce37066345"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/Seeds.lean",
+      "bytes": 9060,
+      "sha256": "405399b15520b25b041755f18a3bdf54ad9828abbd66087ea429f8710a34214c"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/ExponentialSeeds.lean",
+      "bytes": 4415,
+      "sha256": "0933af410ebb6ad5de32b4b94ff3f952413bf78a70871440455720dbb2ab8d96"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/ClusterSeed.lean",
+      "bytes": 7247,
+      "sha256": "2f936eb7ce467d1dd0c5a8e28304b8b58ca61bb8433a9d97450d3dae5ac4dbaa"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/TwoRungTrace.lean",
+      "bytes": 6936,
+      "sha256": "7b8fb7588d270ccde783467d3a73ccc4c9750170e03163a58c7e332ba53e3b20"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/RealRungPair.lean",
+      "bytes": 4512,
+      "sha256": "749abfc108691c96004c895e2889ae0fb554a5def418489ca2149456ac6f81f9"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/RealRungOperators.lean",
+      "bytes": 1579,
+      "sha256": "ac017f20e92531f2aba0404c8804896fc191e061dd9e38075a03d827f863b329"
+    },
+    {
+      "path": "Dressed/NumberSpectrum.lean",
+      "bytes": 9019,
+      "sha256": "3ccfacb5ba1b7a58bef383e99b49c4bc1cbdb360b9e207774b20f76ccbc11c9c"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/TorusHamiltonian.lean",
+      "bytes": 8554,
+      "sha256": "eb670d4e8bdf27525510728a38ead79478f08c9c3792b5419bbf56ad2649ddf4"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/PhysicalSpinHamiltonian.lean",
+      "bytes": 11551,
+      "sha256": "1cc108c7d7260acf01d3f8d190244b1907eb9a442e7ccfa23e372388f67c7d78"
+    },
+    {
+      "path": "Dressed/PhysicalGramLowerBound.lean",
+      "bytes": 14838,
+      "sha256": "f16d05a4a444dd6f47bdf848513489dec9b2ec39fda0a7c78b2986f126330554"
+    },
+    {
+      "path": "Dressed/GlobalResidualSplit.lean",
+      "bytes": 4214,
+      "sha256": "2a88b8442e67fe3b80f6df039d90e2a03b5eed1f03ad1bdfdfd8d6b8831fb589"
+    },
+    {
+      "path": "Dressed/GlobalResidualDegrees.lean",
+      "bytes": 2047,
+      "sha256": "8822668aed3984f6dadb0f2cd5f49cd5364c58bd1de2dfda61d341dab4ee82ec"
+    },
+    {
+      "path": "Dressed/GlobalResidualLocalExp.lean",
+      "bytes": 4281,
+      "sha256": "95eabd329441a5342fd61975a11d048e46e7697088018265cc1d4e14b7714fd1"
+    },
+    {
+      "path": "Dressed/GlobalResidualLocalMatrix.lean",
+      "bytes": 6298,
+      "sha256": "42cb2064b80131471b06479cfd655d4f13adbfaace249e144f5f41601fb4490a"
+    },
+    {
+      "path": "Dressed/PairBlockAlgebra.lean",
+      "bytes": 6188,
+      "sha256": "c9e1afb37365990a71590a969f2154d9c821ed79e20a14926a45a5341c83ddfe"
+    },
+    {
+      "path": "Dressed/CreationNorms.lean",
+      "bytes": 7445,
+      "sha256": "416d81ea41b824469ff9b4d1b4cc5f3cbf85625fe89538b65fbe4b87097a1a76"
+    },
+    {
+      "path": "Dressed/PairVacuumNorm.lean",
+      "bytes": 10103,
+      "sha256": "3cee0b980e7fdb884b96a60bf4071973d95bcfddc43be279ed671040f58a1e29"
+    },
+    {
+      "path": "Dressed/MatrixRowBounds.lean",
+      "bytes": 3800,
+      "sha256": "ff28e1ba53facfb6de852816e75ae1ffbb3774e3bee70eb088f687d88211b0ae"
+    },
+    {
+      "path": "Dressed/PairKernelBounds.lean",
+      "bytes": 3449,
+      "sha256": "bfcc7362ac808e5ee6a67fde3cdce0a9fb0883d3467bcf59afc798e717f6f650"
+    },
+    {
+      "path": "Dressed/FiniteExponential.lean",
+      "bytes": 5349,
+      "sha256": "e9a3627c9f0d6a0ef73ef7a4e40204decfec9d31d5f63bff232d40ca47261478"
+    },
+    {
+      "path": "Dressed/DressedVacuum.lean",
+      "bytes": 5042,
+      "sha256": "4730d215bc0da2ce6644fe211662b944d9188f00624a17e69d62fa7df74ec53d"
+    },
+    {
+      "path": "Dressed/GlobalCartesianBasis.lean",
+      "bytes": 17820,
+      "sha256": "9843a331bb54e4e098520c001dec765dcc450ce9ed6af931ff543bc15827715e"
+    },
+    {
+      "path": "Dressed/GlobalResidualAssembly.lean",
+      "bytes": 10396,
+      "sha256": "2b2f4020e3406703825d815427964d9fa266d4368952abdbf8cf21499bc9530e"
+    },
+    {
+      "path": "Dressed/GlobalResidualNaturality.lean",
+      "bytes": 2030,
+      "sha256": "3ba11453ce64999d0b7f2853d17459ff653ff5b99b7685ecc64f7573a1f94915"
+    },
+    {
+      "path": "Dressed/NumberDressing.lean",
+      "bytes": 8172,
+      "sha256": "322789f13fc4776c2184e195678f9222e64ebe563bb03270b146717dd878bbe4"
+    },
+    {
+      "path": "Dressed/GlobalDressedResidual.lean",
+      "bytes": 13373,
+      "sha256": "9dfc3df6fb8e02c4906f9aa6325fc82318acd86787f6fb94345ec52b2d3ade1d"
+    },
+    {
+      "path": "Dressed/MatrixRowAlgebra.lean",
+      "bytes": 3482,
+      "sha256": "e9f0332fbc330bdef2a945670fa6cebc5c359e9789924abeb3685678f2f8d328"
+    },
+    {
+      "path": "Dressed/FourRegularKernel.lean",
+      "bytes": 6974,
+      "sha256": "ac71b0412ec34817731f4361ac67bb587f4900af6a90faafe8ce226c50d468bb"
+    },
+    {
+      "path": "Dressed/QuadraticResidualKernel.lean",
+      "bytes": 9465,
+      "sha256": "6826e5a9b3a398fa91485ad82aa81c374976b41711e16ccfab1d15f11e7db520"
+    },
+    {
+      "path": "Dressed/QuadraticRegrouping.lean",
+      "bytes": 9639,
+      "sha256": "30679cda52e4e1298304d51a0e28dcf5680e2ff9127e14e464369296e3b7e7be"
+    },
+    {
+      "path": "Dressed/ConcreteSeedGraphs.lean",
+      "bytes": 3609,
+      "sha256": "c55ac1efa3ce1c7ac64f452d74d04489d86984889558e9118e88211ba75ad0e9"
+    },
+    {
+      "path": "Dressed/SeedGraphIncidence.lean",
+      "bytes": 1644,
+      "sha256": "b855d4dc4852f416e3073a02cac5cb19084217cf1cc7d906e54c82ecedaf0772"
+    },
+    {
+      "path": "Dressed/QuadraticRegroupingAssembly.lean",
+      "bytes": 5469,
+      "sha256": "536a35fb4c6355e2cf843cfa5a0bceb053aaff2a5d72995cd4f3f8dcbb470438"
+    },
+    {
+      "path": "Dressed/ExternalCreationField.lean",
+      "bytes": 3842,
+      "sha256": "0ed93bb83ce41cc1e74fbf855e7561912f674f830410e521615d3f15bab7a6b0"
+    },
+    {
+      "path": "Dressed/ColorSectorBounds.lean",
+      "bytes": 8525,
+      "sha256": "d6ab2d4802fa0687f2cc255d03977ebab09a1490bea5ce614def0a0ea9843106"
+    },
+    {
+      "path": "Dressed/QuarticSexticBounds.lean",
+      "bytes": 15726,
+      "sha256": "3023b06a2f0817fcee8eb7455d0f2e592e806b9fc919beb9432fbc9b4168266b"
+    },
+    {
+      "path": "Dressed/GraphHigherResidualBounds.lean",
+      "bytes": 3876,
+      "sha256": "2ae03430370206e2c5276015f6b815fda0cb3ddcb7778998593af16c3ff449f9"
+    },
+    {
+      "path": "Dressed/ConcreteResidualCoefficients.lean",
+      "bytes": 5039,
+      "sha256": "61bd5aff5304a483842d8f0529f867ebf52733bc1cfb951455b6589b5c9966e7"
+    },
+    {
+      "path": "Dressed/DressedTrialBounds.lean",
+      "bytes": 6883,
+      "sha256": "f1a76d09580a878421fcf59058c507f7be706419d26cd75ef948b3f9f5b78da4"
+    },
+    {
+      "path": "Dressed/ResidualVacuumOrthogonality.lean",
+      "bytes": 4777,
+      "sha256": "cacb40cb0b2de59d98df9810a03dc7489e1621de95f167ced20eb088b762a0bd"
+    },
+    {
+      "path": "Dressed/ResidualGeometry.lean",
+      "bytes": 1470,
+      "sha256": "e0f1ae4a2b7b81eefe419c979074c2ef5462d50345b803de79048778d314ec91"
+    },
+    {
+      "path": "Dressed/MatrixTemple.lean",
+      "bytes": 1301,
+      "sha256": "ebb0e8f23bf3585a3b50e0e0b716098f3aa819aade357d1e824616991b956f97"
+    },
+    {
+      "path": "Dressed/TrialResidual.lean",
+      "bytes": 4354,
+      "sha256": "a4f900bc6734e34317dbd4dfe8ce83d06e58435cfee364a77639508da9f44c41"
+    },
+    {
+      "path": "Dressed/MatrixTrialCertificate.lean",
+      "bytes": 4311,
+      "sha256": "382ae19c756ccaeec4186f3a57bb27745a1036c3fadcc9a33ebee91f2a48413e"
+    },
+    {
+      "path": "Dressed/PhysicalFiniteCheckpoint.lean",
+      "bytes": 2733,
+      "sha256": "2718d4a1270fd982cfa31f109880f3197ae4b8068bd081ca3fa0c6bc13ff0beb"
+    },
+    {
+      "path": "Dressed/HermitianInterlacing.lean",
+      "bytes": 6314,
+      "sha256": "4cffa10eb99656d2f35afe34e88ff6ad12735bfa4e173fa85588c817bace548e"
+    },
+    {
+      "path": "Dressed/CartesianTrialCertificate.lean",
+      "bytes": 5992,
+      "sha256": "22162059f546b186aebc8b757a6b080141ef7bea81642dcb52d654b12588c4ce"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/Moments.lean",
+      "bytes": 5195,
+      "sha256": "3df6be6ccada0b8c845a82e90401519e01f25e4075d74487ed2ad92500650289"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/SpatialInterpolation.lean",
+      "bytes": 7732,
+      "sha256": "9c6338274a0eccdec89b10c7a73dd8c8a757eaa5b1bccd0d9e9ba36a6b15d75e"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/Squaring.lean",
+      "bytes": 4417,
+      "sha256": "60fd45ea1c3e201b612cbccfd4446d0b1d32f99a2db7bc27e10ae798468a7b4c"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/CountableSquaring.lean",
+      "bytes": 5697,
+      "sha256": "0186abbc1d9d68d824440d76402ef39c4c07aa64c09ba9b0feabe2d041e0e2c5"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/MomentPurity.lean",
+      "bytes": 4580,
+      "sha256": "5c95f53e8bf1bad5d7fa84ec3e095abb5b0554ace8f190c5ea6d50011953f59f"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/Thermal.lean",
+      "bytes": 8970,
+      "sha256": "8554dff36b2dee45cab0a6671a8024a5daa99f9b022cacfccd381c6635bc3e1a"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/Bootstrap.lean",
+      "bytes": 13392,
+      "sha256": "f01aefcbd58cee6a8156520f3947c5c9b2400192ad2ffb204e2eabedb263b66a"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/Coordinates.lean",
+      "bytes": 2842,
+      "sha256": "41d8a4d53443d2af8d8da0a0e5f4f777e10dd0c36686f0313da6d0cc756d716a"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/Staircase.lean",
+      "bytes": 6165,
+      "sha256": "f26d44186eb1d6ee8f599da9938cf34b9ca6eeb199802c72b2fc45b46163e11c"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/SpectralFamily.lean",
+      "bytes": 7769,
+      "sha256": "004d326c8ab6aed9fb5957adc1c0d1e34281891af7c1690b86ce71b63d502867"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/FiniteMomentLimits.lean",
+      "bytes": 11963,
+      "sha256": "ee9d4b1edaab03b34701fe551a1fb880559bc647df65f8164f31a158ed4de37a"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/Assembly.lean",
+      "bytes": 3767,
+      "sha256": "f56065bb22a2cbd22862d40d02836d03eecebec0d927db859f307ca2b40ea20d"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/FiniteSeedCriterion.lean",
+      "bytes": 7054,
+      "sha256": "352efe6c46ecb29501381459e2c5cce75e1ac36fefa7580d7b69fe788c9aad3b"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/LimitCriterion.lean",
+      "bytes": 11560,
+      "sha256": "679c076e8f46532d5b44b69ef73af45adbc56b0d2cb9a8cc50d7578f5a486e0b"
+    },
+    {
+      "path": "Dressed/ScalarWarmupCertificate.lean",
+      "bytes": 4796,
+      "sha256": "5b0cdf93508452b9777f882326df8a288830767ed2c53dec508b9853c7cdd701"
+    },
+    {
+      "path": "Dressed/CoordinateWarmup.lean",
+      "bytes": 8227,
+      "sha256": "2910da1b9966bfad5b73794bcf8e03ed6acdfa685bbeba29e1f355baf5b1f97f"
+    },
+    {
+      "path": "Dressed/ProjectionAlgebra.lean",
+      "bytes": 2008,
+      "sha256": "2b2abe110b299897230793367dfbea3b38df9351e5b3e7ed27507a059b9770c6"
+    },
+    {
+      "path": "Dressed/FiniteOccupationEmbedding.lean",
+      "bytes": 20226,
+      "sha256": "8bf5a49d8578aec591dda42d785806e54b314eb0d8cdd17afba457b31c3a3618"
+    },
+    {
+      "path": "Dressed/FiniteJacobi.lean",
+      "bytes": 14432,
+      "sha256": "2e32ad1532631a2edd057b9a940f54ac2ea894ae28dcde6726a126b79686191e"
+    },
+    {
+      "path": "Dressed/FiniteOccupationCCR.lean",
+      "bytes": 12078,
+      "sha256": "79c052670e1f391ae202f323b1c95bd4951b9840acc3007c24c4ed89bcf0441b"
+    },
+    {
+      "path": "Dressed/FiniteOccupationTotalCutoff.lean",
+      "bytes": 17230,
+      "sha256": "9dc7562a27038806634ff5d1e593fe4ebd4f21ddb7da6af036cf18f5c524f7b4"
+    },
+    {
+      "path": "Dressed/CoupledQuadraticComparison.lean",
+      "bytes": 20260,
+      "sha256": "3da89806ec46388ca1454ddcf2fcab7de184a62f08dfe3450c8500458ffbcd9a"
+    },
+    {
+      "path": "Dressed/FiniteOccupationRotatedWords.lean",
+      "bytes": 12753,
+      "sha256": "d2bb89958049babf50b6e6ba34d8f2a166cb498309e3a3720b9e320df59816eb"
+    },
+    {
+      "path": "Dressed/FiniteOccupationModeRotation.lean",
+      "bytes": 13391,
+      "sha256": "a74f33c5ee15bb93ee77070d69da2a19f335593c2bb9c969a98f591f82b44232"
+    },
+    {
+      "path": "Dressed/FiniteOscillator.lean",
+      "bytes": 13009,
+      "sha256": "bf06a90f7771ca3cd388a9035199c77b9204713c85bd96432a3ead1aaf534051"
+    },
+    {
+      "path": "Dressed/FiniteOscillatorSpectrum.lean",
+      "bytes": 11425,
+      "sha256": "5e7c7b8da3a7c16536211d7d031a7e9959298e7d457b61caaa19c860afe96b30"
+    },
+    {
+      "path": "Dressed/FiniteProductSpectrum.lean",
+      "bytes": 10886,
+      "sha256": "aae1c4b1f5fa526672cdeebe844e9bfee9d5c02071ec6f681e260aeab7ac19f0"
+    },
+    {
+      "path": "Dressed/HermitianCompressionLower.lean",
+      "bytes": 3927,
+      "sha256": "3a39734f08afefce14e27603a03b061f2e0d31607e84ab4cca67c1d2a7c906fa"
+    },
+    {
+      "path": "Dressed/ProductOscillatorReference.lean",
+      "bytes": 15729,
+      "sha256": "32b813215d81734c3af20c6add03e79a08a6bd9c54feb9ca671e2c20389f0752"
+    },
+    {
+      "path": "Dressed/CoupledQuadraticCovariance.lean",
+      "bytes": 9710,
+      "sha256": "470dfd825bf56be94435deabeb66aad25b4b21d3e497c3cb6b6e1a20d0889e02"
+    },
+    {
+      "path": "Dressed/FinitePairCommutator.lean",
+      "bytes": 24145,
+      "sha256": "84547ed660091cf37101b6399212c315daf52fd63243dd9982b90d6d5a9d81d6"
+    },
+    {
+      "path": "Dressed/FinitePairNormRecursion.lean",
+      "bytes": 14820,
+      "sha256": "32cc56a82c6ac671405ad190357bfdd750eaf89afa6d5c831c76438b6c301c81"
+    },
+    {
+      "path": "Dressed/FiniteWickSupersolution.lean",
+      "bytes": 9907,
+      "sha256": "e23bf53e2fe67cae565e261d20627f497b42c1b10961880f9a9a94bb9e78d39d"
+    },
+    {
+      "path": "Dressed/FiniteDressedProjection.lean",
+      "bytes": 14723,
+      "sha256": "61fc1b5c56eb51aa1578fbcf314da40daf0d239d057702cc32e46285cda2f13e"
+    },
+    {
+      "path": "Dressed/CreationResidualAction.lean",
+      "bytes": 3545,
+      "sha256": "d9bea1bdfdda12f8795f1078871487fe9353bb3e5197542140b1c420d7c4e6eb"
+    },
+    {
+      "path": "Dressed/FiniteHomogeneousCreationNorm.lean",
+      "bytes": 31313,
+      "sha256": "17f13ca0ef83d041df46b0a2a967312e7ed1b295a5b981d981cbe108be517bf8"
+    },
+    {
+      "path": "Dressed/FiniteWordHomogeneous.lean",
+      "bytes": 5144,
+      "sha256": "106e733a384ff1b3292f1c762871e140b5fa0f95c74ad94511c97807564cba6e"
+    },
+    {
+      "path": "Dressed/SexticFaithfulLift.lean",
+      "bytes": 28833,
+      "sha256": "ec0b9493ca379d6a072563040735ae6df59ee46ece6d2d305e69db5d8201cce6"
+    },
+    {
+      "path": "Dressed/CubicKernelSupersolution.lean",
+      "bytes": 6397,
+      "sha256": "fed291863ea347e7ebaca5ba5332b9e0df1cd3ddde0dd3c2881860f6fdd45943"
+    },
+    {
+      "path": "Dressed/CubicSeedGraphChecks.lean",
+      "bytes": 6438,
+      "sha256": "b4e8eed104fba10b42db1df5e5250841bbf6cc5f309843551fe8c7054ae3410c"
+    },
+    {
+      "path": "Dressed/CubicSeedSupersolution.lean",
+      "bytes": 7894,
+      "sha256": "7e6ae8f2fd9b4f3dc62a53dfb41614746e898b50a3ebecd4b2ec2f887a0556ea"
+    },
+    {
+      "path": "Dressed/ScalarTrialMajorants.lean",
+      "bytes": 5752,
+      "sha256": "0a781725954367b857c9201f84431a1b60ebb8e87bc59cd591b7f1094e8cb77b"
+    },
+    {
+      "path": "Dressed/CubicSexticMass.lean",
+      "bytes": 12332,
+      "sha256": "112be290538ff28664f16bab4d94ba7186411d2fd36e710226437d7a9035e76a"
+    },
+    {
+      "path": "Dressed/FinitePositiveMoments.lean",
+      "bytes": 24796,
+      "sha256": "6e9558199a88f183e1332b6321d084490a044441a45c6a70bbd98aa84f9a55b1"
+    },
+    {
+      "path": "Dressed/FiniteWickPairings.lean",
+      "bytes": 5708,
+      "sha256": "3108f1975b7213191c9d09243347cfb1b569abe55128007d8d6ee7e21fe3ef10"
+    },
+    {
+      "path": "Dressed/FinitePositiveComparison.lean",
+      "bytes": 9955,
+      "sha256": "517614baebbe5f7abf395d2899bbe4f60eb3e09126c60d5af1af73fd7923f31d"
+    },
+    {
+      "path": "Dressed/FinitePairHomogeneousBound.lean",
+      "bytes": 6464,
+      "sha256": "2d18408fe819a6a164d0c2f97ca7a728596d61a9bb094f500687c435141eeb52"
+    },
+    {
+      "path": "Dressed/PhysicalProductEmbedding.lean",
+      "bytes": 11518,
+      "sha256": "ff08b1ab4074783f741bc0f1fb26a738fca1d27e458c3443e25ed67124c6e908"
+    },
+    {
+      "path": "Dressed/ReferenceAdjacencyBounds.lean",
+      "bytes": 12146,
+      "sha256": "6e6c5e0e273b41a9b5e2a9d228a4798289c77e375cb92b76fa6a2d6213b52460"
+    },
+    {
+      "path": "Dressed/CubicPairNormMajorant.lean",
+      "bytes": 15885,
+      "sha256": "c225d9f5540aaf33ffbd3883aadb1eda1dd92ba10d61165676ba1bfb1058ebc2"
+    },
+    {
+      "path": "Dressed/CubicTrialNormCertificates.lean",
+      "bytes": 14809,
+      "sha256": "b9ff3be843eb24200026f2d5c5ed52f0eb059097df9c972d2895797df9ebf32f"
+    },
+    {
+      "path": "Dressed/CubicFiniteMoments.lean",
+      "bytes": 4038,
+      "sha256": "735b49bca16393a62fce6c083429e75792002b7bd11dee463d92b7d63905f03f"
+    },
+    {
+      "path": "Dressed/FinitePairStateNormBridge.lean",
+      "bytes": 3985,
+      "sha256": "73373b6287dfd31214a577dbec724837d3141b6be011edd25bc6117c1257a1e9"
+    },
+    {
+      "path": "Dressed/FinitePhysicalWick.lean",
+      "bytes": 5753,
+      "sha256": "d2ce523f6013c08b5e203e3213b877f23f8e56cfde56f97af51d9179fa957348"
+    },
+    {
+      "path": "Dressed/CubicPhysicalMeans.lean",
+      "bytes": 9214,
+      "sha256": "63d1c46336332024b86d1fc4aa4358bc55966d5e216709c87039d3d3904a72d0"
+    },
+    {
+      "path": "Dressed/CubicEndpointMax.lean",
+      "bytes": 3165,
+      "sha256": "60cde21fff48806a95e81426fe3682ce2bddd2b1675df95c24059d06ef67ea7b"
+    },
+    {
+      "path": "Dressed/PhysicalProductComparison.lean",
+      "bytes": 10629,
+      "sha256": "75f79d2601346db5fc28af93993d6d324a9d7d3ad64cdc0062b104f0edd7a652"
+    },
+    {
+      "path": "Dressed/PhysicalReferencePointOne.lean",
+      "bytes": 15094,
+      "sha256": "eee8e8c34090d82ccabd74e4e2653bceba81720550de1febfb2595b20853bf5e"
+    },
+    {
+      "path": "Dressed/GeometricThermalBound.lean",
+      "bytes": 4341,
+      "sha256": "84f4dc1aed2e1cc8a8fcd49dae58a32e6ba277181b424f07fbe36f8118ac59ab"
+    },
+    {
+      "path": "Dressed/ScalarThermalCertificate.lean",
+      "bytes": 2034,
+      "sha256": "80bd52140cdada9af938ff99d8e178f96b53bc09341122134b55e6609e4feeeb"
+    },
+    {
+      "path": "Dressed/ScalarIntervalBounds.lean",
+      "bytes": 2533,
+      "sha256": "664c97759d56dfaeeebb04c7d01038cec98d207fabe9c4f414a0c6ae50b18e08"
+    },
+    {
+      "path": "Dressed/ScalarExponentialBridge.lean",
+      "bytes": 2007,
+      "sha256": "3101a85bb501923963dcc4dc56ad38c7df8b84b4a6127dd534b7f717d50f8db8"
+    },
+    {
+      "path": "Dressed/CubicExponentialLower.lean",
+      "bytes": 2039,
+      "sha256": "3922fd99719904c76e2e1b1e7131b51faca275628fe2e65a69d843393c00097f"
+    },
+    {
+      "path": "Dressed/ScalarSeedExponentialBounds.lean",
+      "bytes": 2945,
+      "sha256": "b78f99950734227df91f102fff98d02ecc40f1637834baf383fa31c756519db5"
+    },
+    {
+      "path": "Dressed/CubicSeedThermal.lean",
+      "bytes": 2226,
+      "sha256": "6718f36eb1859300e1b1b3d81cbfdf1449369416bab015fcdeebe4997838e23a"
+    },
+    {
+      "path": "Dressed/CubicSeedEnergyDefects.lean",
+      "bytes": 1883,
+      "sha256": "c2760289effc35cd86bc65aca691721da7cbe24d182ce57ab373018d0a7a06e9"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/TraceConvexity.lean",
+      "bytes": 11524,
+      "sha256": "68cd8714e1da2e69aada5c876a6f490f9558f8b1b985779c9c31b48946ceb410"
+    },
+    {
+      "path": "Dressed/GroundShiftPartition.lean",
+      "bytes": 4230,
+      "sha256": "07441b83cf57dd70ff660e364bb804c24c8cf86323b124ac6ce1d3037fe6f26e"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/MatchingSeed.lean",
+      "bytes": 6138,
+      "sha256": "0eab6d3884ca5ebc576f45fd1687d5580d914a19371980ca8a2ae5889f4340f3"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/RungMatchingSeed.lean",
+      "bytes": 5638,
+      "sha256": "b48d658cc95d150557eceb5468d58e57fc396339416ad6c5a7244c9b0f2d4f08"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/MatrixFamily.lean",
+      "bytes": 2082,
+      "sha256": "8c4725ccf757c2b4d65f93fed21f1e7556bea4263cf660cbc79e2f33e5095ba8"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/PartitionSeed.lean",
+      "bytes": 2098,
+      "sha256": "6d162bd71c67a7cfaac045e12838707eb4347a597903308b333da293d56f0f80"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/BilayerModel.lean",
+      "bytes": 5141,
+      "sha256": "9ae5e48f4d0589cc9a37fe1c3ccf7a3c7685c7d92e4d36ce63300022372df049"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/HistoryCycles.lean",
+      "bytes": 3473,
+      "sha256": "6d95bf89b9fb825af4b76d32a28f401aa06310465e2adde6d9cc650a1f3487dd"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/HistoryTransfer.lean",
+      "bytes": 6032,
+      "sha256": "d6591bbbe7d2561dd77bf13604f1dea7ceee3a525f8744d5f7bf7207f11c3b68"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/HistoryEuler.lean",
+      "bytes": 6709,
+      "sha256": "3369613fc5ca2d0bddca7db83db166c30374a987fc8f58cf102be706cc9978fc"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/HistoryPolynomial.lean",
+      "bytes": 9297,
+      "sha256": "fb42cbb1f0a5abc09f9449e5a15fc42b32919a6c24dda4c39ac3fa6bb8d46504"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/HistoryMatrixPolynomial.lean",
+      "bytes": 3978,
+      "sha256": "288e91b3918a350728cb3d3f49effc9f36b34a6c8fbd7eeeda30bc5dfa21fbe1"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/HistoryApproximation.lean",
+      "bytes": 5379,
+      "sha256": "50da64cc4300e385479d53bf8009020e7d7258082b1cc09038239a909189b44d"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/HistorySingletons.lean",
+      "bytes": 8581,
+      "sha256": "0b3d0806b444b13daecac5e02e893a1f64878154b4c091ca7643abd10f5235ea"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/HistoryStripTorus.lean",
+      "bytes": 18192,
+      "sha256": "70e100b6b2808c6643afd8582bc4370f3f6cd6a52d564efcc6c4806321a90352"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/UniformBilayerGap.lean",
+      "bytes": 3152,
+      "sha256": "14609f7086ea40ef7e865ce5f626a694171bf628dace48f7c43dec2521de92fd"
+    },
+    {
+      "path": "Dressed/PhysicalWarmupCriterion.lean",
+      "bytes": 2223,
+      "sha256": "a4f72a655c56806e9af71bc2662d7045cb45fe11931880ce143731eb6b9e1d2f"
+    },
+    {
+      "path": "Dressed/PhysicalSeedRatios.lean",
+      "bytes": 4689,
+      "sha256": "c58de7e6acb116fe4adaa6f5073ffb365e025fe65cb3aa0e698ea87cf32b45ea"
+    },
+    {
+      "path": "vendor/first_project_v2/Gap/PhysicalGapTheorem.lean",
+      "bytes": 5287,
+      "sha256": "82bb142b84c0eb7f4a569d9fc982341b3865da9581ad3a593bba57636ed308f2"
+    },
+    {
+      "path": "Dressed/PhysicalStandardCriterion.lean",
+      "bytes": 2022,
+      "sha256": "25c280b77149ed2e2b68e283392b1cff5b4ead9ef51a139e0a731d725c5596cf"
+    },
+    {
+      "path": "Dressed/CubicEnergyIntervalCriterion.lean",
+      "bytes": 3039,
+      "sha256": "c38a89205f684ee1c3b61e8410259219f44dcc5227b8504906dfa56e5d66a425"
+    },
+    {
+      "path": "Dressed/CubicPhysicalMeanEndpoints.lean",
+      "bytes": 6016,
+      "sha256": "60014cf35fd0697bf3638720976835f658b789fddc01469ab81a47227b26a0a6"
+    },
+    {
+      "path": "Dressed/QuarticBondRegrouping.lean",
+      "bytes": 19840,
+      "sha256": "a50484c8547d908161083c363ba367921c5dad51772a0ed0423799d7a0ce2a31"
+    },
+    {
+      "path": "Dressed/CubicResidualPair.lean",
+      "bytes": 16523,
+      "sha256": "937396fc708ae1814c49d00af5f9c08afb25fb5741b3da943fa48e71fa9c2a4f"
+    },
+    {
+      "path": "Dressed/CubicQuarticTerms.lean",
+      "bytes": 4057,
+      "sha256": "0f1878d58bdbf1ce9baac5396130d48d1b43a6214a77e7143e0460338cffeb74"
+    },
+    {
+      "path": "Dressed/MeanTrialCertificate.lean",
+      "bytes": 3339,
+      "sha256": "d682b2f6d0e70cb1244ea08dd4113f3ceabc506d192ef81fca12ffb4002e985a"
+    },
+    {
+      "path": "Dressed/CubicTrialEnergy.lean",
+      "bytes": 2588,
+      "sha256": "d6ac6bf97c0a91b2f5c4ccc1d39e2cd54df53f851b9b4ef96763c4b159247111"
+    },
+    {
+      "path": "Dressed/CubicTrialSeedCriterion.lean",
+      "bytes": 4229,
+      "sha256": "4af2e341130e4680f25ba3e371b50528f7a937861e6bab5b48415df8cdf1f484"
+    },
+    {
+      "path": "Dressed/FaithfulResidualAssembly.lean",
+      "bytes": 4310,
+      "sha256": "fffbb696f7af1fd70a7d7014455aadb70c332eea7e77c571030a040d4d75e052"
+    },
+    {
+      "path": "Dressed/CubicSexticAction.lean",
+      "bytes": 6455,
+      "sha256": "5b49a8e3ac472204e29c72035c5423755772a10c61cd229fd6c94df085c8bd07"
+    },
+    {
+      "path": "Dressed/CubicResidualNormAssembly.lean",
+      "bytes": 2783,
+      "sha256": "7d0acfe610bc7f24e588480e4b1780a46231ab54f6d9876b2727d94302e11e14"
+    },
+    {
+      "path": "Dressed/CubicResidualPolynomial.lean",
+      "bytes": 5280,
+      "sha256": "3b3ec330fdafd1d2b2f24f51f75bfca03ec94e97893ceea3bf221f2783d906c2"
+    },
+    {
+      "path": "Dressed/SexticPhysicalMean.lean",
+      "bytes": 5404,
+      "sha256": "649dc1881d1177c24010464bfee8dbe9d7b5c4561e0391179035da8192aa13e0"
+    },
+    {
+      "path": "Dressed/CubicSexticPhysicalMeans.lean",
+      "bytes": 7814,
+      "sha256": "d1723a2a5fec2e09ebbe31f837df23bd14dd8f2528eb64f1eca696aec76bb8ac"
+    },
+    {
+      "path": "Dressed/FiniteSeedEnergyDefect.lean",
+      "bytes": 4878,
+      "sha256": "2a03386cf58276a7fa446f961dd17ac322e358bfa6f12e803bd8ab7e1aab64e7"
+    },
+    {
+      "path": "Dressed/PhysicalCreationCoefficients.lean",
+      "bytes": 1665,
+      "sha256": "74c55167821be138ad74baa88a01876f2841f94c52a9cbf6ffa67325389b33d0"
+    },
+    {
+      "path": "Dressed/QuarticMatchingNorm.lean",
+      "bytes": 9083,
+      "sha256": "6c2a636ae46a7e2f7374bc6f93ae304fb0aa1a467c177f269d790718096890a1"
+    },
+    {
+      "path": "Dressed/QuarticPairingCombinatorics.lean",
+      "bytes": 778,
+      "sha256": "2d02c5b78c64864de57b560cfd95f4b5cbdbe856ebdd11b5c912b4faf97db0f0"
+    },
+    {
+      "path": "Dressed/QuarticCanonicalRegrouping.lean",
+      "bytes": 6893,
+      "sha256": "0586f55620a84ababec174de946e8794d34b20b657ae4f85efacf96bbfe7c957"
+    },
+    {
+      "path": "Dressed/QuarticPairingAction.lean",
+      "bytes": 858,
+      "sha256": "71723a6b700597755f67d09aeab2b11cb2b31e75ec775fd53e652dbfe880563a"
+    },
+    {
+      "path": "Dressed/QuarticRootCounting.lean",
+      "bytes": 4469,
+      "sha256": "71d8901aff2c9c790d3dd97bc975dfde36ef6b7757532d5a9951da8ce715ec58"
+    },
+    {
+      "path": "Dressed/QuarticCanonicalTransport.lean",
+      "bytes": 2733,
+      "sha256": "7d8e1d3329314a6515de82f2e6a1bb7966d228e1130346e2d2fa3604a2fd2080"
+    },
+    {
+      "path": "Dressed/QuarticCoefficientFibers.lean",
+      "bytes": 15764,
+      "sha256": "1a03ffab6cefc14f6b7006452901babeda02825288c975914fc5f6ed0f29dd2f"
+    },
+    {
+      "path": "Dressed/QuarticFaithfulLift.lean",
+      "bytes": 17583,
+      "sha256": "0e476ef6b43625d32a47891f5a183303c338cb02e2b289f8a45885fb26edbae9"
+    },
+    {
+      "path": "Dressed/QuarticTotalCutoffLift.lean",
+      "bytes": 11358,
+      "sha256": "6db822fb2cff5af818072467757b68909d12d81a5d1bcd87b309429e3382c430"
+    },
+    {
+      "path": "Dressed/QuarticHomogeneousLift.lean",
+      "bytes": 4853,
+      "sha256": "1d05ef5c6bf55ec685e03bd910a63cb2fd94622bac9d6e3134bd5cbfae46061e"
+    },
+    {
+      "path": "Dressed/QuarticRowMajorEnumeration.lean",
+      "bytes": 2230,
+      "sha256": "30a43e5acf437c87c6c34ed1f54d88270b06746924d309914ab2166cdcb82733"
+    },
+    {
+      "path": "Dressed/QuarticSupportNorm.lean",
+      "bytes": 3711,
+      "sha256": "9fc23a6b953e59eb35d601fa85e6310f47d377aaf001b78aaf2b3fe88bcfe504"
+    },
+    {
+      "path": "Dressed/CubicResidualCoefficients.lean",
+      "bytes": 5580,
+      "sha256": "cc07581b10f34d390965d87cdd350589f52673c1ddabc03d2485dee4cd9444ab"
+    },
+    {
+      "path": "Dressed/CubicResidualBernstein.lean",
+      "bytes": 1540,
+      "sha256": "ed8dd3fd7c2d228c287f8da23fbb21c03a24f3af287d0ee99221c20a247d6069"
+    },
+    {
+      "path": "Dressed/CubicResidualIntervalCertificates.lean",
+      "bytes": 72642,
+      "sha256": "6b4f21358dcc6b648dd9b65ee9f4c31a2096674e280cd8ae566486f888f69316"
+    },
+    {
+      "path": "Dressed/CubicResidualKernelTable16.lean",
+      "bytes": 1580,
+      "sha256": "03894fe1a2cbf44e4558a9e74d74ca1c523d408b6d8823319e5d2322cb12dceb"
+    },
+    {
+      "path": "Dressed/CubicResidualNeighborTable16.lean",
+      "bytes": 1313,
+      "sha256": "5ec1bfd258ff452d61bd8955b800a413f6ec40b31e04735e77216c99b630facb"
+    },
+    {
+      "path": "Dressed/CubicResidualConvolutionTable16.lean",
+      "bytes": 2018,
+      "sha256": "7f83f05b5d68a40ae21e7ad11f20f311324a48205624132b211520cedcd82a5b"
+    },
+    {
+      "path": "Dressed/CubicResidualResidualTable16.lean",
+      "bytes": 2404,
+      "sha256": "92daf8eaa5eda49fc1cd436df454edceca6a2453d0559de82b9eb642d795bfc7"
+    },
+    {
+      "path": "Dressed/CubicResidualNormTable16.lean",
+      "bytes": 666,
+      "sha256": "4f08aee6a7f84138f27322334f95cfc59058f659cd5f1ac17f2d118daee13f37"
+    },
+    {
+      "path": "Dressed/CubicResidualKernelTable32.lean",
+      "bytes": 1966,
+      "sha256": "da4b28f43e57b3aed7714e30800796ce8482ba341b5eac62f446372926701c9c"
+    },
+    {
+      "path": "Dressed/CubicResidualNeighborTable32.lean",
+      "bytes": 1592,
+      "sha256": "1554677b1a345c09ec405d5845b9b964bb138583eb9f31214185c4bb99cd8b74"
+    },
+    {
+      "path": "Dressed/CubicResidualConvolutionTable32.lean",
+      "bytes": 2703,
+      "sha256": "fdd12a419b7716bf7620a1ff1b915486659f65a3c8a78f2d71f7fdeb99a425c9"
+    },
+    {
+      "path": "Dressed/CubicResidualResidualTable32.lean",
+      "bytes": 3211,
+      "sha256": "31d739f47b0cd1acb263be616d503d7efe79ad8e8b70c28e5b67cd1933919e8a"
+    },
+    {
+      "path": "Dressed/CubicResidualNormTable32.lean",
+      "bytes": 679,
+      "sha256": "db8bd5aa04657724ce7da012c83cf32571fe186fce8763428acb786275549df8"
+    },
+    {
+      "path": "Dressed/CubicResidualKernelTable64.lean",
+      "bytes": 2576,
+      "sha256": "ac901cd8ca649cd6d8066659a03936e1ebbf84f8e8b3af15f6623c89bdd18b1a"
+    },
+    {
+      "path": "Dressed/CubicResidualNeighborTable64.lean",
+      "bytes": 1970,
+      "sha256": "2364eb170d707056c5a4ae19f0114b3cecc38ab1ee334f385b28f33145e190e8"
+    },
+    {
+      "path": "Dressed/CubicResidualConvolutionTable64.lean",
+      "bytes": 3710,
+      "sha256": "a889640ee485f49ac2ba0871805f3a25c404c5116142ca8c305f173ba888a9c3"
+    },
+    {
+      "path": "Dressed/CubicResidualResidualTable64.lean",
+      "bytes": 4481,
+      "sha256": "d12326e3f4dbac4071eca8457fd9247a1e902ae0d8783608d5538c6e79898c58"
+    },
+    {
+      "path": "Dressed/CubicResidualSeedCoefficients.lean",
+      "bytes": 124,
+      "sha256": "2838022dd9134f1f4b199750b9144f055f35eed6534b7bdcd3f6112c9b4a9f18"
+    },
+    {
+      "path": "Dressed/CubicResidualIntervals.lean",
+      "bytes": 3040,
+      "sha256": "159743434bd83a669eb2d1e28937635d0ec664db5e9db5c31e56bbb536d9a644"
+    },
+    {
+      "path": "Dressed/CubicResidualIntervalBounds.lean",
+      "bytes": 10679,
+      "sha256": "ebe3c358413fa8a976cb48be6d19309a8594c1194205fb9368ad46941cc687db"
+    },
+    {
+      "path": "Dressed/CubicQuarticMeanBudgets.lean",
+      "bytes": 1157,
+      "sha256": "b72cd22cab2c2153f73e50098e447f6c465c2e0929e8364beca9e63a3729d194"
+    },
+    {
+      "path": "Dressed/ConcreteQuarticResidualLift.lean",
+      "bytes": 5722,
+      "sha256": "d700892e611939d5553c2c3388c302670002115279fc7340e3f7661ebf1b6dad"
+    },
+    {
+      "path": "Dressed/QuarticDressedAction.lean",
+      "bytes": 8088,
+      "sha256": "9317a08def2ea6d5c19d9755b8da7e13968a52c5f69d2791578e8c98965342bc"
+    },
+    {
+      "path": "Dressed/CubicQuarticNormReduction.lean",
+      "bytes": 2033,
+      "sha256": "5eae478673f52ce38193457f02b9ebe41a9d506dc6697d9f0b7d46aa101ecbb8"
+    },
+    {
+      "path": "Dressed/CubicPairHomogeneous.lean",
+      "bytes": 7753,
+      "sha256": "3af4bbab00f5e7d8ba0371326f8632db6316305fe60c7b6b393964165c994702"
+    },
+    {
+      "path": "Dressed/CubicPairHomogeneousBounds.lean",
+      "bytes": 1728,
+      "sha256": "825488f4810d7d7d4e582368b62ee3b03bd006508b36fd254e71a498afb57a52"
+    },
+    {
+      "path": "Dressed/CubicPairAction.lean",
+      "bytes": 6178,
+      "sha256": "6e2e78a78ad069339feb51dbce4769dd45c177cf9240addd52ff51f48f04a12b"
+    },
+    {
+      "path": "Dressed/CubicPairPhysicalMeans.lean",
+      "bytes": 4703,
+      "sha256": "8bdd9209dd70599ecd6b32ea24ed878ace9fa46284b5dc00099cf1063ab21bb7"
+    },
+    {
+      "path": "Dressed/CubicQuarticSeedReduction.lean",
+      "bytes": 8651,
+      "sha256": "2c667f738f53f60ec67448041e599b8c52e284940cecb66a2752c86a2740f742"
+    },
+    {
+      "path": "Dressed/QuarticPhysicalMean.lean",
+      "bytes": 4378,
+      "sha256": "7dc423995cc97f628188b2f07a70194efc87804663bbd6de3adbe11d28f4548f"
+    },
+    {
+      "path": "Dressed/QuarticMeanTransport.lean",
+      "bytes": 6060,
+      "sha256": "527f489b85ade87b4aabb4e6c9ebb07eda23ae3082f9edb03d03ca8bd34cb86a"
+    },
+    {
+      "path": "Dressed/QuarticActualCoefficients.lean",
+      "bytes": 14591,
+      "sha256": "6ee545073f7049835ff68461ad7dbe31f7fff117b035d68021e1a85dd72abebd"
+    },
+    {
+      "path": "Dressed/QuarticCanonicalMean.lean",
+      "bytes": 4309,
+      "sha256": "b278732efeff8d0f273cae2514e7fe24afe696fee667fa2fbc2c9b5d28805fd2"
+    },
+    {
+      "path": "Dressed/CubicQuarticPhysicalMeans.lean",
+      "bytes": 4421,
+      "sha256": "54bb1ebeb2e10a48bbed5ae9cc25615aa9c22fc268874650076ad0a9e3bad779"
+    },
+    {
+      "path": "Dressed/CubicQuarticNumericMeanBridge.lean",
+      "bytes": 3440,
+      "sha256": "db1f84abb39ce17ca2e31d289eee706898f8dff452f7f641a811459a98325747"
+    },
+    {
+      "path": "Dressed/QuarticIntegerArrays.lean",
+      "bytes": 6368,
+      "sha256": "1ecacd06ce90c6679c3d39544324e4a1159048d376b261169de70c01e12d0e1a"
+    },
+    {
+      "path": "Dressed/QuarticDirectCoefficient.lean",
+      "bytes": 5142,
+      "sha256": "130b036506c61de5088a131cbec82240c937dcc6cc4b8b769edb957f92289a80"
+    },
+    {
+      "path": "Dressed/CubicQuarticCoefficientCount.lean",
+      "bytes": 3354,
+      "sha256": "ac25d74a6d9e99cf1f05bee9bf2184f3fbb88f3e65e314edf5e7d69277403f2b"
+    },
+    {
+      "path": "Dressed/QuarticIntegerDirect.lean",
+      "bytes": 4292,
+      "sha256": "257c02de6122e78e6d3a2ce4b5af8a8b1ebcbbff5b8729caff9899f78e9fcf15"
+    },
+    {
+      "path": "Dressed/QuarticIntegerKernelCache.lean",
+      "bytes": 1273,
+      "sha256": "18aa2ae0f74913507a6010baaae5060d2045485c6cbabde6652df4e42b6ab4d8"
+    },
+    {
+      "path": "Dressed/QuarticRootedEnumeration.lean",
+      "bytes": 2725,
+      "sha256": "cda376c250bed815c170b178a917ad772fd7d049dc89d1cf09c76abbc563c6d9"
+    },
+    {
+      "path": "Dressed/QuarticRootedRowTable.lean",
+      "bytes": 9264,
+      "sha256": "d1a6e76303af3282973e06867560d97ead1876779fd2e2f4d57bf2103e079cb1"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormEvaluation.lean",
+      "bytes": 3880,
+      "sha256": "a45330031e04e6cafbddb3f03279083b177db0ec535419a8205ce7449a9614d6"
+    },
+    {
+      "path": "Dressed/QuarticResidualSupportNorm.lean",
+      "bytes": 3227,
+      "sha256": "67e8d1e5947db267e7cb0f545cdf2ce4c015f4ef00bd425c42060958ab086410"
+    },
+    {
+      "path": "Dressed/CubicQuarticVacuumFormula.lean",
+      "bytes": 1818,
+      "sha256": "7e3980fbe065c53aeedc29985b3533f8a0fbe464a879624e78c31fa9acc01f2a"
+    },
+    {
+      "path": "Dressed/QuarticIntegerTable.lean",
+      "bytes": 4190,
+      "sha256": "b12cd9d99801c04d1f59abd383bd9235c3f13448c9f701ead8fc9bc92a040e70"
+    },
+    {
+      "path": "Dressed/QuarticIntegerEnvelopeBridge.lean",
+      "bytes": 2174,
+      "sha256": "57cb6bb483e530a7bb16e929d6b1046fff8581c78e1a3d11d055bf6aef11c128"
+    },
+    {
+      "path": "Dressed/QuarticIntegerKernelData.lean",
+      "bytes": 2915,
+      "sha256": "660a7286beb0eff4b515d765161bf4e3f3f61a8e5a7e88c64b63dcac912f7012"
+    },
+    {
+      "path": "Dressed/QuarticIntegerCovarianceBase.lean",
+      "bytes": 4723,
+      "sha256": "1f67dee47f5d2ff40dd21e08ef45f8525f49554401546b82119bc87e81a0c226"
+    },
+    {
+      "path": "Dressed/QuarticIntegerMeanEvaluation.lean",
+      "bytes": 6647,
+      "sha256": "5cf742c68b389b323e53c1e2663faeacd8cd0693b9e130f3de577c7515608319"
+    },
+    {
+      "path": "Dressed/QuarticIntegerData16.lean",
+      "bytes": 16772,
+      "sha256": "6338ccd4a33b86a4ff96cf51ab396d86e794eed3d82da09a303ce17c6c2cb078"
+    },
+    {
+      "path": "Dressed/CubicQuarticCoefficientBernstein.lean",
+      "bytes": 14255,
+      "sha256": "e131768a936c181f74756f13d49633a6bb1bd28ace485e8a0f27ac1ce0820ebd"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch00.lean",
+      "bytes": 50213,
+      "sha256": "d2e8c9d81ac9d06e8ed7aadcdd2ef691f1bf77053faa2e81af8ce21d876e454e"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch01.lean",
+      "bytes": 47809,
+      "sha256": "ada4c69e3460fa7250f9a859a30701399eeea443b759de097ca618bed8fc2480"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Seed16.lean",
+      "bytes": 1405,
+      "sha256": "d6bbbbc592da6dc0ad46afe4f93997b4e134ec5a5fc193d56043736515012818"
+    },
+    {
+      "path": "Dressed/QuarticIntegerEnvelope16.lean",
+      "bytes": 1731,
+      "sha256": "4385d163bde6a66a237a24e85af1c5a2b2687c23a10ef5f816993506370d54e5"
+    },
+    {
+      "path": "Dressed/QuarticIntegerEnvelopeListBridge.lean",
+      "bytes": 2837,
+      "sha256": "761c950b5429607b0f964ddb60d0b17444b02eaa42dc0d12ffbb9bd10a32a930"
+    },
+    {
+      "path": "Dressed/QuarticIntegerDataConstructors.lean",
+      "bytes": 390,
+      "sha256": "0a44d6a76c5aaba16fb62382a310a1d6f0db89d613bfa51986202e3425a89498"
+    },
+    {
+      "path": "Dressed/QuarticIntegerData32.lean",
+      "bytes": 197805,
+      "sha256": "bba04704bed14c2b0f4ff7757fe17ed159b71575f63c836e17c6a2b681d87695"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch02.lean",
+      "bytes": 54161,
+      "sha256": "8c36b3d33469995a69dcbdd7506b1b301096da3338e65dd509c764164d5a5ad8"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch03.lean",
+      "bytes": 53382,
+      "sha256": "b37c262b240a19502f7d78e319c2f1b1dd66f487a27743619ef009266eb427b5"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch04.lean",
+      "bytes": 51721,
+      "sha256": "40cd5221cca237a15d895e5119979e6c0ac760a31c5e5db0f1e6a89bbf60c9b0"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch05.lean",
+      "bytes": 50712,
+      "sha256": "e3e8e2df46076ae0199a67da9ec0e448d514bea381df39d1190a3dcb74df0ef4"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch06.lean",
+      "bytes": 50165,
+      "sha256": "1d04d8f4aa95a1c77c27363220dcba9c6f23c4f7a711129be8ac8ebdae878e5d"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch07.lean",
+      "bytes": 49771,
+      "sha256": "8aaa0dcaa387f96682adf2e9cb132697018160ffc4440ba2c903ded94c70cd93"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch08.lean",
+      "bytes": 49639,
+      "sha256": "d4e319c37fed80be8de406f53839cd1dc283b863fdfed292c5280e3e1a8e4763"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch09.lean",
+      "bytes": 47461,
+      "sha256": "9ea09e0c2b92780cb9967a00a8fb69cf5a64fda7ee2cb2b78f54ead804a281ff"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch10.lean",
+      "bytes": 48391,
+      "sha256": "444c2b7e65e0e95e6c1e8eaeb88261a2ed9d977c3b2c2455649eb72bf4713dce"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch11.lean",
+      "bytes": 48946,
+      "sha256": "341d9059a49487c6cc59eb28bb95184c7c2a48af4e1e309c24621a117d48cae0"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch12.lean",
+      "bytes": 50862,
+      "sha256": "52bd0a3803de70dbf9e3523c054d1888a865c0349435b67103fe903b2325c7af"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch13.lean",
+      "bytes": 51212,
+      "sha256": "e46feaf33b4b3a2154c2caa6a87fa57ecf9544d98baee1dee7655bcad4aba9ef"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch14.lean",
+      "bytes": 51150,
+      "sha256": "3e11cce50eeff1701db55c04817b71b3180fed48e814ec2482044df9d32b6e65"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch15.lean",
+      "bytes": 51883,
+      "sha256": "437a64dc2fd49370ef7a52088f9fd2ce966ea5820a53f845feeeb9589974dfd2"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch16.lean",
+      "bytes": 53228,
+      "sha256": "108f46b023c7b478d9b9288cc124212a067ab8f9b8a7bc92d1c7f154e99196ff"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch17.lean",
+      "bytes": 50948,
+      "sha256": "91d169015f1204665ba35af067f7c7ed32ef09b168d5a56be1455aae7992b468"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Seed32.lean",
+      "bytes": 8639,
+      "sha256": "fe5f32791d6bc07e5ee2048654aae43e8fb5be137f9976c01c4f71696813efc8"
+    },
+    {
+      "path": "Dressed/QuarticIntegerEnvelope32.lean",
+      "bytes": 8378,
+      "sha256": "1d22b869f0724c0cac213eb477031d287cd7b1000e799d8726e240a57329fa5a"
+    },
+    {
+      "path": "Dressed/QuarticIntegerDictionaryData64.lean",
+      "bytes": 31903,
+      "sha256": "878c84065c3b21c71051c913278d36097328898177d0288f0e4802d386b80278"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch18.lean",
+      "bytes": 53342,
+      "sha256": "2d7f479f9134699a3209e5ab18d53efb7fc27bee96502dc14428e4f99088078b"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch19.lean",
+      "bytes": 51546,
+      "sha256": "cd065705e0a9157ea1713d568a4b056bb4af7c862a89798b620c8ddcfd15f2be"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch20.lean",
+      "bytes": 50458,
+      "sha256": "ddd22b395678bb22f4fc18e2162cd7bc3ada505e6ea4ca666971954627295dfa"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch21.lean",
+      "bytes": 50146,
+      "sha256": "ecbe796c6cde653eafae35732e80118936f5d6fa930522a940fbee0541628714"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch22.lean",
+      "bytes": 48318,
+      "sha256": "d45ba4164415c7fe302581f823e28399c1e5ed442324f782bee8616099f1b74a"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch23.lean",
+      "bytes": 48741,
+      "sha256": "f7f1295a55faa4401e7ed3d7d106d463d6129cbe1f0978b68fb9fdc13dfaad5f"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch24.lean",
+      "bytes": 50718,
+      "sha256": "cb6add49a4b4fd981943cd7f29ed60c1972f5f890be209f159f27c6f9e9d0b61"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch25.lean",
+      "bytes": 51707,
+      "sha256": "c834e433c3514bfcae9f6b34ba046b4f2a5ed724af3a9011da450415f9ca1ccc"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch26.lean",
+      "bytes": 51702,
+      "sha256": "f834a4e97db76da557a71e5ef524ace573696fc8af66637aae26635342582758"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Batch27.lean",
+      "bytes": 46760,
+      "sha256": "d3a5ef6b88143709cfccda48016f11a91d50b423b29f549ec457bff04d03e7fd"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopes/Seed64.lean",
+      "bytes": 8400,
+      "sha256": "2a9bb6937e86fa4a273bee3803fbe349a0c08bf9564f18d388db03fb57da1039"
+    },
+    {
+      "path": "Dressed/QuarticIntegerEnvelope64.lean",
+      "bytes": 7732,
+      "sha256": "065c62b0099e34f79bec7adf08eae1a35b37d7a53d4c0f16722f78468c2684ba"
+    },
+    {
+      "path": "Dressed/CubicQuarticNormCertificates.lean",
+      "bytes": 4463,
+      "sha256": "c70145f2c9d500de318df1590456020c69db810504c5cd3a4d7aa652dca0eb6a"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormCompatibility.lean",
+      "bytes": 1649,
+      "sha256": "b694874810ef43e41ccdf5f4b60daa5187907c765281546159e20a5333aa996d"
+    },
+    {
+      "path": "Dressed/QuarticIntegerRowValidity.lean",
+      "bytes": 2441,
+      "sha256": "70ba6a21e7a7aa1bf10684c1c8040d3634784659a916bff21cbce8dc7080af0e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerRowChunks.lean",
+      "bytes": 3826,
+      "sha256": "0cacc3c0b12626eb0855a53db3c1fda99648789d146f36542da4b7fb2d426914"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block000.lean",
+      "bytes": 9491,
+      "sha256": "d2bba2573a5a0cfc11d3643530a53ca1fd792413063579242bbc24eb51a2a715"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block001.lean",
+      "bytes": 9713,
+      "sha256": "d5c17bee84be81090354a5f26394f189614b8782a92f291cda618561ca817a7c"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block002.lean",
+      "bytes": 9768,
+      "sha256": "2989f9a65eb0b6878877a16bedb573c357bbb837d94fa46d8b7d01747e2b4d54"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block003.lean",
+      "bytes": 9615,
+      "sha256": "c3ed94aca5ad91e02e5c170836ad3f4f981c2160aa5075c95b5780d2153a0739"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block004.lean",
+      "bytes": 9715,
+      "sha256": "1bdbf00208370704f9c3dc6b2376677c51ef428616aeda7d6c6028d3f2b2b14d"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block005.lean",
+      "bytes": 9768,
+      "sha256": "619e1de66cc66cc5e86071f2b2fc10a2dc028f19c516ceb6fa43e503dec2c2ab"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block006.lean",
+      "bytes": 9744,
+      "sha256": "f9e8b79d2f27657fd2e02386c3cca15528a2aca7ff99354a003474b5e225a5fb"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block007.lean",
+      "bytes": 9795,
+      "sha256": "8d7bdddca3d6c25516ce489a8fe8078b20ae38c0ad58db585a36f1354062b1c6"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block008.lean",
+      "bytes": 9829,
+      "sha256": "f52cb17b2e190363913adde5658a135b37b6b9945e59161157e09532e0a42691"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block009.lean",
+      "bytes": 9841,
+      "sha256": "0240e90612a6596983cd7389dbe5ad00a2641c7fd2f6996e2beefd3fb9afeb83"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block010.lean",
+      "bytes": 9885,
+      "sha256": "0a9bc11ca065735d31d58b0d1ec0afc93f6c1117da8182f505b1d80c4e6782ea"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block011.lean",
+      "bytes": 10009,
+      "sha256": "20a86448ca732ba142e7df57e7dd251c361bd4bf7b06620c8c8b027f39496a78"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block012.lean",
+      "bytes": 10153,
+      "sha256": "e890fa021f65c1e0c33abe9250c2ed55f8c4f3dfa1f3574f0374efda7750b4e4"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block013.lean",
+      "bytes": 10131,
+      "sha256": "b8587c4381ca907e5ebfddd6bfe44e7d7301930c90d2f07159c6eadc184cc106"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block014.lean",
+      "bytes": 10159,
+      "sha256": "030a7074238a7bf5792e71d2a9582ec28e74eec04d9d0329579feaddaa870b84"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block015.lean",
+      "bytes": 10145,
+      "sha256": "dbd997b61153996fac42788135d57d18980df2e1138a9828e5d85e2f47c98e2d"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block016.lean",
+      "bytes": 10113,
+      "sha256": "0b4ac053672f86aef9c6d75a75b3cc5a4380966eabe8a50ec1865e8201eb83fa"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32/Block017.lean",
+      "bytes": 5865,
+      "sha256": "5b8cd2d4a44894f0ba370bb2fd19b0c7990b0cd1bedbaee020ba4b4044d70faf"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData32.lean",
+      "bytes": 4029,
+      "sha256": "724923296fc23ddd58d97cb03cec4a80410f8b2c6265ed1a6fbd0b9477537b98"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Block000.lean",
+      "bytes": 9479,
+      "sha256": "f9c5c55639315152f2a04f9f8b3457abdf8175eac543147fda673e36b5f33b74"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Block001.lean",
+      "bytes": 9536,
+      "sha256": "2e5238d075db8523823565472679b326255b06668d3f03f2625c5158cc3ff3e3"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch000.lean",
+      "bytes": 76282,
+      "sha256": "698c195896a47c90c9e8c7acd60e982b6410ccfc178edb85ea3234c66e739823"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch001.lean",
+      "bytes": 76535,
+      "sha256": "1cc66a7310c11a548ebf58ee2e6fa31c6c247fce18e04a1e314564c88a9877c6"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch002.lean",
+      "bytes": 76655,
+      "sha256": "a364708769f174ded8b6af7c36b3fb2c62a4c6baaabed0097f42721d8d07badb"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch003.lean",
+      "bytes": 76701,
+      "sha256": "73dd4b6476c8c331717899d2d7e285d918883423f304e44764c7bfc4d9547548"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch004.lean",
+      "bytes": 76469,
+      "sha256": "153ef0a5ca7ea56554589f43a03f35778d7f4010b8173cd5d81fd79ccac628f8"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch005.lean",
+      "bytes": 76523,
+      "sha256": "6591ee9bbae608ce972015d8c78215db44ecac87252ae40be31343d45f21bb06"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch006.lean",
+      "bytes": 76896,
+      "sha256": "ca04fb9e284e3a67fb2955e6cd86f8330ab6f05686dd15bba79b0d4bfb071181"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch007.lean",
+      "bytes": 78965,
+      "sha256": "34dc8cdb1c247517ac19f966d993ddba40688176ca35048f61b56a3fae6ae82e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch008.lean",
+      "bytes": 79078,
+      "sha256": "865c8b1925d82751bd048f179b9810105a927271d7c74295e01ba6e7a26f7c9e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch009.lean",
+      "bytes": 79058,
+      "sha256": "1cff0d7c5d4eac142b7c88ee12625b91e939329ea8fc0606c706510e3f6ca005"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch010.lean",
+      "bytes": 78953,
+      "sha256": "500f7eaf344b3ce0eee1414d6e7942d995361dfa3c63956553f0e8a98e25e26c"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch011.lean",
+      "bytes": 79034,
+      "sha256": "cc1479b4ac008325528d6663ec8c41e9896dad350ed0138cfb4ddf4563403506"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch012.lean",
+      "bytes": 79099,
+      "sha256": "201771dcb7c5a6298aed1e3f1692cf0709d81522577a3652d5ab748380cb2e41"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch013.lean",
+      "bytes": 79085,
+      "sha256": "9ae4d4fee2b1b3a880ad3e08eb9b12d1cd33aba30df3cf8f7f43e430492829bc"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch014.lean",
+      "bytes": 78994,
+      "sha256": "7fb469ad76a191da606b53476ac39c412febf31b07be21ba462c20907ef404b5"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch015.lean",
+      "bytes": 79099,
+      "sha256": "640f21b2516b7569526604ad0986531d63a6c7dff4aab846acc6102bf10496f7"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch016.lean",
+      "bytes": 79059,
+      "sha256": "8b7fbbe18e8e0d21cc79e921dbdb4e966915d0fd75c60de5500663d10875805a"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch017.lean",
+      "bytes": 79069,
+      "sha256": "3c119c5c0626cb0debbda8a09b01e81756f0cb7e3e4d0b09ef4a75be0a1fd364"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch018.lean",
+      "bytes": 78835,
+      "sha256": "9b62c3b7eabbf9fce63d4c6125b37857075185cb12b3871a506787f164ad7719"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64/Batch019.lean",
+      "bytes": 11596,
+      "sha256": "2c12e4bacd98b751514220c2b67b6911f08b458d89fea8f903c5e481395f1927"
+    },
+    {
+      "path": "Dressed/QuarticIntegerComputationalData64.lean",
+      "bytes": 20000,
+      "sha256": "a3af20e60acd8f791fe8a52601347af515664ed2817d11f06801f2ba8cd3c725"
+    },
+    {
+      "path": "Dressed/QuarticIntegerMembership16/Dictionary.lean",
+      "bytes": 5042,
+      "sha256": "25a050e8004286c35757eb6c3dad94859ae4f5a18b809f7a996ada00fe20eeac"
+    },
+    {
+      "path": "Dressed/QuarticIntegerCovarianceData.lean",
+      "bytes": 1673,
+      "sha256": "9233dc8249bd6805bfa57c76c716b0d88fa3b0e4e3c2c772977ba5d7caab2ba5"
+    },
+    {
+      "path": "Dressed/QuarticIntegerCovarianceCache.lean",
+      "bytes": 5477,
+      "sha256": "8f1ebc6fa398bcb42f5a20bbb75c5b9b523778157d5fb85faf5da4d584b70786"
+    },
+    {
+      "path": "Dressed/QuarticIntegerListAggregates.lean",
+      "bytes": 1927,
+      "sha256": "8121bb2468ea7403cb10b50d655a52a3333be1496c436af112ddebc173f65200"
+    },
+    {
+      "path": "Dressed/QuarticIntegerGramCases.lean",
+      "bytes": 742,
+      "sha256": "09c108c715528cbd39b9b43537e4346e2e625f15582a9c996b93bc0826cb0d81"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormCases16.lean",
+      "bytes": 22222,
+      "sha256": "747b37104a2f81e099616216c1a5c3e9f6babf2567376c3aa30ebd70d167ec8e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerGramFold.lean",
+      "bytes": 741,
+      "sha256": "afdda7c18fe9788917b20bb67a24fd5361884f15aa6733092b4fd9972a526d4e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerLocalCases.lean",
+      "bytes": 11692,
+      "sha256": "e1c9b4037f7b2683a86ba8f62e929c0857c9b12779d084979d79de46fe4b055f"
+    },
+    {
+      "path": "Dressed/QuarticIntegerTransport.lean",
+      "bytes": 9424,
+      "sha256": "91c7ccc26560b2db1fb253f4c66517ccc0f4bf81a6d39eb72d842a42f8f98f9e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerListCertificate.lean",
+      "bytes": 1993,
+      "sha256": "85df30329f38ab7849f4fbacfa53b521525078df1a75d3fa3497300027aa4b4a"
+    },
+    {
+      "path": "Dressed/QuarticIntegerThreeMatching.lean",
+      "bytes": 1091,
+      "sha256": "ec00a3b25a2736a62f714cf9358e58cf08d0bfb32d4b5c2e338d7465367bf275"
+    },
+    {
+      "path": "Dressed/QuarticIntegerTranslationCertificate.lean",
+      "bytes": 1224,
+      "sha256": "1fdd23fa90e3295d5a5f3f1f68470380be3ba69ce740df337fbd42179887dd44"
+    },
+    {
+      "path": "Dressed/QuarticIntegerZeroCases.lean",
+      "bytes": 8281,
+      "sha256": "90e18a4f7f4987fa3a916c8681ffad4a76a580b7060241ad2fced57900cec0a9"
+    },
+    {
+      "path": "Dressed/QuarticIntegerBondReversal.lean",
+      "bytes": 6229,
+      "sha256": "d4ac8ebe2f650442a228a7dcdb0223c500497d6c4b94f27a691f82c8fa4464ce"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialTransport.lean",
+      "bytes": 9868,
+      "sha256": "9bd99b92bc6303bb14649fe991e980a3d84ef5b86fa3cfdfff52035ad69579aa"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSeedSymmetries.lean",
+      "bytes": 8640,
+      "sha256": "3cc4103f304d04a8341a55c04b86b39579fa826e955662784eb95d57b1ba93f8"
+    },
+    {
+      "path": "Dressed/QuarticIntegerBalancedKernel.lean",
+      "bytes": 7866,
+      "sha256": "b17d277fd8bbad16f32eeb9513380cb43f7a6398e091299ebf8797f452f86461"
+    },
+    {
+      "path": "Dressed/QuarticIntegerGramPermutation.lean",
+      "bytes": 4367,
+      "sha256": "c79cef2f118704c2e07506fb0f3ad0fe6539008e264a69f8ac183a05be3eca0d"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedList.lean",
+      "bytes": 2023,
+      "sha256": "4b403310785879294480caeaf3f916a3b840cc53c3bcd9e591940e98d7f51515"
+    },
+    {
+      "path": "Dressed/QuarticIntegerRows16.lean",
+      "bytes": 938,
+      "sha256": "34c2e16a0c0b32f41d81fce92931121615d843a6513c70c29f7e3556f448ba70"
+    },
+    {
+      "path": "Dressed/CubicQuarticEnvelopeCertificates.lean",
+      "bytes": 303,
+      "sha256": "ba719492cb5a2e0f6c557b84611f4a53f7798fdf0272509845ce612d2268932a"
+    },
+    {
+      "path": "Dressed/CubicQuarticPolynomialBridge.lean",
+      "bytes": 1147,
+      "sha256": "a65bbe5714b6eee4c6d533d49961480bc37e516532c8a44fd2e1405b0f94bd87"
+    },
+    {
+      "path": "Dressed/QuarticIntegerRepresentatives16/Block000.lean",
+      "bytes": 20646,
+      "sha256": "4d3eae6b18574f8832c2d6d08f0f5e8bb21caca90675cdcb69cff585f12ca856"
+    },
+    {
+      "path": "Dressed/QuarticIntegerRepresentatives16/Block001.lean",
+      "bytes": 20723,
+      "sha256": "2209494f10a5d4a7516b4bde1c73d5f9e2bba506aadcf3bca00d61907034d253"
+    },
+    {
+      "path": "Dressed/QuarticIntegerRepresentatives16/Block002.lean",
+      "bytes": 20740,
+      "sha256": "4cff33ae032b876d71e83c8db1ad5f29456f5b4135554688c2381fa68f412e4b"
+    },
+    {
+      "path": "Dressed/QuarticIntegerRepresentatives16/Block003.lean",
+      "bytes": 20747,
+      "sha256": "d9a80d0cb17609b9dfaf7fc858d47015adc60b774f98ad2f7d513fd8439e6c0b"
+    },
+    {
+      "path": "Dressed/QuarticIntegerRepresentatives16/Block004.lean",
+      "bytes": 20746,
+      "sha256": "ce07395a4c52be709e1d817dd2f5ba89803f45c18e9f7867c1fb51dc7fb6ac90"
+    },
+    {
+      "path": "Dressed/QuarticIntegerMembership16Accepted/Block000.lean",
+      "bytes": 55893,
+      "sha256": "ebc6d015856200b6c275ae909d6d76b1c4bb09b55ec387b19b251648581f828d"
+    },
+    {
+      "path": "Dressed/QuarticIntegerLiteralMatching.lean",
+      "bytes": 2645,
+      "sha256": "6c9712b4727b0188718e6047695f37793fdf42ea52c843b64096520e4a79652f"
+    },
+    {
+      "path": "Dressed/QuarticIntegerRepresentatives16/Block005.lean",
+      "bytes": 13183,
+      "sha256": "549bb3ce35d62cf43428ce189bc1f566fdd691baa34056ad65ff4063b8504477"
+    },
+    {
+      "path": "Dressed/QuarticIntegerMembership16Accepted/FastBatch000.lean",
+      "bytes": 226738,
+      "sha256": "a81fd5aa027dc55b06714ce11776f9d0be46dd467fcc515e428988066152e698"
+    },
+    {
+      "path": "Dressed/QuarticIntegerMembership16Accepted/FastBatch001.lean",
+      "bytes": 227484,
+      "sha256": "d40654fc3f64d0ba0ad4a65dcbbd90988e04ed7f3b580d4d1d53d5450c488075"
+    },
+    {
+      "path": "Dressed/QuarticIntegerMembership16Accepted/FastBatch002.lean",
+      "bytes": 228182,
+      "sha256": "654aae687acaa3268bb27ee7c2c764b3c82b94034d447cb0fe53ef23a2991f41"
+    },
+    {
+      "path": "Dressed/QuarticIntegerMembership16Accepted/FastBatch003.lean",
+      "bytes": 70502,
+      "sha256": "98c0d1bd8574a126a5fbd8ca53c06b246eb837259bc422277e2d8e94b00896af"
+    },
+    {
+      "path": "Dressed/QuarticIntegerMembership16Accepted.lean",
+      "bytes": 1874,
+      "sha256": "be9ea3f171c47975bac7d7f9593dc04fcdf8445a9899814bde57f3150f1fc0bb"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormBlocks16/Remaining.lean",
+      "bytes": 29590,
+      "sha256": "7844081b12c6cb9efc65541f730d92da196c60ffc357a2cf731e385ef4b8bba5"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormBlocks16/Batch000.lean",
+      "bytes": 4917,
+      "sha256": "487b0e10684b756312e3c20fa4b3fc9d8f56ed2c044d358e26f45a7088ab641c"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormAggregate16.lean",
+      "bytes": 1588,
+      "sha256": "be50f362ed46d24a6cb5f5b47685d0959f6de16d718c8f4ae64c21d8c4cca7b5"
+    },
+    {
+      "path": "Dressed/QuarticIntegerActualNorm16.lean",
+      "bytes": 1741,
+      "sha256": "d443a11ba5a6807befc276b4fab0e8a4e5d5b51e73712e2213d6e59e52d187b1"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotalsBridge.lean",
+      "bytes": 1280,
+      "sha256": "e8e9d238f037ca588f3e946479159805246e30566bc05848a3f8de02574451c8"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotalsLookupBridge.lean",
+      "bytes": 1973,
+      "sha256": "36b80f67f0c99545d12d4dc8a3635e3cf7d70cde624994ef51a8d7b340877abf"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotalsLookups.lean",
+      "bytes": 39257,
+      "sha256": "5b2fcf4cd163f6b3b136b22474417ee7dcb0b898cd6acfa372686c257ceab17c"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotalsGuarded.lean",
+      "bytes": 1776,
+      "sha256": "71de1931684d4d6906d93125a15bfc770bc6d16ed57cae68a8de888b5877e010"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals16/Block000.lean",
+      "bytes": 21886,
+      "sha256": "d166b38e53fb7efe36288014e4c53a318c3a7313769682b6d6418ca6b1e62860"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals16/Block001.lean",
+      "bytes": 17851,
+      "sha256": "48f2fdb5515573d75ce2007875635d90ba57f779db82bf37fec932ec638c9382"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotalsBudgets.lean",
+      "bytes": 2308,
+      "sha256": "e4d86c9d5f81dba47bf9c6cd287d8d217531ca7b9dce3473822318de6a0f5960"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals16.lean",
+      "bytes": 2215,
+      "sha256": "85b52b7f23b1bdc4f6b2f84e4eaebd232d55e2d7285ba803451a9a77854d69f8"
+    },
+    {
+      "path": "Dressed/QuarticIntegerActualMean16.lean",
+      "bytes": 1718,
+      "sha256": "4c64d62d22598e8cd979bf8854d929d1e35ddea30e60e72d60bde1068bc83272"
+    },
+    {
+      "path": "Dressed/CubicFourByFourEnergy.lean",
+      "bytes": 3599,
+      "sha256": "f29f5f5b28e94d8029e08db2c1242c7e288c02022205e747e2d3f15677f926ae"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals32/Batch000.lean",
+      "bytes": 132683,
+      "sha256": "e42ebeed496586113f4502f64bf62a6106c37dcc71648d02f17d3836e7487926"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals32/Batch001.lean",
+      "bytes": 133344,
+      "sha256": "db96d0361050520e6abe9e7c778eb22e7b75f514c721bc7a53b9ac496731defb"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals32/Batch002.lean",
+      "bytes": 125411,
+      "sha256": "bf47fdbac97f69fdf227ac53f01e2a408d49096870cc2f307484ea0fd3f6e41c"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals32.lean",
+      "bytes": 3521,
+      "sha256": "6308aed531207a946c8fcb9238a8a6b96a74357c127556765dd46a12cb32f7fa"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch000.lean",
+      "bytes": 176440,
+      "sha256": "87bd33e10ae3ab75d5c18904795a19eac3c3e242e67203f506dc08ed0cfdf65f"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch001.lean",
+      "bytes": 176434,
+      "sha256": "ce1066408678c3e02d24ff2e04f010c60e810fd7c242f0d506fce413f601be43"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch002.lean",
+      "bytes": 176467,
+      "sha256": "280068d7b2f2468d3ace3bab121e68d44ecd67027859ae22c948122876329168"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch003.lean",
+      "bytes": 175970,
+      "sha256": "475ff0d8c5b14d4cd53c3a8bd4dd3a810131039f7e388ddc1217fc1c2d91b0d8"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch004.lean",
+      "bytes": 176461,
+      "sha256": "23fa851c36a6546a832666b72b95d848173dcf64732768c2b6011165757899e9"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch005.lean",
+      "bytes": 176905,
+      "sha256": "3855e8b7235ec8fa4f5314eea2ad593df7376038de654eb2ca1071ce9f0ab402"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch006.lean",
+      "bytes": 176647,
+      "sha256": "e83146270fadddd2eb717fe434750cd1602d3d444a2be1a17453b66761e79300"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch007.lean",
+      "bytes": 178525,
+      "sha256": "19054ab9a972d9ffdaf2de5e9f7102c687b82219c9d0ff33621f8cda85f7bd65"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch008.lean",
+      "bytes": 176669,
+      "sha256": "d8fffbaa277686511a2c67391e0516660dd529cb87b208dd2136788f510694d7"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch009.lean",
+      "bytes": 178074,
+      "sha256": "b8b1d58f1bce1f9eeebcccc08b332027e5a97bb5af55a09837e4a91405be47c0"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch010.lean",
+      "bytes": 178623,
+      "sha256": "7f7d1cf2307f04d298b60dcd1be27c95f6b7b4bfb2f55717eec1fc9e9f00416e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch011.lean",
+      "bytes": 178712,
+      "sha256": "a6da648a95f379bdc261ae0219a9052644e409104107e7ef45552912ae2b0eea"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch012.lean",
+      "bytes": 175977,
+      "sha256": "871997ff9ac6bb6b13fbd019921344a9eb6814d520e38954d7a181bdc7b6c7cf"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch013.lean",
+      "bytes": 175832,
+      "sha256": "8a0e15379de3ac86a38668be19bfcf6ee222bc70998d4b828bc04731cb16e38f"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch014.lean",
+      "bytes": 178806,
+      "sha256": "1f74191de771ea0c7e3009e50d827e2a97da9ea71ff8134443d56e1c2c4f3991"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch015.lean",
+      "bytes": 175413,
+      "sha256": "d49efe5ffb774352f08d33c77d252732f215c3a25621497ad604aaa27f3277ed"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch016.lean",
+      "bytes": 176889,
+      "sha256": "11379b18d15180c3cb949a98a02157674a324d157a0e477ec63adb07f9fea83e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch017.lean",
+      "bytes": 177852,
+      "sha256": "a6010c4b53e91c85faa43bb85e38f71d012213f28c958d013603a1a028c675df"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch018.lean",
+      "bytes": 179499,
+      "sha256": "246ce560b17b84334c8a467887e848e3bfa048ed0bc8c77237129c05412bb429"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Batch019.lean",
+      "bytes": 48607,
+      "sha256": "4f0a7867083716b9850ebc6f622e9b6c9116607b9219bd5d44a03c8c87e2ebbd"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64/Block000.lean",
+      "bytes": 22080,
+      "sha256": "d5a61510c6ddf575cf37d79f12a4d817bb0996c2a7f6fcfa3823a8e9b248a60f"
+    },
+    {
+      "path": "Dressed/QuarticIntegerWeightedTotals64.lean",
+      "bytes": 15445,
+      "sha256": "404c56d8938500656fd57b29ec13a0c21f49eee419575c297bcdb44a80c49832"
+    },
+    {
+      "path": "Dressed/QuarticIntegerMembership32/Dictionary.lean",
+      "bytes": 53514,
+      "sha256": "9c8772481bc8c07d62b93961bfcefd7eaa3ad054067f0cd05b0dda51650d26ad"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormSorted32/Group000.lean",
+      "bytes": 25894,
+      "sha256": "0e785acb9719960137410276ccdd851d32b7b4c138aaa0428f0a9860721e0047"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormSorted32/Group001.lean",
+      "bytes": 22214,
+      "sha256": "fb309c61b1edd2ad07f45351d932b601a20efaf7f0e76171b32f98378f69914e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormSorted32/Group002.lean",
+      "bytes": 17134,
+      "sha256": "551dad21aff9206dda61282569bfcdd779c0e74f06bc9ed85ec9c5e1f236fe1e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormCases32/Group000.lean",
+      "bytes": 87525,
+      "sha256": "53b1916ef60f49984576cbbae8130b5e6b45ca2cb07596c4272011db062b6a90"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormSorted32/Group003.lean",
+      "bytes": 19333,
+      "sha256": "a1635cc755af7cc1643dabf7ec81a993d5b50c38c92600483787ec2ce7d05537"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormCases32/Group001.lean",
+      "bytes": 79424,
+      "sha256": "e252f839fc59283300d657dd605ab91b136f50220b5c35be7562d45834f8113f"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormCases32/Group002.lean",
+      "bytes": 50723,
+      "sha256": "f9482fe3eec0fb3d3e6ce2d983e1900dbc999e4489b61ada92a138fd8dfe49a0"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group000.lean",
+      "bytes": 40931,
+      "sha256": "ff597a16331d5af2a83a2e1e488c08d1dc962167e0c9db485eabdfffc6783f0b"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group001.lean",
+      "bytes": 40534,
+      "sha256": "c016779abba7c3fa78a1a44215aa82c99cdacf47e47727e7213e922fec5a2f54"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group002.lean",
+      "bytes": 40540,
+      "sha256": "794cfc949a316045b5de03dbbbce158bf48c32fa383b909b58edb87fa67383c5"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group003.lean",
+      "bytes": 40218,
+      "sha256": "220dfe75e7e50ae7e0b3005490c4f12ac50cc1fba92a156a2bcc56fb1fee447e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group004.lean",
+      "bytes": 39899,
+      "sha256": "fa12818775be23fd04b9b67b1d09e5e08eb54e87e0fa2e1c33f580d8eb87cd39"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group005.lean",
+      "bytes": 39335,
+      "sha256": "cc0ebe5cc7b29e71de93276322ab2b189f21852ebb1f42431abb7c623374a18b"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group006.lean",
+      "bytes": 39288,
+      "sha256": "a6490d8d2fe4ece967acaca94c623cd48e80adc7ce0bbec9813ae8fd454c705b"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group007.lean",
+      "bytes": 39280,
+      "sha256": "e6c59ee59c13c38644ced1cdbd222400dd4c89fa92cc02d3ccaa1e3619c06de9"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormBlocks32/Group008.lean",
+      "bytes": 32120,
+      "sha256": "c63b3f8dc10e9f79f35edcac5189bfca1c4ba9541a1359cb5a74aa6b0a432718"
+    },
+    {
+      "path": "Dressed/QuarticIntegerNormAggregate32.lean",
+      "bytes": 1655,
+      "sha256": "b03c9ad861925469b0576ca3012d357de89a28199254e3abe86c672cd4c0b926"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialListCertificate.lean",
+      "bytes": 8346,
+      "sha256": "c141eafb05888d6026c36b73e22f2b73151c01394ee86120d51a9841744a0770"
+    },
+    {
+      "path": "Dressed/QuarticIntegerRepresentativeTree.lean",
+      "bytes": 1964,
+      "sha256": "8675d41dcd64a4f295c6d2f82617d7e5314c464b2a37b91a6b138fe755ab025c"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialCertificate.lean",
+      "bytes": 2864,
+      "sha256": "1540ed3edaa067cf60b451cafd671f98fd0fa0723c1c417343fd17ed39397cf8"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Base.lean",
+      "bytes": 843,
+      "sha256": "35196e91fb4131f6dcc5b08e820209d1f902ecfb6d5d071b021042c06cc40259"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch000.lean",
+      "bytes": 33277,
+      "sha256": "f8f674b2f639bf369aadbc69d1dcbc16006782100ec9f85b2d6071da2f88eb47"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch001Reordered.lean",
+      "bytes": 34686,
+      "sha256": "363d461c97d2e4d6c722aee4fd91819038db903b2f996a01401f143d5a4698ef"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch002Reordered.lean",
+      "bytes": 33948,
+      "sha256": "82b70dfbdc84b1e49a68ea81df61a3bb229d7b998ab6be07f347e7a7a16072e7"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch003Reordered.lean",
+      "bytes": 35018,
+      "sha256": "59640dd8c48dde7c39a90357092de09a40000a4b79373a2c4efaf545a1e8e829"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch004Reordered.lean",
+      "bytes": 34066,
+      "sha256": "70107699c77614b242ca645d27fb2b8f6c4508d28605d5dee9803a0e6acb7f95"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch005Reordered.lean",
+      "bytes": 34945,
+      "sha256": "26161bbcb57d1837f21a8afa9d20b068a38dc5e0933d6b7ae135344464e6f0ba"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch006Reordered.lean",
+      "bytes": 33952,
+      "sha256": "90b359d15c73d1800fb137a1f546b6e6fcd6ab4720941482e6cc086edf5171fd"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch007Reordered.lean",
+      "bytes": 34527,
+      "sha256": "5a94e5c192916ef6fd7875b0d48745646a69dfb43adaa7ed269238d04e38f33a"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch008Reordered.lean",
+      "bytes": 34759,
+      "sha256": "3101939bd3c211bf345a18fb9a65a3029e3768f8dbc454a35e10faf636d8e4e5"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch009Reordered.lean",
+      "bytes": 34597,
+      "sha256": "a94bdfb4aee72647e06b529a52b6d6b7b26263f3fbfaa2c60073170cdc0f1565"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch010Reordered.lean",
+      "bytes": 34070,
+      "sha256": "dd1ddd1b698615e23c1772f32a2c23103cce14c8a183c86cc8c776067d4862fd"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch011Reordered.lean",
+      "bytes": 34584,
+      "sha256": "b5dfad6d1d3458eac27d8a70a0fee97dedd3efe2ceef4b01e047f92ef6ab0628"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch012Reordered.lean",
+      "bytes": 33894,
+      "sha256": "2d7877ad4d50af6a9245f273b342ecec952f9ce9329086d8149513a48abd34f5"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch013Reordered.lean",
+      "bytes": 37378,
+      "sha256": "0a7b407fcc13b5e02f583ccbcef872e9083e258281ca9bc928cdde5c794d8f88"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch014Reordered.lean",
+      "bytes": 36334,
+      "sha256": "5a2ffda490c4ce48fae6933a031485cba3d95f9b97e61140742afeaf9cdb630a"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch015Reordered.lean",
+      "bytes": 38472,
+      "sha256": "d5e95db8a22df18791c58d904699b975c7a583fbb2bbb0debfd7269fd8393dd8"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch016Reordered.lean",
+      "bytes": 40295,
+      "sha256": "a355c53a27a607760a23901d17a8d38cb02fd4a902c9bef157a514abf92d0cb3"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32/Batch017Reordered.lean",
+      "bytes": 19862,
+      "sha256": "15f01d450f29eb5e3e9163699e5e8ac465045094ca3096ed14df64e8882b6ecc"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives32.lean",
+      "bytes": 3471,
+      "sha256": "21ad487a825eda3465882f4c1e880566e67797ce2cb00172761ac6a647612977"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership32/Batch000.lean",
+      "bytes": 33522,
+      "sha256": "f399e7fb7dfe13926a3ad8380ee3b6b78f5edb146d9e85d0e35f50c51b27f7d1"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership32/Batch001.lean",
+      "bytes": 33947,
+      "sha256": "b2aafefec6656a1de8b3067be9fa86699f36f205cd22251ac596bbc87034c090"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership32/Batch002.lean",
+      "bytes": 135249,
+      "sha256": "0c2433eafc8e24a0d3c148242ce68a03ed2fda41d82da62fc2328a1020522ca1"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership32/Batch003.lean",
+      "bytes": 136568,
+      "sha256": "9623d052c201281b054471dfa6a41e835915f6b7deef16074d90bec8b8d6b586"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership32/Batch004.lean",
+      "bytes": 138700,
+      "sha256": "b21d441367bcb671f6268c63ea5366aa280bd4cc457a5a809f13f609855c9057"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership32/Batch005.lean",
+      "bytes": 123614,
+      "sha256": "551b24905c700b228ceb22143a8fb692f56642d8f4d2272b3cd344574981daec"
+    },
+    {
+      "path": "Dressed/QuarticIntegerMembership32Accepted.lean",
+      "bytes": 1886,
+      "sha256": "4d5fac7c617883ae721f0cef3e8e53baa9161c1cd9f820a52a00e8a368458875"
+    },
+    {
+      "path": "Dressed/QuarticIntegerActualNorm32.lean",
+      "bytes": 1673,
+      "sha256": "c79610f8ef62007965d8f7a15affd71118f12fba76057179f5b65d93b3d765f6"
+    },
+    {
+      "path": "Dressed/QuarticIntegerActualMean32.lean",
+      "bytes": 1793,
+      "sha256": "498012dba030ed1b8e98dc8ed253081c0bf2c74eb129dacd21c057f152ab6ea6"
+    },
+    {
+      "path": "Dressed/CubicEightByFourEnergy.lean",
+      "bytes": 5085,
+      "sha256": "de6e7363d0754f9f660ebc9a2fcb4b46c34d391bc83acbc1f472d572c29de5a0"
+    },
+    {
+      "path": "Dressed/QuarticIntegerMembership64/Dictionary.lean",
+      "bytes": 47640,
+      "sha256": "8d542b203bf00bbb0ab996741514218a008254b20c898f3f3620a1e1e02f3977"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Base.lean",
+      "bytes": 843,
+      "sha256": "98c175c1708d8c919b6a5bc3356877c5560050b5d2076cd3c6115535a6761035"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch000Reordered.lean",
+      "bytes": 34406,
+      "sha256": "499d58344dd05fd51190e1dcd7893621f1d452ac0000615adaf6f39ea4349a28"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch001Reordered.lean",
+      "bytes": 35533,
+      "sha256": "4c9abc27ea9b7036577019ad4921ec908ea90434d7453f82e473f65631266e6e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch002Reordered.lean",
+      "bytes": 35653,
+      "sha256": "e28e2f622ac68c6fd86c5e919e63b635371c700c396032682a477a03443c1553"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch003Reordered.lean",
+      "bytes": 35903,
+      "sha256": "03fab48506b85bfe907d64ab77605541b1b5c77968d1043af91c13428d43f670"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch004Reordered.lean",
+      "bytes": 37793,
+      "sha256": "89b32228cb3e41e1df5fcdcb979f1a2e8bcce99c42ace9244eb988eaab18640e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch005Reordered.lean",
+      "bytes": 36998,
+      "sha256": "5411a13bc405a8dc3431eb9e14358273dddb24488771ecb9a1b7bd978d93aa4c"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch006Reordered.lean",
+      "bytes": 38588,
+      "sha256": "de13b60618422de46b8a75090d1a74d0f847f4337362973c25334d6a3f0acb16"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch007Reordered.lean",
+      "bytes": 39675,
+      "sha256": "380b703734fd50088e43719e22184dace992a9f1f8a165a2e535099ab2f6cac6"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch008Reordered.lean",
+      "bytes": 35126,
+      "sha256": "3b7fca96836fae94c8931d79497b526670e872671321a08697a9fa75cb7f81db"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch009Reordered.lean",
+      "bytes": 35552,
+      "sha256": "0691cedbbc1c3b911231dade4dd5ef6d2fd9854d6e3435006b9cbb40c115ad06"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch010Reordered.lean",
+      "bytes": 35250,
+      "sha256": "364dbad6ff3b0a569fce2ff148a48442677bfa3b846aa3842d4358c5f43a99b3"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch011Reordered.lean",
+      "bytes": 36608,
+      "sha256": "5021c1a2b2eedac13c2916e582457b4a88d128bd4aed5b38bcca3498a4f2529c"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch012Reordered.lean",
+      "bytes": 37103,
+      "sha256": "bac9e37729c04f811756b1cc357f32c9304f17489d9f7177394a1cfb91886de8"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch013Reordered.lean",
+      "bytes": 37004,
+      "sha256": "fbbe779ef7c89b167330c38cbc6b1d06f79a225f3293ebe72476d435d13ce49f"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch014Reordered.lean",
+      "bytes": 39479,
+      "sha256": "7b1603b5e50664a45b9c1c4d99d44b87d6827ddc1c8e051bf9e2d1df309bf301"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch015Reordered.lean",
+      "bytes": 38651,
+      "sha256": "3d3579a9ebb2654baf4a766a05a4bae8f3aaf37ebb98b2b9ddf6a5136d5a1f4c"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch016Reordered.lean",
+      "bytes": 35952,
+      "sha256": "ac7bf105d4b6a35adcc015818cc08f975d363cf342f527b5a9487c5bf436cfc0"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch017Reordered.lean",
+      "bytes": 36362,
+      "sha256": "bb30a8ec782862147a78efe6cb04807c6f7698be0f6ee2f53401dca9bc4cfd3d"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch018Reordered.lean",
+      "bytes": 36184,
+      "sha256": "990959c0bffc465252f7c32da941544ed4a24302bb896137ea519140b0b95387"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch019Reordered.lean",
+      "bytes": 36822,
+      "sha256": "00d7ef98657be04c67902bd7b774105733386477dd0d2a0c8d0a9b1137ac1153"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch020Reordered.lean",
+      "bytes": 37812,
+      "sha256": "039d190de2fdaf34ad1174259c89171d6062e54a3588b88f29175d83e226bb5e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch021Reordered.lean",
+      "bytes": 39495,
+      "sha256": "d31a996c4d7beaf7468537a6fd1bd4318219ca65a9f33b75bbe8b617d0682f6b"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch022Reordered.lean",
+      "bytes": 39344,
+      "sha256": "e4af6a5831050ca2496dba7937c72a6a5a41021006e08aeafceac4c25041df26"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch023Reordered.lean",
+      "bytes": 39329,
+      "sha256": "8f190e3f6f8fa8dca166275a1ff1fc04c8387dafed0b0ffe5bdd2aa48a501296"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch024Reordered.lean",
+      "bytes": 39965,
+      "sha256": "a823bd72d4a3dd4964cfdba3ba9e09c0e863e29a774af32c5b5bd69d5f8e1c2e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch025Reordered.lean",
+      "bytes": 40386,
+      "sha256": "f5b2801cf1a56e323cb88a50bcb4d47f8ac96cd9282c2712eb4b9a6742008905"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch026Reordered.lean",
+      "bytes": 36944,
+      "sha256": "87a91930fa1f89978c8155bd796057f1963d7111c68599611149e160990e7bc9"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch027Reordered.lean",
+      "bytes": 35864,
+      "sha256": "f39393199daa9b16e7d404c80b1073f3fe321709b3b5d0289b0d1b38329856ad"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch028Reordered.lean",
+      "bytes": 37748,
+      "sha256": "5808ab207d6c74d2aeb320da15dcd480d90b9183c72f361cb690eb50f13c9381"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch029Reordered.lean",
+      "bytes": 36557,
+      "sha256": "df6bcba12ce5dfc02482041e70e0e8ff2416b97ec4374e0b1f3107aecd6ee09a"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch030Reordered.lean",
+      "bytes": 38783,
+      "sha256": "04e7f7c201d278444fba7a219ba2e97dba6a923745d43446eb7b26d6bc0827ae"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch031Reordered.lean",
+      "bytes": 39891,
+      "sha256": "eca238dcbe000549cbea1fdab6f927735ef75ec34802b2c7f5d6aaaaf098fb86"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch032Reordered.lean",
+      "bytes": 37200,
+      "sha256": "78375b22bb774b420d4d6de77a9e04d0e59a82e52e998a946b0a2346f8eb517c"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch033Reordered.lean",
+      "bytes": 35516,
+      "sha256": "789cd758ffb9d937e6647c57d9d736106592b7fcefc557cf6148b27dd7e66d0f"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch034Reordered.lean",
+      "bytes": 36129,
+      "sha256": "121e2d04a0e8ca8238aa59302efc5186a0fe6e0ce8990df65ecedd7bac1d72d3"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch035Reordered.lean",
+      "bytes": 36624,
+      "sha256": "b660fd748ed19b0b99f85ed7e4d25e95ed9dce05bc3d160b2e7f770bd44fa515"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch036Reordered.lean",
+      "bytes": 37030,
+      "sha256": "f4cf84c95cb2f16812bccc513ee5bda4d815531bed8bca7c6e485e7a1e8ff8aa"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch037Reordered.lean",
+      "bytes": 36886,
+      "sha256": "be344950d96237243aa7ee64c02e0efffb518c507184e426bb968fc218501ea0"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch038Reordered.lean",
+      "bytes": 38371,
+      "sha256": "03274f61a4a825b85b8533e4f3399f94d445faff5135cf6acc02edeb13fcc532"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch039Reordered.lean",
+      "bytes": 38965,
+      "sha256": "fdaced0b932dfb56a1ccab21c88d2881fad1fa4ba50a55cc91418774407edb4a"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch040Reordered.lean",
+      "bytes": 38272,
+      "sha256": "e91f4d725bd09112305dfa651a649a9339a4a3126a616413f4c0b24f4cdb519f"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch041Reordered.lean",
+      "bytes": 40351,
+      "sha256": "65f1cb1ec4bf1eec21cebdd1f18026b01bdeb38805b85c83b1a7b5377372331c"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch042Reordered.lean",
+      "bytes": 40009,
+      "sha256": "f7a8312b810cbe5da318769a427e5c0eac75e3b34046a329d7dfe045e9682972"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch043Reordered.lean",
+      "bytes": 39767,
+      "sha256": "04f0eb09e5ede52b8985aabc954428038c2d3324021b2195fd843d79b09c902f"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch044Reordered.lean",
+      "bytes": 40386,
+      "sha256": "86a29648de4fdac96a55c5bebfe8a6c03733da4ac47d66f07dc9784a6513253a"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch045Reordered.lean",
+      "bytes": 40386,
+      "sha256": "9d15d9cb39846716f7a5d6dc615d4bbe257edc17067a93a4179f2fee77dc2df5"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch046Reordered.lean",
+      "bytes": 40434,
+      "sha256": "b2b8be5c4c700ad3ceedc034f4979fd2cf21dd973e0bc628e8f52a7d3199687b"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch047Reordered.lean",
+      "bytes": 40450,
+      "sha256": "cbb38e579d62b785f5ef4bfe88b98c71d4d8dbb27f2ac4d319a5a611253ce078"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch048Reordered.lean",
+      "bytes": 40450,
+      "sha256": "ed4dfc0ecc22a163d2374843822a353d2cbd4ee83a3109dc30b363388ea1fe17"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch049Reordered.lean",
+      "bytes": 40450,
+      "sha256": "d28cfc44528f620b9e489eb719cdc683f5c1769ed404ebacdb58560ce2918795"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch050Reordered.lean",
+      "bytes": 40435,
+      "sha256": "61b705ce7ee68173c98bd68ccc8e4287921c10296a8ebd952da8cf064bdb66e8"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch051Reordered.lean",
+      "bytes": 40386,
+      "sha256": "24bac8f7eeb89c4f144259fcd32c89634fd7278890239a449563c036c06252a6"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch052Reordered.lean",
+      "bytes": 40424,
+      "sha256": "d03e42399b068451b90272a205a7ca01901b99eed8595c4284ed6ae74c59c615"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch053Reordered.lean",
+      "bytes": 40450,
+      "sha256": "c5a96a6cfbbb0d97559247c439763e31b5b5f21fdc87c156480a388d9148647c"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch054Reordered.lean",
+      "bytes": 40209,
+      "sha256": "a75fa07592de072d176cfcd5d156f957d52b9bbca0c9660f1f357f1ccc9b4bb2"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch055Reordered.lean",
+      "bytes": 40386,
+      "sha256": "6ee40cd9c1e725ffc8ec4e4bd4d26cac77b570403966b7031f57f5e4d7ca6474"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch056Reordered.lean",
+      "bytes": 40409,
+      "sha256": "d7b220dd2aa6468e4ac07d23da3e12598ab26c90070d5aff82dab26d94379111"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch057Reordered.lean",
+      "bytes": 40425,
+      "sha256": "7b36259e5105bb20ba507f2c9fbbc797a4693eb3d6bd4ffde8a6d44500e1ec64"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch058Reordered.lean",
+      "bytes": 40386,
+      "sha256": "31ca28367f70696528aa9164c61c8e1319d278bb44a99a9a620d49d008466f76"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch059Reordered.lean",
+      "bytes": 40386,
+      "sha256": "5e1cf5b17317990d82fa891c1b5ece1681c6d5212d62110329b94eb25de0135e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch060Reordered.lean",
+      "bytes": 40438,
+      "sha256": "876aa2fdbfc390546ed5003c0ce4298c78a0eb0c535e7c1f54ad24994b6d7d48"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch061Reordered.lean",
+      "bytes": 40450,
+      "sha256": "75b9d358b3ed1ff80befc7f8c9946c9606441f6dd50800503639148980299649"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch062Reordered.lean",
+      "bytes": 40390,
+      "sha256": "504d3cd0ddd4e2e83a3d627815f2334023c2c2acc0c103eaeb0bda66880d606b"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch063Reordered.lean",
+      "bytes": 40426,
+      "sha256": "c725d21bb7925bcec586910c298a2bf1e0489a6dc32c97fbdb1ef4b1dbf5fa55"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch064Reordered.lean",
+      "bytes": 40409,
+      "sha256": "bc6a68fac3439269f699d322e7e3472815c63727bbbf1417b805bdad82288b09"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64/Batch065Reordered.lean",
+      "bytes": 27343,
+      "sha256": "e9ca121aa8cd2b416c426f60f9a8cc18e1c71c7b2ce26a3c6941102018bf2a45"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialRepresentatives64.lean",
+      "bytes": 10776,
+      "sha256": "68fe92cd565a5b1e9f503e13355e7f84270fd66e5d6bff0dd8fd5257bcf75816"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch000.lean",
+      "bytes": 33593,
+      "sha256": "91858db5727f09a4294b94bdcad027a1ae1551ea9e1fc837cd333b3ed1ac0e64"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch001.lean",
+      "bytes": 33774,
+      "sha256": "70627669f4bcc22ecff8f3c53fa26b64ac7ba3dfe0291bd35763ec0e6a6ba147"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch002.lean",
+      "bytes": 137130,
+      "sha256": "0d65d7b78afe1277fd69f499840de7422ce5392433af67b7206420a686881731"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch003.lean",
+      "bytes": 136038,
+      "sha256": "9f3cb3ad1eead2b9f5b6cbcbaa30645912d75b41bd28ec7f89b7f0db8fe42488"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch004.lean",
+      "bytes": 137617,
+      "sha256": "4a8d331f9fcf91dcfec8bc3f335694e4783ff6b3a4140132c9bb648bf42cecf9"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch005.lean",
+      "bytes": 137160,
+      "sha256": "b2e9b850cfd758369af9adcb222ebc82c6dbbee78179b5233d5e956996692cad"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch006.lean",
+      "bytes": 138009,
+      "sha256": "6e0fc879b176df027c82603759ab85cb26069d7e286800f5e60f3b8da427634f"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch007.lean",
+      "bytes": 138195,
+      "sha256": "7066878757ac151840e0890a8cf6f7be484e4b8f572ed5386e0146c73d51588e"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch008.lean",
+      "bytes": 137657,
+      "sha256": "ce58aee0b6e109500eef27234f3ef9b8d55ae1fc71692b448c6062b70c23ea39"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch009.lean",
+      "bytes": 138579,
+      "sha256": "0c7705dd69db194882658b7229f5c5b6706413d7a359682f2bc2be60fd58968b"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch010.lean",
+      "bytes": 136798,
+      "sha256": "0da186cfbd520e3a600aab626a3c0619a95f893bd548855d79360d285c0dff72"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch011.lean",
+      "bytes": 137196,
+      "sha256": "96a703ea1a61c4616c4393b2a28fcd84153dd66858e68627404c3a85b00d4f71"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch012.lean",
+      "bytes": 137087,
+      "sha256": "2a5eaee76f61be48a851980551defd4bd56f514a729fa3f9952091b01a6f3eda"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch013.lean",
+      "bytes": 136346,
+      "sha256": "0248935ea4efef49e583e60cbcb13d2c30cb5098a71fc512a987dfda11b14c5f"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch014.lean",
+      "bytes": 137390,
+      "sha256": "69215c0688987e5b59cb1eabbf71edf2b5bee67d21f804ff3c6e164ccecd5203"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch015.lean",
+      "bytes": 139161,
+      "sha256": "1338dd9d85bb31346867ca463750cbe8cd6b1af780f1396f092f17410cdefa0a"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch016.lean",
+      "bytes": 140467,
+      "sha256": "0fa6b041d1a80b9a51085899e65fdee6062de09ba53f2dbacb5800a5960fa994"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch017.lean",
+      "bytes": 140652,
+      "sha256": "1d76f1d2aa1fc722f12db00ed32d6a88e25c0f4e1bbf16a70e4c8929d518e555"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch018.lean",
+      "bytes": 140747,
+      "sha256": "85a18d8cd4525f0e0552bcd2a4ae8afc61fe289e5c0671ad32aa63bd48a92aa5"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch019.lean",
+      "bytes": 140831,
+      "sha256": "96ca59d55af9ff654fc1b6f96d5f8aadb2ca85a4a7fbab26e8328761eb2b2d21"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch020.lean",
+      "bytes": 140724,
+      "sha256": "b83b0feb3d983c09ecc3e311c00a4da37c2e95fbbc442e310ccd4c1bec13cc0d"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch021.lean",
+      "bytes": 140578,
+      "sha256": "1d2a043352b2a2f1abeb260bf94100a9e101ba0fba841dbcfa8ab8b08691d06c"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch022.lean",
+      "bytes": 140252,
+      "sha256": "928d1b55d8d6ace3d113ba0e78ab839d8046621b36b7fdf4090658d1944f1ea0"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch023.lean",
+      "bytes": 138962,
+      "sha256": "b5209ccd82ca152ac2ee7c6b44eb3d5e92e50435a3f5951304e6f9c315c4b42b"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch024.lean",
+      "bytes": 139589,
+      "sha256": "a0c3232edaef36af80eb46e0dc72d815f8e66056b1bee6af76894357016050e0"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch025.lean",
+      "bytes": 140780,
+      "sha256": "54759c96437b9374feed3f192f6e8cd676261e33ad901b85c3635160d8ea921d"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch026.lean",
+      "bytes": 140861,
+      "sha256": "3ef38dc7057357c5a27f54c1b1a4fe6f74db819f5566cf669e5dfec8fab07a74"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch027.lean",
+      "bytes": 140858,
+      "sha256": "648a42043f371fef2dca7768b557c2e4626245eae87e90ac2b914b7c461eea91"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch028.lean",
+      "bytes": 140806,
+      "sha256": "2b2973e7c9e383e7cc3fb2bab0852cb16a3f9950c8f04b35a40f4d22472f94ab"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch029.lean",
+      "bytes": 140689,
+      "sha256": "09234e87441c3ad1c0efbe507ecf8a59d1c3118b3047b3f959120b4707ec362c"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch030.lean",
+      "bytes": 140099,
+      "sha256": "2e40ee209a85cf9e511cf739c7b54fd3489081419c8b8df4608c1f4bd57b9a5f"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch031.lean",
+      "bytes": 140097,
+      "sha256": "540045bb3dc216821de9b9fc0e5cd031e26d31c7f5ae9f2e2c1b6ae38d5befec"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch032.lean",
+      "bytes": 140815,
+      "sha256": "eaeaa8c8abd51d773b42eb0990add9569eb0f53e1d38b7e52fe79b018344814a"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch033.lean",
+      "bytes": 140697,
+      "sha256": "2b7f2f258c7c02b74718f56549c6f8e028b06729f1e88a560bf694e730ff9600"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch034.lean",
+      "bytes": 140669,
+      "sha256": "becf30a353182654e658bd13b05f824d2d136e209149321a32fc2b34a52aeea7"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch035.lean",
+      "bytes": 140002,
+      "sha256": "24e1b26a249fe0a14eb4b6bc79d01af5464e0e6133c325ba3200d10d6c0b8f04"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch036.lean",
+      "bytes": 140717,
+      "sha256": "2665d9e980cff0defaeb37864c092beb60bd8fb596360bb5433dd75a2f7f361a"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch037.lean",
+      "bytes": 140640,
+      "sha256": "79cb05b7b11a21762db260dd9c168269370e828f76109a787c5d7702144e0fbc"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch038.lean",
+      "bytes": 140107,
+      "sha256": "3a22919226d235e3f66911727bcca4235be5353c940fae639f52c9c0fa5a1a69"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch039.lean",
+      "bytes": 140118,
+      "sha256": "e4b066aa0292106e673dc3d77b9c9538bc9a69cb2c25744777726d4086ab3bf9"
+    },
+    {
+      "path": "Dressed/QuarticIntegerSpatialMembership64/Batch040.lean",
+      "bytes": 39677,
+      "sha256": "bd70102a85869bab8b660568173973d713528ae47436586c2c03e38be0367a56"
+    },
+    {
+      "path": "Dressed/QuarticIntegerMembership64Accepted.lean",
+      "bytes": 7782,
+      "sha256": "b4f4003cef3706e87c5eed244166d18dfdce76be5579d8feefafa48a77eef021"
+    },
+    {
+      "path": "Dressed/QuarticIntegerActualMean64.lean",
+      "bytes": 1798,
+      "sha256": "e3904e0b64f30dcc3f805ba7718830a6157bf8ce5ce861d742674c30a135de61"
+    },
+    {
+      "path": "Dressed/CubicPhysicalGap.lean",
+      "bytes": 3820,
+      "sha256": "6dbac3e70a6429287618d19c9fb180d403c9c7216d3d62b25b5d712fb0f85a79"
+    },
+    {
+      "path": "vendor/first_project_v2/PINNED_SHA256.txt",
+      "bytes": 4122,
+      "sha256": "6ed3b7c48d412f7d7e3eb34299dce2033e1b1cf279a66421179f362a47242a5e"
+    },
+    {
+      "path": "lean-toolchain",
+      "bytes": 25,
+      "sha256": "42779d67b81608af8a12aa4328d2ab47ca201925b3b2bd68369587b5340bb434"
+    },
+    {
+      "path": "reproduction/clean_build_cached.py",
+      "bytes": 14874,
+      "sha256": "ee896d08d089510ca40ee87bd44c0c9c76b007dc26ea521b58f2ad11e81644db"
+    },
+    {
+      "path": "reproduction/test_clean_build_cached.py",
+      "bytes": 3129,
+      "sha256": "846992213566371bad7154b869ddef252968646804795a772110375a3177445f"
+    }
+  ]
+}

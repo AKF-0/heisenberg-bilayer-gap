@@ -1,0 +1,22 @@
+import Dressed.QuarticIntegerNormBlocks32.Group000
+import Dressed.QuarticIntegerNormBlocks32.Group001
+import Dressed.QuarticIntegerNormBlocks32.Group002
+import Dressed.QuarticIntegerNormBlocks32.Group003
+import Dressed.QuarticIntegerNormBlocks32.Group004
+import Dressed.QuarticIntegerNormBlocks32.Group005
+import Dressed.QuarticIntegerNormBlocks32.Group006
+import Dressed.QuarticIntegerNormBlocks32.Group007
+import Dressed.QuarticIntegerNormBlocks32.Group008
+import Dressed.QuarticIntegerComputationalData32
+import Dressed.QuarticIntegerNormCompatibility
+namespace BilayerDressed.QuarticIntegerNormAggregate32
+open QuarticIntegerData QuarticIntegerTable QuarticIntegerListAggregates QuarticIntegerNormBlocks32
+set_option maxHeartbeats 0
+set_option maxRecDepth 200000
+/-- Every one of the4,495 rooted signed Gram rows, with exact chunked accumulation. -/
+theorem aggregate_checked : normCoefficients 4495 dictionary32 QuarticIntegerComputationalData.ids32 8=normNumerators32 := by
+  rw [normCoefficients_eq_gramList 4495 8 dictionary32 QuarticIntegerComputationalData.ids32 QuarticIntegerComputationalData.ids32_size]
+  change 8 • gramList dictionary32 QuarticIntegerComputationalData.labels32=normNumerators32
+  simp only [QuarticIntegerComputationalData.labels32,gramList_append,chunkChecked_000,chunkChecked_001,chunkChecked_002,chunkChecked_003,chunkChecked_004,chunkChecked_005,chunkChecked_006,chunkChecked_007,chunkChecked_008,chunkChecked_009,chunkChecked_010,chunkChecked_011,chunkChecked_012,chunkChecked_013,chunkChecked_014,chunkChecked_015,chunkChecked_016,chunkChecked_017]
+  decide +kernel
+end BilayerDressed.QuarticIntegerNormAggregate32

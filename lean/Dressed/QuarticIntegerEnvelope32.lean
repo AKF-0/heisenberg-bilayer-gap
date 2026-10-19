@@ -1,0 +1,92 @@
+import Dressed.QuarticIntegerEnvelopeListBridge
+import Dressed.QuarticIntegerData32
+import Dressed.CubicQuarticEnvelopes.Seed32
+
+/-! Exact source-order integer normalization against proved scalar envelopes.
+Repeated dictionary entries and signed coefficients are retained. This module
+does not establish actual graph coefficient membership. -/
+noncomputable section
+namespace BilayerDressed.QuarticIntegerEnvelope
+open QuarticIntegerData CubicQuarticEnvelopes CubicQuarticCoefficientBernstein
+set_option maxRecDepth 200000
+set_option maxHeartbeats 0
+
+def scalarEnvelopes32 : List Envelope := [
+  envelope0043, envelope0044, envelope0045, envelope0046, envelope0047, envelope0048, envelope0049, envelope0050,
+  envelope0051, envelope0052, envelope0053, envelope0054, envelope0055, envelope0056, envelope0057, envelope0058,
+  envelope0059, envelope0060, envelope0061, envelope0062, envelope0063, envelope0064, envelope0065, envelope0066,
+  envelope0067, envelope0068, envelope0006, envelope0069, envelope0070, envelope0071, envelope0072, envelope0073,
+  envelope0074, envelope0075, envelope0076, envelope0077, envelope0078, envelope0079, envelope0080, envelope0081,
+  envelope0082, envelope0083, envelope0084, envelope0085, envelope0086, envelope0087, envelope0088, envelope0089,
+  envelope0090, envelope0091, envelope0092, envelope0093, envelope0094, envelope0095, envelope0096, envelope0097,
+  envelope0098, envelope0099, envelope0100, envelope0101, envelope0102, envelope0103, envelope0104, envelope0105,
+  envelope0106, envelope0107, envelope0108, envelope0109, envelope0110, envelope0111, envelope0112, envelope0113,
+  envelope0114, envelope0115, envelope0116, envelope0117, envelope0118, envelope0119, envelope0120, envelope0121,
+  envelope0122, envelope0123, envelope0124, envelope0125, envelope0126, envelope0127, envelope0128, envelope0129,
+  envelope0130, envelope0131, envelope0132, envelope0133, envelope0134, envelope0135, envelope0136, envelope0137,
+  envelope0138, envelope0139, envelope0140, envelope0141, envelope0142, envelope0143, envelope0144, envelope0145,
+  envelope0146, envelope0147, envelope0148, envelope0149, envelope0150, envelope0151, envelope0152, envelope0153,
+  envelope0154, envelope0155, envelope0156, envelope0157, envelope0158, envelope0159, envelope0160, envelope0161,
+  envelope0162, envelope0163, envelope0164, envelope0165, envelope0166, envelope0167, envelope0168, envelope0169,
+  envelope0170, envelope0171, envelope0172, envelope0173, envelope0174, envelope0175, envelope0176, envelope0177,
+  envelope0178, envelope0179, envelope0180, envelope0181, envelope0182, envelope0183, envelope0184, envelope0185,
+  envelope0186, envelope0187, envelope0188, envelope0189, envelope0190, envelope0191, envelope0192, envelope0193,
+  envelope0194, envelope0195, envelope0196, envelope0197, envelope0198, envelope0199, envelope0200, envelope0201,
+  envelope0202, envelope0203, envelope0204, envelope0205, envelope0206, envelope0207, envelope0208, envelope0209,
+  envelope0210, envelope0211, envelope0212, envelope0213, envelope0214, envelope0215, envelope0216, envelope0217,
+  envelope0218, envelope0219, envelope0220, envelope0221, envelope0222, envelope0223, envelope0224, envelope0225,
+  envelope0226, envelope0227, envelope0228, envelope0229, envelope0230, envelope0231, envelope0232, envelope0233,
+  envelope0234, envelope0235, envelope0236, envelope0237, envelope0238, envelope0239, envelope0240, envelope0241,
+  envelope0242, envelope0243, envelope0244, envelope0245, envelope0246, envelope0247, envelope0248, envelope0249,
+  envelope0250, envelope0251, envelope0252, envelope0253, envelope0254, envelope0255, envelope0256, envelope0257,
+  envelope0258, envelope0259, envelope0260, envelope0261, envelope0262, envelope0263, envelope0264, envelope0265,
+  envelope0266, envelope0267, envelope0268, envelope0269, envelope0270, envelope0271, envelope0272, envelope0273,
+  envelope0274, envelope0275, envelope0276, envelope0277, envelope0278, envelope0279, envelope0280, envelope0281,
+  envelope0282, envelope0283, envelope0284, envelope0285, envelope0286, envelope0287, envelope0288, envelope0289,
+  envelope0290, envelope0291, envelope0292, envelope0293, envelope0294, envelope0295, envelope0296, envelope0297,
+  envelope0298, envelope0299, envelope0300, envelope0301, envelope0302, envelope0303, envelope0304, envelope0305,
+  envelope0306, envelope0307, envelope0308, envelope0309, envelope0310, envelope0311, envelope0312, envelope0313,
+  envelope0314, envelope0315, envelope0316, envelope0317, envelope0318, envelope0319, envelope0320, envelope0321,
+  envelope0322, envelope0323, envelope0324, envelope0325, envelope0326, envelope0327, envelope0328, envelope0329,
+  envelope0330, envelope0331, envelope0332, envelope0333, envelope0334, envelope0335, envelope0336, envelope0337,
+  envelope0338, envelope0339, envelope0340, envelope0341, envelope0342, envelope0343, envelope0344, envelope0345,
+  envelope0346, envelope0347, envelope0348, envelope0349, envelope0350, envelope0351, envelope0352, envelope0353,
+  envelope0354, envelope0355, envelope0356, envelope0357, envelope0358, envelope0359, envelope0360, envelope0361,
+  envelope0362, envelope0363, envelope0364, envelope0365, envelope0366, envelope0367, envelope0368, envelope0369,
+  envelope0370, envelope0371, envelope0372, envelope0373, envelope0374, envelope0375, envelope0376, envelope0377,
+  envelope0378, envelope0379, envelope0380, envelope0381, envelope0382, envelope0383, envelope0384, envelope0385,
+  envelope0386, envelope0387, envelope0388, envelope0389, envelope0390, envelope0391, envelope0392, envelope0393,
+  envelope0394, envelope0395, envelope0396, envelope0397, envelope0398, envelope0399, envelope0400, envelope0401,
+  envelope0402, envelope0403, envelope0404, envelope0405, envelope0406, envelope0407, envelope0408, envelope0409,
+  envelope0410, envelope0411, envelope0412, envelope0413, envelope0414, envelope0415, envelope0416, envelope0417,
+  envelope0418, envelope0419, envelope0420, envelope0421, envelope0422, envelope0423, envelope0424, envelope0425,
+  envelope0426, envelope0427, envelope0428, envelope0429, envelope0430, envelope0431, envelope0432, envelope0433,
+  envelope0434, envelope0435, envelope0436, envelope0437, envelope0438, envelope0439, envelope0440, envelope0441,
+  envelope0442, envelope0443, envelope0444, envelope0445, envelope0446, envelope0447, envelope0448, envelope0449,
+  envelope0450, envelope0451, envelope0452, envelope0453, envelope0454, envelope0455, envelope0456, envelope0457,
+  envelope0458, envelope0459, envelope0460, envelope0461, envelope0462, envelope0463, envelope0464, envelope0465,
+  envelope0466, envelope0467, envelope0468, envelope0469, envelope0470, envelope0471, envelope0472, envelope0473,
+  envelope0474, envelope0475, envelope0476, envelope0477, envelope0478, envelope0479, envelope0480, envelope0481,
+  envelope0482, envelope0483, envelope0484, envelope0485, envelope0486, envelope0487, envelope0488, envelope0489,
+  envelope0032, envelope0490, envelope0491, envelope0492, envelope0493, envelope0494, envelope0495, envelope0496,
+  envelope0497, envelope0498, envelope0499, envelope0500, envelope0501, envelope0502, envelope0503, envelope0504,
+  envelope0505, envelope0506, envelope0507, envelope0508, envelope0509, envelope0510, envelope0511, envelope0512,
+  envelope0513, envelope0514, envelope0515, envelope0516, envelope0517, envelope0518, envelope0519, envelope0520,
+  envelope0521, envelope0522, envelope0523, envelope0524, envelope0525, envelope0526, envelope0527, envelope0528,
+  envelope0529, envelope0530, envelope0531, envelope0532, envelope0533, envelope0534, envelope0535, envelope0536,
+  envelope0537, envelope0538, envelope0539, envelope0540, envelope0541, envelope0542, envelope0543, envelope0544,
+  envelope0545, envelope0546, envelope0547, envelope0042,
+  zeroEnvelope]
+
+theorem checked32 :
+    listMatches upperDenominator32 dictionary32.toList
+      upperNumerators32.toList scalarEnvelopes32 = true := by
+  decide +kernel
+
+/-- Every integer dictionary entry has its certified bound for all real
+`0 ≤ g ≤ 1/10`, with the same zero convention outside the dictionary. -/
+theorem bound32 (g : ℝ) (hg : 0 ≤ g) (hmax : g ≤ 1/10) :
+    Bound dictionary32 upperNumerators32 upperDenominator32 g :=
+  bound_of_list_matches _ _ _ _ checked32 g hg hmax
+
+end BilayerDressed.QuarticIntegerEnvelope

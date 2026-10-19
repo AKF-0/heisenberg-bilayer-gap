@@ -1,0 +1,84 @@
+\section{Three-coordinate propagation}\label{sec:purity}
+For any positive partition function on $v=(n,m,\beta)$, let $d_i$ double
+coordinate $i\in\{x,y,t\}$ and set $P_i(v)=Z(d_iv)/Z(v)^2$.
+For the present model, Proposition~\ref{prop:transfer} and the Gibbs representation
+prove $0<P_i\le1$ at all even spatial sizes at least four.
+
+\begin{lemma}[Purity squaring and cross transport]\label{lem:squaring}
+For a nonnegative finite probability vector $p$ with purity $P=\sum_i p_i^2$,
+\[
+ 1-\sum_i(p_i^2/P)^2\le\frac{(1-P)^2}{2P^2}.
+\]
+For every pair of coordinates,
+\begin{equation}\label{eq:cross}
+ P_i(v)^2P_j(d_iv)=P_j(v)^2P_i(d_jv),\qquad
+ P_i(d_jv)\ge P_i(v)^2P_j(d_iv).
+\end{equation}
+\end{lemma}
+\begin{proof}
+Expansion of nonnegative finite sums gives
+$2[(\sum p_i^2)^2-\sum p_i^4]\le[(\sum p_i)^2-\sum p_i^2]^2$.
+Divide by $2P^2$. Equation~\eqref{eq:cross} follows by cancellation of the four
+partition functions in a commuting coordinate square; its inequality uses
+$P_j(v)\le1$. Both statements pass to the spatial moment limits.
+\end{proof}
+
+Let $a=1-A$, $b=1-B$, $c=1-C$ for the staircase \eqref{eq:staircase}.
+Define
+\begin{equation}\label{eq:F}
+ u(x,y,z)=1-(1-x)^4(1-y)^2(1-z),\qquad
+ F(x,y,z)=\frac{u(x,y,z)^2}{2(1-u(x,y,z))^2}.
+\end{equation}
+For clarity, the first two cross transports are
+\[
+ P_x(d_yv)\ge A^2B,\qquad
+ P_x(d_t d_yv)\ge A^4B^2C.
+\]
+The second inequality uses the shifted staircase anchors for $B$ and $C$.
+Apply own-$x$ purity squaring at $d_t d_yv$; then relabel the coordinates
+cyclically at the subsequent shifted anchors. Lemma~\ref{lem:squaring} gives
+at $v'=(2n,2m,2\beta)$ the \emph{ordered} inequalities
+\begin{equation}\label{eq:ordered}
+ a'\le F(a,b,c),\qquad b'\le F(b,c,a'),\qquad c'\le F(c,a',b').
+\end{equation}
+In the second and third expressions the new preceding bounds must be used.
+This is not a simultaneous update of three old errors.
+
+\begin{proposition}[Six exact unequal-error warmups]\label{prop:warmup}
+Starting from Proposition~\ref{prop:seed}, six applications of \eqref{eq:ordered}
+give the rational upper errors in Table~\ref{tab:warmup}. At
+$(n,m,\beta)=(256,256,1024)$ every error is less than $1/400$.
+\end{proposition}
+\begin{proof}
+The function $F$ is increasing in each argument on $[0,1)^3$.
+Each table entry is an upward rational enclosure of the corresponding update,
+proved by exact arithmetic. The coordinates double six times.
+\end{proof}
+\begin{table}[ht]\centering
+\begin{tabular}{r rrr}\toprule
+$k$ & $10^9a_k$ & $10^9b_k$ & $10^9c_k$\\\midrule
+0&22394178&54238346&8606051\\
+1&27524545&47333988&11099297\\
+2&30210971&39236906&12360104\\
+3&28826046&28539483&10813383\\
+4&20840176&14774239&5588084\\
+5&8072381&3365491&919811\\
+6&836295&132733&15137\\\bottomrule
+\end{tabular}
+\caption{Exact rational enclosures. All entries denote rational numbers, not rounded measurements.}\label{tab:warmup}
+\end{table}
+
+For a common error ceiling $u$, the update obeys
+\[
+ F(u,u,u)=G_7(u)u^2,\qquad
+ G_7(u)=\frac12\left[\sum_{k=1}^7(1-u)^{-k}\right]^2.
+\]
+The exact checks give $G_7(1/400)<26$. Set $K_*=26$ and $r_*=13/200$,
+so $r_*/K_*=1/400$ and $r_*<1$. Induction, including the ordered nature of
+\eqref{eq:ordered}, gives at scale $j$ after the warmup
+\begin{equation}\label{eq:dyadic}
+ 1-A,\ 1-B,\ 1-C\le u_j:=\frac{r_*^{2^j}}{K_*},
+ \quad (n,m,\beta)=(256\cdot2^j,256\cdot2^j,1024\cdot2^j).
+\end{equation}
+The fact $K_*u_j<1$ ensures each new component remains within the old common
+ceiling while the other components are being updated.

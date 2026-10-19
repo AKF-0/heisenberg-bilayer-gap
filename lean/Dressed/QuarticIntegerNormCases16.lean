@@ -1,0 +1,187 @@
+import Dressed.QuarticIntegerMembership16.Dictionary
+import Dressed.QuarticIntegerGramCases
+namespace BilayerDressed.QuarticIntegerNormCases16
+open QuarticIntegerData QuarticIntegerMembership16 QuarticIntegerListAggregates QuarticIntegerNorm
+set_option maxHeartbeats 0
+set_option maxRecDepth 200000
+theorem gram_0 : gram (fun a=>dictionary16.getD ((row3 5 5 5) a) 0) = ![0,0,0,0,0,0,48318382080,96636764160,314069483520,459024629760,922579107840,1218529198080,1747011502080,1916692070400,2034008064000,1870166753280,1546713169920,1033799270400,508847800320,167478312960,25644257280] := by
+  rw [gram_eq_of_entries dictionary16 (row3 5 5 5) _ _ _ dictionary_5 dictionary_5 dictionary_5]
+  decide +kernel
+theorem gram_1 : gram (fun a=>dictionary16.getD ((row3 6 6 42) a) 0) = ![0,0,0,0,0,0,38654705664,141733920768,579820584960,890668843008,1392777363456,1490622087168,1715000573952,1633261977600,1602418114560,1289890037760,958736105472,546407841792,261160697856,81711267840,17597030400] := by
+  rw [gram_eq_of_entries dictionary16 (row3 6 6 42) _ _ _ dictionary_6 dictionary_6 dictionary_42]
+  decide +kernel
+theorem gram_2 : gram (fun a=>dictionary16.getD ((row3 6 42 6) a) 0) = ![0,0,0,0,0,0,38654705664,141733920768,579820584960,890668843008,1392777363456,1490622087168,1715000573952,1633261977600,1602418114560,1289890037760,958736105472,546407841792,261160697856,81711267840,17597030400] := by
+  rw [gram_eq_of_entries dictionary16 (row3 6 42 6) _ _ _ dictionary_6 dictionary_42 dictionary_6]
+  decide +kernel
+theorem gram_3 : gram (fun a=>dictionary16.getD ((row3 7 39 41) a) 0) = ![0,0,0,0,0,0,3221225472,10468982784,129654325248,273502175232,772087480320,1025935147008,1600678526976,1664439287808,2048937689088,1855242829824,1710800830464,1165034938368,742401490944,286152560640,79521292800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 7 39 41) _ _ _ dictionary_7 dictionary_39 dictionary_41]
+  decide +kernel
+theorem gram_4 : gram (fun a=>dictionary16.getD ((row3 7 41 39) a) 0) = ![0,0,0,0,0,0,3221225472,10468982784,129654325248,273502175232,772087480320,1025935147008,1600678526976,1664439287808,2048937689088,1855242829824,1710800830464,1165034938368,742401490944,286152560640,79521292800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 7 41 39) _ _ _ dictionary_7 dictionary_41 dictionary_39]
+  decide +kernel
+theorem gram_5 : gram (fun a=>dictionary16.getD ((row3 8 36 36) a) 0) = ![0,0,0,0,0,0,0,0,9663676416,39460012032,335158444032,497427677184,1181938089984,1586396921856,2394159316992,2499284041728,2435163488256,1842821529600,1115202355200,477405020160,87672545280] := by
+  rw [gram_eq_of_entries dictionary16 (row3 8 36 36) _ _ _ dictionary_8 dictionary_36 dictionary_36]
+  decide +kernel
+theorem gram_6 : gram (fun a=>dictionary16.getD ((row3 9 10 37) a) 0) = ![0,0,0,0,0,0,0,0,3221225472,12482248704,198860341248,284826796032,657457152000,798977163264,1230582841344,1190289997824,1148277227520,853755691008,576269844480,290053029888,58404962304] := by
+  rw [gram_eq_of_entries dictionary16 (row3 9 10 37) _ _ _ dictionary_9 dictionary_10 dictionary_37]
+  decide +kernel
+theorem gram_7 : gram (fun a=>dictionary16.getD ((row3 9 37 10) a) 0) = ![0,0,0,0,0,0,0,0,3221225472,12482248704,198860341248,284826796032,657457152000,798977163264,1230582841344,1190289997824,1148277227520,853755691008,576269844480,290053029888,58404962304] := by
+  rw [gram_eq_of_entries dictionary16 (row3 9 37 10) _ _ _ dictionary_9 dictionary_37 dictionary_10]
+  decide +kernel
+theorem gram_8 : gram (fun a=>dictionary16.getD ((row3 10 9 37) a) 0) = ![0,0,0,0,0,0,0,0,3221225472,12482248704,198860341248,284826796032,657457152000,798977163264,1230582841344,1190289997824,1148277227520,853755691008,576269844480,290053029888,58404962304] := by
+  rw [gram_eq_of_entries dictionary16 (row3 10 9 37) _ _ _ dictionary_10 dictionary_9 dictionary_37]
+  decide +kernel
+theorem gram_9 : gram (fun a=>dictionary16.getD ((row3 10 37 9) a) 0) = ![0,0,0,0,0,0,0,0,3221225472,12482248704,198860341248,284826796032,657457152000,798977163264,1230582841344,1190289997824,1148277227520,853755691008,576269844480,290053029888,58404962304] := by
+  rw [gram_eq_of_entries dictionary16 (row3 10 37 9) _ _ _ dictionary_10 dictionary_37 dictionary_9]
+  decide +kernel
+theorem gram_10 : gram (fun a=>dictionary16.getD ((row3 11 32 34) a) 0) = ![0,0,0,0,0,0,0,0,0,0,12884901888,57982058496,990325506048,1407851692032,2626937683968,2772742963200,2832956129280,1987979870208,1265439473664,453032755200,108282316800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 11 32 34) _ _ _ dictionary_11 dictionary_32 dictionary_34]
+  decide +kernel
+theorem gram_11 : gram (fun a=>dictionary16.getD ((row3 11 34 32) a) 0) = ![0,0,0,0,0,0,0,0,0,0,12884901888,57982058496,990325506048,1407851692032,2626937683968,2772742963200,2832956129280,1987979870208,1265439473664,453032755200,108282316800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 11 34 32) _ _ _ dictionary_11 dictionary_34 dictionary_32]
+  decide +kernel
+theorem gram_12 : gram (fun a=>dictionary16.getD ((row3 12 12 35) a) 0) = ![0,0,0,0,0,0,0,0,0,0,33973862400,54358179840,283342012416,351176491008,783062138880,816540549120,1446207160320,1124802920448,1320003108864,687696445440,627898521600] := by
+  rw [gram_eq_of_entries dictionary16 (row3 12 12 35) _ _ _ dictionary_12 dictionary_12 dictionary_35]
+  decide +kernel
+theorem gram_13 : gram (fun a=>dictionary16.getD ((row3 12 35 12) a) 0) = ![0,0,0,0,0,0,0,0,0,0,33973862400,54358179840,283342012416,351176491008,783062138880,816540549120,1446207160320,1124802920448,1320003108864,687696445440,627898521600] := by
+  rw [gram_eq_of_entries dictionary16 (row3 12 35 12) _ _ _ dictionary_12 dictionary_35 dictionary_12]
+  decide +kernel
+theorem gram_14 : gram (fun a=>dictionary16.getD ((row3 13 13 15) a) 0) = ![0,0,0,0,0,0,0,0,0,0,21743271936,59995324416,366515060736,620098486272,1607846068224,2127666610176,3292627206144,2922263347200,2328926453760,1292895682560,269829857280] := by
+  rw [gram_eq_of_entries dictionary16 (row3 13 13 15) _ _ _ dictionary_13 dictionary_13 dictionary_15]
+  decide +kernel
+theorem gram_15 : gram (fun a=>dictionary16.getD ((row3 13 15 13) a) 0) = ![0,0,0,0,0,0,0,0,0,0,21743271936,59995324416,366515060736,620098486272,1607846068224,2127666610176,3292627206144,2922263347200,2328926453760,1292895682560,269829857280] := by
+  rw [gram_eq_of_entries dictionary16 (row3 13 15 13) _ _ _ dictionary_13 dictionary_15 dictionary_13]
+  decide +kernel
+theorem gram_16 : gram (fun a=>dictionary16.getD ((row3 14 28 33) a) 0) = ![0,0,0,0,0,0,0,0,0,0,3221225472,14495514624,247581376512,351962923008,1282985951232,1670465126400,3000501534720,2769262436352,3098522812416,1621850296320,902605324800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 14 28 33) _ _ _ dictionary_14 dictionary_28 dictionary_33]
+  decide +kernel
+theorem gram_17 : gram (fun a=>dictionary16.getD ((row3 14 33 28) a) 0) = ![0,0,0,0,0,0,0,0,0,0,3221225472,14495514624,247581376512,351962923008,1282985951232,1670465126400,3000501534720,2769262436352,3098522812416,1621850296320,902605324800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 14 33 28) _ _ _ dictionary_14 dictionary_33 dictionary_28]
+  decide +kernel
+theorem gram_18 : gram (fun a=>dictionary16.getD ((row3 15 13 13) a) 0) = ![0,0,0,0,0,0,0,0,0,0,21743271936,59995324416,366515060736,620098486272,1607846068224,2127666610176,3292627206144,2922263347200,2328926453760,1292895682560,269829857280] := by
+  rw [gram_eq_of_entries dictionary16 (row3 15 13 13) _ _ _ dictionary_15 dictionary_13 dictionary_13]
+  decide +kernel
+theorem gram_19 : gram (fun a=>dictionary16.getD ((row3 16 18 24) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,11324620800,16703815680,464677502976,614898597888,1706346086400,1659317944320,1609005219840,1035979849728,229792149504] := by
+  rw [gram_eq_of_entries dictionary16 (row3 16 18 24) _ _ _ dictionary_16 dictionary_18 dictionary_24]
+  decide +kernel
+theorem gram_20 : gram (fun a=>dictionary16.getD ((row3 17 3 20) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,0,0,159252480000,-278691840000,398131200000,363294720000,806215680000,335923200000,209952000000] := by
+  rw [gram_eq_of_entries dictionary16 (row3 17 3 20) _ _ _ dictionary_17 dictionary_3 dictionary_20]
+  decide +kernel
+theorem gram_21 : gram (fun a=>dictionary16.getD ((row3 17 20 3) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,0,0,159252480000,-278691840000,398131200000,363294720000,806215680000,335923200000,209952000000] := by
+  rw [gram_eq_of_entries dictionary16 (row3 17 20 3) _ _ _ dictionary_17 dictionary_20 dictionary_3]
+  decide +kernel
+theorem gram_22 : gram (fun a=>dictionary16.getD ((row3 18 16 24) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,11324620800,16703815680,464677502976,614898597888,1706346086400,1659317944320,1609005219840,1035979849728,229792149504] := by
+  rw [gram_eq_of_entries dictionary16 (row3 18 16 24) _ _ _ dictionary_18 dictionary_16 dictionary_24]
+  decide +kernel
+theorem gram_23 : gram (fun a=>dictionary16.getD ((row3 18 24 16) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,11324620800,16703815680,464677502976,614898597888,1706346086400,1659317944320,1609005219840,1035979849728,229792149504] := by
+  rw [gram_eq_of_entries dictionary16 (row3 18 24 16) _ _ _ dictionary_18 dictionary_24 dictionary_16]
+  decide +kernel
+theorem gram_24 : gram (fun a=>dictionary16.getD ((row3 19 19 19) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,0,0,332943851520,761014517760,2554409779200,3375090892800,4462154956800,3032651612160,681602273280] := by
+  rw [gram_eq_of_entries dictionary16 (row3 19 19 19) _ _ _ dictionary_19 dictionary_19 dictionary_19]
+  decide +kernel
+theorem gram_25 : gram (fun a=>dictionary16.getD ((row3 20 3 17) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,0,0,159252480000,-278691840000,398131200000,363294720000,806215680000,335923200000,209952000000] := by
+  rw [gram_eq_of_entries dictionary16 (row3 20 3 17) _ _ _ dictionary_20 dictionary_3 dictionary_17]
+  decide +kernel
+theorem gram_26 : gram (fun a=>dictionary16.getD ((row3 21 21 43) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,362387865600,724775731200,543581798400,181193932800,22649241600] := by
+  rw [gram_eq_of_entries dictionary16 (row3 21 21 43) _ _ _ dictionary_21 dictionary_21 dictionary_43]
+  decide +kernel
+theorem gram_27 : gram (fun a=>dictionary16.getD ((row3 21 43 21) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,362387865600,724775731200,543581798400,181193932800,22649241600] := by
+  rw [gram_eq_of_entries dictionary16 (row3 21 43 21) _ _ _ dictionary_21 dictionary_43 dictionary_21]
+  decide +kernel
+theorem gram_28 : gram (fun a=>dictionary16.getD ((row3 22 23 23) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1796367974400,2892025036800,5226666393600,3159569203200,2513004134400] := by
+  rw [gram_eq_of_entries dictionary16 (row3 22 23 23) _ _ _ dictionary_22 dictionary_23 dictionary_23]
+  decide +kernel
+theorem gram_29 : gram (fun a=>dictionary16.getD ((row3 23 22 23) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1796367974400,2892025036800,5226666393600,3159569203200,2513004134400] := by
+  rw [gram_eq_of_entries dictionary16 (row3 23 22 23) _ _ _ dictionary_23 dictionary_22 dictionary_23]
+  decide +kernel
+theorem gram_30 : gram (fun a=>dictionary16.getD ((row3 23 23 22) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1796367974400,2892025036800,5226666393600,3159569203200,2513004134400] := by
+  rw [gram_eq_of_entries dictionary16 (row3 23 23 22) _ _ _ dictionary_23 dictionary_23 dictionary_22]
+  decide +kernel
+theorem gram_31 : gram (fun a=>dictionary16.getD ((row3 24 16 18) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,11324620800,16703815680,464677502976,614898597888,1706346086400,1659317944320,1609005219840,1035979849728,229792149504] := by
+  rw [gram_eq_of_entries dictionary16 (row3 24 16 18) _ _ _ dictionary_24 dictionary_16 dictionary_18]
+  decide +kernel
+theorem gram_32 : gram (fun a=>dictionary16.getD ((row3 24 18 16) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,11324620800,16703815680,464677502976,614898597888,1706346086400,1659317944320,1609005219840,1035979849728,229792149504] := by
+  rw [gram_eq_of_entries dictionary16 (row3 24 18 16) _ _ _ dictionary_24 dictionary_18 dictionary_16]
+  decide +kernel
+theorem gram_33 : gram (fun a=>dictionary16.getD ((row3 25 26 26) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,48318382080,144955146240,543581798400,1026765619200,1645844889600,1851198013440,1155866296320,358612992000,43411046400] := by
+  rw [gram_eq_of_entries dictionary16 (row3 25 26 26) _ _ _ dictionary_25 dictionary_26 dictionary_26]
+  decide +kernel
+theorem gram_34 : gram (fun a=>dictionary16.getD ((row3 26 25 26) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,48318382080,144955146240,543581798400,1026765619200,1645844889600,1851198013440,1155866296320,358612992000,43411046400] := by
+  rw [gram_eq_of_entries dictionary16 (row3 26 25 26) _ _ _ dictionary_26 dictionary_25 dictionary_26]
+  decide +kernel
+theorem gram_35 : gram (fun a=>dictionary16.getD ((row3 26 26 25) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,48318382080,144955146240,543581798400,1026765619200,1645844889600,1851198013440,1155866296320,358612992000,43411046400] := by
+  rw [gram_eq_of_entries dictionary16 (row3 26 26 25) _ _ _ dictionary_26 dictionary_26 dictionary_25]
+  decide +kernel
+theorem gram_36 : gram (fun a=>dictionary16.getD ((row3 27 30 31) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,277226717184,500434993152,1312381992960,1220475617280,1764871372800,1314591178752,1102430601216,438645473280,158405068800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 27 30 31) _ _ _ dictionary_27 dictionary_30 dictionary_31]
+  decide +kernel
+theorem gram_37 : gram (fun a=>dictionary16.getD ((row3 27 31 30) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,277226717184,500434993152,1312381992960,1220475617280,1764871372800,1314591178752,1102430601216,438645473280,158405068800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 27 31 30) _ _ _ dictionary_27 dictionary_31 dictionary_30]
+  decide +kernel
+theorem gram_38 : gram (fun a=>dictionary16.getD ((row3 28 14 33) a) 0) = ![0,0,0,0,0,0,0,0,0,0,3221225472,14495514624,247581376512,351962923008,1282985951232,1670465126400,3000501534720,2769262436352,3098522812416,1621850296320,902605324800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 28 14 33) _ _ _ dictionary_28 dictionary_14 dictionary_33]
+  decide +kernel
+theorem gram_39 : gram (fun a=>dictionary16.getD ((row3 28 33 14) a) 0) = ![0,0,0,0,0,0,0,0,0,0,3221225472,14495514624,247581376512,351962923008,1282985951232,1670465126400,3000501534720,2769262436352,3098522812416,1621850296320,902605324800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 28 33 14) _ _ _ dictionary_28 dictionary_33 dictionary_14]
+  decide +kernel
+theorem gram_40 : gram (fun a=>dictionary16.getD ((row3 29 29 29) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,193273528320,579820584960,1691143372800,2899102924800,3805072588800,3660117442560,2116949114880,634178764800,75497472000] := by
+  rw [gram_eq_of_entries dictionary16 (row3 29 29 29) _ _ _ dictionary_29 dictionary_29 dictionary_29]
+  decide +kernel
+theorem gram_41 : gram (fun a=>dictionary16.getD ((row3 30 27 31) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,277226717184,500434993152,1312381992960,1220475617280,1764871372800,1314591178752,1102430601216,438645473280,158405068800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 30 27 31) _ _ _ dictionary_30 dictionary_27 dictionary_31]
+  decide +kernel
+theorem gram_42 : gram (fun a=>dictionary16.getD ((row3 30 31 27) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,277226717184,500434993152,1312381992960,1220475617280,1764871372800,1314591178752,1102430601216,438645473280,158405068800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 30 31 27) _ _ _ dictionary_30 dictionary_31 dictionary_27]
+  decide +kernel
+theorem gram_43 : gram (fun a=>dictionary16.getD ((row3 31 30 27) a) 0) = ![0,0,0,0,0,0,0,0,0,0,0,0,277226717184,500434993152,1312381992960,1220475617280,1764871372800,1314591178752,1102430601216,438645473280,158405068800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 31 30 27) _ _ _ dictionary_31 dictionary_30 dictionary_27]
+  decide +kernel
+theorem gram_44 : gram (fun a=>dictionary16.getD ((row3 32 11 34) a) 0) = ![0,0,0,0,0,0,0,0,0,0,12884901888,57982058496,990325506048,1407851692032,2626937683968,2772742963200,2832956129280,1987979870208,1265439473664,453032755200,108282316800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 32 11 34) _ _ _ dictionary_32 dictionary_11 dictionary_34]
+  decide +kernel
+theorem gram_45 : gram (fun a=>dictionary16.getD ((row3 32 34 11) a) 0) = ![0,0,0,0,0,0,0,0,0,0,12884901888,57982058496,990325506048,1407851692032,2626937683968,2772742963200,2832956129280,1987979870208,1265439473664,453032755200,108282316800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 32 34 11) _ _ _ dictionary_32 dictionary_34 dictionary_11]
+  decide +kernel
+theorem gram_46 : gram (fun a=>dictionary16.getD ((row3 33 14 28) a) 0) = ![0,0,0,0,0,0,0,0,0,0,3221225472,14495514624,247581376512,351962923008,1282985951232,1670465126400,3000501534720,2769262436352,3098522812416,1621850296320,902605324800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 33 14 28) _ _ _ dictionary_33 dictionary_14 dictionary_28]
+  decide +kernel
+theorem gram_47 : gram (fun a=>dictionary16.getD ((row3 33 28 14) a) 0) = ![0,0,0,0,0,0,0,0,0,0,3221225472,14495514624,247581376512,351962923008,1282985951232,1670465126400,3000501534720,2769262436352,3098522812416,1621850296320,902605324800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 33 28 14) _ _ _ dictionary_33 dictionary_28 dictionary_14]
+  decide +kernel
+theorem gram_48 : gram (fun a=>dictionary16.getD ((row3 35 12 12) a) 0) = ![0,0,0,0,0,0,0,0,0,0,33973862400,54358179840,283342012416,351176491008,783062138880,816540549120,1446207160320,1124802920448,1320003108864,687696445440,627898521600] := by
+  rw [gram_eq_of_entries dictionary16 (row3 35 12 12) _ _ _ dictionary_35 dictionary_12 dictionary_12]
+  decide +kernel
+theorem gram_49 : gram (fun a=>dictionary16.getD ((row3 36 8 36) a) 0) = ![0,0,0,0,0,0,0,0,9663676416,39460012032,335158444032,497427677184,1181938089984,1586396921856,2394159316992,2499284041728,2435163488256,1842821529600,1115202355200,477405020160,87672545280] := by
+  rw [gram_eq_of_entries dictionary16 (row3 36 8 36) _ _ _ dictionary_36 dictionary_8 dictionary_36]
+  decide +kernel
+theorem gram_50 : gram (fun a=>dictionary16.getD ((row3 36 36 8) a) 0) = ![0,0,0,0,0,0,0,0,9663676416,39460012032,335158444032,497427677184,1181938089984,1586396921856,2394159316992,2499284041728,2435163488256,1842821529600,1115202355200,477405020160,87672545280] := by
+  rw [gram_eq_of_entries dictionary16 (row3 36 36 8) _ _ _ dictionary_36 dictionary_36 dictionary_8]
+  decide +kernel
+theorem gram_51 : gram (fun a=>dictionary16.getD ((row3 37 9 10) a) 0) = ![0,0,0,0,0,0,0,0,3221225472,12482248704,198860341248,284826796032,657457152000,798977163264,1230582841344,1190289997824,1148277227520,853755691008,576269844480,290053029888,58404962304] := by
+  rw [gram_eq_of_entries dictionary16 (row3 37 9 10) _ _ _ dictionary_37 dictionary_9 dictionary_10]
+  decide +kernel
+theorem gram_52 : gram (fun a=>dictionary16.getD ((row3 37 10 9) a) 0) = ![0,0,0,0,0,0,0,0,3221225472,12482248704,198860341248,284826796032,657457152000,798977163264,1230582841344,1190289997824,1148277227520,853755691008,576269844480,290053029888,58404962304] := by
+  rw [gram_eq_of_entries dictionary16 (row3 37 10 9) _ _ _ dictionary_37 dictionary_10 dictionary_9]
+  decide +kernel
+theorem gram_53 : gram (fun a=>dictionary16.getD ((row3 38 38 40) a) 0) = ![0,0,0,0,0,0,0,0,33822867456,80127983616,304556802048,446794039296,952526438400,1144692670464,1877548990464,1854629216256,2333000466432,1919704793088,1796531748864,877267353600,415043328000] := by
+  rw [gram_eq_of_entries dictionary16 (row3 38 38 40) _ _ _ dictionary_38 dictionary_38 dictionary_40]
+  decide +kernel
+theorem gram_54 : gram (fun a=>dictionary16.getD ((row3 38 40 38) a) 0) = ![0,0,0,0,0,0,0,0,33822867456,80127983616,304556802048,446794039296,952526438400,1144692670464,1877548990464,1854629216256,2333000466432,1919704793088,1796531748864,877267353600,415043328000] := by
+  rw [gram_eq_of_entries dictionary16 (row3 38 40 38) _ _ _ dictionary_38 dictionary_40 dictionary_38]
+  decide +kernel
+theorem gram_55 : gram (fun a=>dictionary16.getD ((row3 39 7 41) a) 0) = ![0,0,0,0,0,0,3221225472,10468982784,129654325248,273502175232,772087480320,1025935147008,1600678526976,1664439287808,2048937689088,1855242829824,1710800830464,1165034938368,742401490944,286152560640,79521292800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 39 7 41) _ _ _ dictionary_39 dictionary_7 dictionary_41]
+  decide +kernel
+theorem gram_56 : gram (fun a=>dictionary16.getD ((row3 39 41 7) a) 0) = ![0,0,0,0,0,0,3221225472,10468982784,129654325248,273502175232,772087480320,1025935147008,1600678526976,1664439287808,2048937689088,1855242829824,1710800830464,1165034938368,742401490944,286152560640,79521292800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 39 41 7) _ _ _ dictionary_39 dictionary_41 dictionary_7]
+  decide +kernel
+theorem gram_57 : gram (fun a=>dictionary16.getD ((row3 40 38 38) a) 0) = ![0,0,0,0,0,0,0,0,33822867456,80127983616,304556802048,446794039296,952526438400,1144692670464,1877548990464,1854629216256,2333000466432,1919704793088,1796531748864,877267353600,415043328000] := by
+  rw [gram_eq_of_entries dictionary16 (row3 40 38 38) _ _ _ dictionary_40 dictionary_38 dictionary_38]
+  decide +kernel
+theorem gram_58 : gram (fun a=>dictionary16.getD ((row3 41 7 39) a) 0) = ![0,0,0,0,0,0,3221225472,10468982784,129654325248,273502175232,772087480320,1025935147008,1600678526976,1664439287808,2048937689088,1855242829824,1710800830464,1165034938368,742401490944,286152560640,79521292800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 41 7 39) _ _ _ dictionary_41 dictionary_7 dictionary_39]
+  decide +kernel
+theorem gram_59 : gram (fun a=>dictionary16.getD ((row3 41 39 7) a) 0) = ![0,0,0,0,0,0,3221225472,10468982784,129654325248,273502175232,772087480320,1025935147008,1600678526976,1664439287808,2048937689088,1855242829824,1710800830464,1165034938368,742401490944,286152560640,79521292800] := by
+  rw [gram_eq_of_entries dictionary16 (row3 41 39 7) _ _ _ dictionary_41 dictionary_39 dictionary_7]
+  decide +kernel
+end BilayerDressed.QuarticIntegerNormCases16

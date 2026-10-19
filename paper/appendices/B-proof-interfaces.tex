@@ -1,0 +1,19 @@
+\section{Proof and certificate interfaces}\label{app:map}
+The repository separates mathematical source, finite certificate witnesses,
+and reproduction evidence. The abbreviated correspondence below is expanded, with exact theorem names,
+in the companion proof map.
+\begin{center}\small
+\begin{tabular}{>{\raggedright\arraybackslash}p{.33\linewidth}>{\raggedright\arraybackslash}p{.60\linewidth}}\toprule
+Mathematical step & Formal source family\\\midrule
+Pauli/rung similarity & \lean{Gap.LocalRungBasis}, \lean{Gap.PhysicalGapTheorem}\\
+Finite reference and modes & \lean{Dressed.CoupledQuadraticComparison}, \lean{Dressed.FiniteOccupationModeRotation}, \lean{Dressed.PhysicalProductComparison}\\
+Jacobi ordered levels & \lean{Dressed.FiniteJacobi}, \lean{Dressed.FiniteOscillatorSpectrum}\\
+Exact transformed residual & \lean{Dressed.GlobalResidualDegrees}, \lean{Dressed.GlobalDressedResidual}, \lean{Dressed.CreationResidualAction}\\
+Finite graded/Wick bounds & \lean{Dressed.FinitePairNormRecursion}, \lean{Dressed.FinitePositiveMoments}, \lean{Dressed.FiniteWickPairings}\\
+Actual signed graph certificates & \lean{Dressed.CubicResidualIntervalBounds}, \lean{Dressed.QuarticIntegerActualNorm16/32}, \lean{Dressed.QuarticIntegerActualMean16/32/64}\\
+Energy and thermal seed & \lean{Dressed.CubicTrialSeedCriterion}, \lean{Dressed.CubicSeedThermal}\\
+Constructed spatial moments & \lean{Gap.HistoryTransfer}, \lean{Gap.HistoryApproximation}, \lean{Gap.HistoryStripTorus}\\
+Six ordered warmups & \lean{Dressed.CoordinateWarmup}, \lean{Dressed.ScalarWarmupCertificate}\\
+All-even-size conclusion & \lean{Gap.LimitCriterion}, \lean{Dressed.CubicPhysicalGap}\\\bottomrule
+\end{tabular}
+\end{center}

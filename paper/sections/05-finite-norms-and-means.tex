@@ -1,0 +1,212 @@
+\section{Finite norm and expectation estimates}\label{sec:moments}
+\subsection{Projection and finite graded norm bounds}
+Let $\widetilde K=K\otimes I_3$ and use the finite occupation creators to define
+$\mathcal S_B=\tfrac12\sum_{ij}B_{ij}C_iC_j$ and
+$\Psi_B=\sum_{j=0}^{A/2}\mathcal S_B^j\vac/j!$.
+The one-sided identity
+\begin{equation}\label{eq:projection}
+ J_{\rm hc}^*C_i=x_iJ_{\rm hc}^*,\qquad
+ \psi_K=J_{\rm hc}^*\Psi_{\widetilde K}
+\end{equation}
+holds exactly. Creation cannot repair a configuration with two particles on a
+rung; hence the one-sided identity holds even on the orthogonal complement of
+the hard-core image. It does not assert multiplicativity of arbitrary
+compressions. For creation polynomials it gives the needed action intertwiner
+and a genuine Euclidean norm contraction.
+
+\begin{lemma}[Finite graded majorant]\label{lem:norm}
+Suppose $B$ is a real symmetric mode matrix, $B^2\le qI$, and
+$\tr B^2\le T$, with $q,T\ge0$. Define
+\begin{equation}\label{eq:bm}
+ b_0=1,\qquad b_{j+1}=b_j\frac{qj+T/2}{j+1},\qquad
+ M_{A,d}=\sum_{j=0}^{A/2}\binom{2j+d}{d}b_j.
+\end{equation}
+Then $\norm{\Psi_B}^2\le M_{A,0}$. For a homogeneous creation polynomial
+$P_d$, with faithful vacuum norm $\norm{P_d\vac}^2\le F_d$, one has
+\begin{equation}\label{eq:amplify}
+ \norm{P_d\Psi_B}^2\le F_d M_{A,d}.
+\end{equation}
+\end{lemma}
+\begin{proof}
+On a safe grade the exact pair commutator is
+$[\mathcal S_B^*,\mathcal S_B]=d\Gamma(B^2)+\tr(B^2)/2$.
+At the top two grades the missing creations contribute with the favorable
+nonpositive boundary correction. If $A_{2j-2}$ bounds the squared creation
+norm on grade $2j-2$, finite adjoint duality gives
+$\norm{\mathcal S_B^*\xi_{2j}}^2\le A_{2j-2}\norm{\xi_{2j}}^2$.
+The commutator therefore yields $A_{2j}\le A_{2j-2}+2qj+T/2$, starting
+from $A_0=T/2$. Summing this finite recurrence gives
+\[
+ \norm{\mathcal S_B\xi_{2j}}^2
+       \le(j+1)(qj+T/2)\norm{\xi_{2j}}^2.
+\]
+Division by factorials yields \eqref{eq:bm}; distinct grades are orthogonal.
+The finite symmetric-tensor multiplication estimate on grade $n$ is
+$\norm{P_d\xi_n}^2\le\binom{n+d}{d}\norm{P_d\vac}^2\norm{\xi_n}^2$.
+Here is an occupation-basis proof of that multiplication estimate. Write
+$r_\alpha=(P_d\vac)_\alpha$ for $|\alpha|=d$, and let $v_\nu$ be the
+coefficients of $\xi_n$. For $|\gamma|=n+d$ the output coefficient is
+\[
+ (P_d\xi_n)_\gamma=
+ \sum_{\substack{\alpha\le\gamma\\|\alpha|=d}}
+ r_\alpha v_{\gamma-\alpha}
+ \sqrt{\frac{\gamma!}{\alpha!(\gamma-\alpha)!}}.
+\]
+The multivariate Vandermonde identity gives
+$\sum_{\alpha\le\gamma,|\alpha|=d}\binom\gamma\alpha=\binom{n+d}{d}$.
+Cauchy--Schwarz therefore bounds the squared coefficient by
+$\binom{n+d}{d}\sum_\alpha|r_\alpha|^2|v_{\gamma-\alpha}|^2$.
+Summing over $\gamma$ gives the product of the two squared norms; finite
+cutoffs only delete nonnegative output terms. Applying the estimate grade by
+grade and summing proves \eqref{eq:amplify}.
+The implemented occupation proof includes all cutoff-boundary cases; it never
+uses an untruncated CCR at top degree.
+\end{proof}
+
+For the cubic kernel the exact absolute row bound is
+$\kappa(g)=g+2g^2+13g^3/4\le493/4000$.
+The squared row norms at the endpoint, which dominate the full interval, are
+\begin{equation}\label{eq:rowSquares}
+ \rho_{16}=\frac{362417}{128000000},\quad
+ \rho_{32}=\frac{1443579}{512000000},\quad
+ \rho_{64}=\frac{143749}{51200000}.
+\end{equation}
+The endpoint domination is algebraic: on these bipartite graphs,
+\[
+ |K|=\frac g4D+\frac{g^2}{8}(D_2+D)
+       +\frac{g^3}{64}(5D^3+4D_2-40D).
+\]
+Every displayed coefficient matrix is nonnegative. On an edge $(D^3)_{rs}\ge8$;
+on other entries the last assertion is immediate, and bipartite parity
+separates $D_2$ from $D,D^3$. Thus each absolute entry and squared row sum is
+monotone throughout the interval. Use $q=(493/4000)^2$ and $T_A=3A\rho_A$. All sums in \eqref{eq:bm} are
+finite; the largest has 33 terms. They apply both to signed $\widetilde K$ and
+to its entrywise absolute value, without equating the two state norms.
+
+\subsection{Faithful residuals and the matching Gram matrix}
+For a distinct four-site set $S=\{s_0,s_1,s_2,s_3\}$, let $Q_0,Q_1,Q_2$ be the
+products of two color-contracted pair creators corresponding to
+$01|23$, $02|13$, $03|12$. Collect the \emph{signed} contributions of every
+bond and every repeated description of the same matching into $c_{S,m}(g)$.
+Then $R_4=\sum_{S,m}c_{S,m}Q_m$. Terms with repeated sites vanish physically
+and are removed before choosing its faithful occupation lift.
+
+\begin{lemma}[Four-site Gram and translation count]\label{lem:gram}
+For distinct sites,
+\[
+ \ip{Q_m\vac}{Q_{m'}\vac}=\begin{cases}9&m=m',\\3&m\ne m',\end{cases}
+ \quad
+ \norm{\sum_m c_mQ_m\vac}^2
+     =6\sum_m c_m^2+3\left(\sum_m c_m\right)^2.
+\]
+Different four-site supports are orthogonal. For any translation-invariant
+support weight $w(S)$ on an $A$-site torus,
+\begin{equation}\label{eq:rootcount}
+ \sum_{|S|=4}w(S)=\frac A4\sum_{\substack{|S|=4\\0\in S}}w(S).
+\end{equation}
+\end{lemma}
+\begin{proof}
+Each matching has nine color assignments. Two different matchings share exactly
+the three assignments in which all four colors agree. Distinct supports give
+distinct occupation supports. For \eqref{eq:rootcount}, count pairs $(r,S)$ with
+$r\in S$ in two ways and translate $r$ to zero. This counts incidences, not
+translation orbits; it remains correct for supports with nontrivial stabilizers.
+\end{proof}
+
+An explicit local specification makes the signed coefficient collection
+independent of the table implementation. For site functions $f,h$ define
+$P(f,h)=\sum_\alpha(\sum_i f_ix_{i\alpha})(\sum_j h_jx_{j\alpha})$.
+Extend the outside rows $u,v$ by zero at both edge endpoints. For a matching
+$m$ of a distinct support $S$, put
+\[
+ \mathcal T_m(f,h;j,l)=
+ \sum_{\substack{(a,b,c,d)\text{ bijective onto }S\\
+                 \{\{a,b\},\{c,d\}\}=m}}f_a h_b j_c l_d.
+\]
+There are exactly eight ordered assignments. Expanding \eqref{eq:q4} gives
+\begin{align*}
+ q_4={}&-P(e_r,u)P(u,v)-P(e_s,v)P(u,v)+P(e_r,v)P(e_s,u)\\
+ &-(1+k)P(e_r,e_s)P(u,v)-P(e_r,u)P(e_s,u)\\
+ &-P(e_r,v)P(e_s,v)+3kP(e_r,u)P(e_s,v).
+\end{align*}
+The coefficient $c_{S,m}$ is exactly $g/2$ times the edge sum of these seven
+terms with each product $P(f,h)P(j,l)$ replaced by $\mathcal T_m(f,h;j,l)$.
+This explicitly defines the fiber sum before any absolute value.
+
+The pair residual has a symmetric zero-diagonal coefficient $F$ with
+$R_2=\frac12\sum_{r,s,\alpha}F_{rs}x_{r\alpha}x_{s\alpha}$ and
+$\norm{R_2\vac}^2=(3A/2)\sum_sF_{0s}^2$.
+The sextic residual is lifted after deleting repeated-site terms. Define its
+unfiltered absolute scalar mass by
+\[
+ \ell_6(g)=\frac g2\sum_{\{r,s\}\in\mathcal E}
+ \left(\sum_{t\ne r,s}|K_{rt}(g)|\right)^2
+ \left(\sum_{t\ne r,s}|K_{st}(g)|\right)^2.
+\]
+Set $\kappa:=493/4000$. Each product of three color-contracted pairs on distinct sites has vacuum norm
+$\sqrt{27}$, giving $F_6\le27\ell_6(g)^2$. The entire outside sums are
+monotone in $g$, so they may first be moved to $g=1/10$ and only then evaluated
+by subtracting the endpoint bond from $\kappa$. The endpoint horizontal and
+vertical bond numerators over $64000$ are $(1690,1690)$, $(1685,1690)$, and
+$(1685,1685)$ on the three boxes. Hence the exact bound is
+\[
+ \ell_6(g)\le\frac A{20}
+ \left[(\kappa-B_x/64000)^4+(\kappa-B_y/64000)^4\right].
+\]
+These are precisely the rational masses in Table~\ref{tab:vacuum} and its
+64-rung companion in the source. This deliberately conservative bound requires no unjustified
+orthogonality between overlapping sextic descriptions.
+
+\subsection{A positive finite Wick upper bound}
+For the expectation estimate one must use the positive matrix
+$B=|K|\otimes I_3$, not a signed-kernel Gaussian identity.
+Let $\Psi_+=\Psi_B$, $G=\norm{\Psi_+}^2$, and
+\[
+ \tau_A=\frac{\kappa\rho_A}{1-\kappa^2},\qquad
+ L_{rs}=|K_{rs}|+\tau_A,\qquad \mathcal L=L\otimes I_3,
+ \quad\kappa=493/4000.
+\]
+\begin{lemma}[Finite Wick domination]\label{lem:wick}
+For every even list of mode indices $I=(i_1,\ldots,i_{2d})$,
+\begin{equation}\label{eq:wick}
+ \ip{\Psi_+}{C_{i_1}\cdots C_{i_{2d}}\Psi_+}
+ \le G\sum_{\pi}\prod_{\{a,b\}\in\pi}\mathcal L_{i_a i_b},
+\end{equation}
+where $\pi$ runs through the perfect matchings of the list positions.
+\end{lemma}
+\begin{proof}
+All occupation coefficients are nonnegative. The exact truncated commutator
+satisfies $C_i^*C_j\le C_jC_i^*+\delta_{ij}I$ entrywise. Expanding the finite
+Taylor polynomial gives $C_i^*\Psi_+\le\sum_j B_{ij}C_j\Psi_+$.
+Moving one annihilator through a creation word and then using this inequality
+again yields, for an odd list $I$, the actual recurrence
+\[
+ f_i\le\sum_{k\in I}B_{i,i_k}F_{I\setminus k}+\sum_j(B^2)_{ij}f_j,
+ \quad f_i=\ip{\Psi_+}{C_i C_I\Psi_+}.
+\]
+The sum is over occurrences, so repeated indices are counted correctly.
+For the rung block, symmetry and the squared-row bound imply
+$(|K|^2)_{ij}\le\rho_A$ and $(|K|^3)_{ij}\le\kappa\rho_A$.
+Consequently $L\ge|K|+|K|^2L$ entrywise and the row sums of $|K|^2$ are at most
+$\kappa^2<1$. If a finite vector satisfies $h\le B^2h$, its positive maximum
+would satisfy $h_i\le\kappa^2h_i<h_i$; hence $h\le0$.
+Induction on the word length, comparing $f$ with the perfect-matching expression,
+now proves \eqref{eq:wick}. The empty-word moment is exactly $G$.
+This is an upper bound for a finite Taylor state, not an exact Gaussian Wick
+identity. Color blocks remain separate throughout.
+\end{proof}
+
+Coefficientwise absolute values and \eqref{eq:projection} give
+$|\psi_K|\le J_{\rm hc}^*\Psi_+$. Replacing a signed creation polynomial by
+its coefficientwise absolute majorant and deleting the hard-core projection
+can only increase the resulting nonnegative scalar product. Thus
+Lemma~\ref{lem:wick} bounds the \emph{actual physical signed residual mean}.
+For four sites put $p_m=\prod_{\{a,b\}\in m}L_{s_as_b}$.
+Summing the two free colors gives the weight
+\begin{equation}\label{eq:quarticweight}
+ 9p_m+3\sum_{m'\ne m}p_{m'}=6p_m+3\sum_{m'}p_{m'}.
+\end{equation}
+For six sites, $27$ color assignments and $15$ positional matchings give the
+upper bound $405\max_{rs}L_{rs}^3$ per unit scalar mass.
+All these mean estimates retain the multiplier $G\le M_{A,0}$. No equality of
+the signed and positive state norms is asserted.
