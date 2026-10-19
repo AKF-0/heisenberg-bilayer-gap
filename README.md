@@ -6,7 +6,7 @@ A mathematical derivation and Lean 4 proof for the spin-1/2 Heisenberg model on 
 
 With the interlayer coupling set to 1, the proof covers intralayer coupling from 0 to 0.1 and every even lattice side length of at least 256.
 
-The finite system has a unique ground state. Its spectral gap is greater than `log(200/13) / 1024`, approximately 0.0026693. Here `log` is the natural logarithm.
+The finite system has a unique ground state. Its spectral gap is greater than `log(200/13) / 1024`, approximately 0.0026693.
 
 ## Read the project
 
